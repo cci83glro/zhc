@@ -7,15 +7,13 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Chronos</title>
+	<title>Zen Home Cleaning</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	
 	
 	<!-- CSS
   ================================================== -->
@@ -25,14 +23,7 @@
 	<link rel="stylesheet" href="css/font-awesome.css" />
 	<link rel="stylesheet" href="css/colorbox.css"/>
 	<link rel="stylesheet" href="css/retina.css"/>
-	
-	<link rel="alternate stylesheet" type="text/css" href="css/colors/color-orange.css" title="orange">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-green.css" title="green">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-red.css" title="red">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-blue.css" title="blue">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-yellow.css" title="yellow">	
-
-		
+    <link rel="stylesheet" type="text/css" href="css/colors/color-gold.css">	
 		
 	<!-- Favicons
 	================================================== -->
@@ -41,14 +32,11 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 	
-	
-	
 </head>
-<body class="royal_loader">	
+<!-- <body class="royal_loader">	 -->
+<body>	
 	<!-- Primary Page Layout
 	================================================== -->
-
-	
 	
 		<div id="menu-wrap" class="menu-back cbp-af-header">
 			<div class="container">
@@ -56,18 +44,18 @@
 					<div class="logo"></div>
 					<ul class="slimmenu">
 						<li> 
-							<a class="scroll" href="#home">home</a>
+							<a class="scroll" href="#home">acasă</a>
 						</li>
 						<li>
-							<a class="scroll" href="#about">about</a>
-							<ul>
+							<a class="scroll" href="#about">despre noi</a>
+							<!-- <ul>
 								<li>
 									<a class="scroll" href="#about">about Chronos</a>
 								</li>
 								<li>
 									<a class="scroll" href="#team">the team</a>
 								</li>
-							</ul>
+							</ul> -->
 						</li>
 						<li>
 							<a class="scroll" href="#work">work</a>
@@ -95,12 +83,13 @@
 				<div class="just_pattern"></div>	
 				<div class="big-text">
 					<ul class="flippy">
-						<li><span>we are Chronos</span></li>
-						<li><span>BORN INTO CREATIVITY</span></li>
-						<li><span>FOCUSED ON STRATEGY</span></li>
+						<li><span>Zen Home Cleaning</span></li>
+						<li><span>Profesionalism</span></li>
+						<li><span>Excelență</span></li>
+						<li><span>Încredere</span></li>
 					</ul>
 				</div>
-				<div class="small-text">- specialized in brand experience -</div>
+				<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
 				<div class="social-top">
 					<ul class="list-social">
 						<li class="icon-soc tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'>
@@ -125,12 +114,11 @@
 				<a class="scroll" href="#about"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
 			</div>
 
-			
 			<div id="about">
 				<div class="container">
 					<div class="sixteen columns">
-						<h1><span>about agency</span></h1>
-						<div class="head-subtext">WE'RE A CLOSE TEAM OF CREATIVES, DESIGNERS & DEVELOPERS WHO WORK TOGETHER TO CREATE BEAUTIFUL, ENGAGING DIGITAL EXPERIENCES.</div>
+						<h1><span>Despre noi</span></h1>
+						<div class="head-subtext">Noi suntem Sabrina și Mioara, mamă și fiică, iar Zen Home Cleaning s-a născut din pasiunea noastră pentru curățenie și atenție la detalii.</div>
 					</div>
 					<div class="clear"></div>
 					<div class="sixteen columns">
@@ -169,8 +157,6 @@
 					</div>
 				</div>
 			</div>
-			
-			
 			
 			<div id="team">
 				<div class="container">
@@ -249,9 +235,6 @@
 				</div>
 			</div>			
 			
-			
-			
-			
 			<div id="sep">	
 				<div class="just_pattern"></div>
 				<div class="just_pattern1"></div>
@@ -286,11 +269,6 @@
 					</div>
 				</div>
 			</div>		
-			
-			
-			
-			
-
 
 
 			<div id="work">
@@ -380,9 +358,6 @@
 			</div>			
 			
 
-
-
-
 			<div id="sep1">	
 				<a href="#contact" class="scroll">
 					<div id="action">	
@@ -419,10 +394,7 @@
 				</div>	
 			</div>
 
-
-			
-			
-			
+		
 			<div id="services">
 				<div class="container">
 					<div class="sixteen columns">
@@ -462,7 +434,6 @@
 					<div class="clear"></div>
 				</div>
 			</div>
-
 
 			
 			<div id="pricing">
@@ -552,14 +523,6 @@
 				</div>		
 			</div>		
 			
-
-			
-			
-			
-			
-			
-			
-			
 			<div id="contact">				
 				<div class="just_pattern"></div>
 				<div class="just_pattern1"></div>
@@ -602,31 +565,14 @@
 				<a class="scroll" href="#home"><div class="back-top">&#xf102;</div></a>	
 				<div class="container">
 					<div class="sixteen columns">
-						<p>Made with<i class="icon-footer">&#xf004;</i>and<i class="icon-footer">&#xf0f4;</i>in serbia</p>
-						<p><small>Template: Chronos by ig design</small></p>
+						<p><small>Trepavo Creative AGency</small></p>
 					</div>
 				</div>	
 			</div>
 
 
-
-
-
-
-
-
-
-
-
-
-			
-			
-			
-			
-			
-
     <!-- Switch Panel -->
-    <div id="switch">
+    <!-- <div id="switch">
         <div class="content-switcher" >        
 			<p>Color Options:</p>
 			<ul class="header">           
@@ -650,28 +596,25 @@
 	</div>
 	<div id="show" style="display: block;">
         <div id="setting"></div>
-    </div>
+    </div> -->
     <!-- Switch Panel -->
-
-   
-
 
 	
 	<!-- JAVASCRIPT
     ================================================== -->
 <script type="text/javascript" src="js/jquery.js"></script>	
 <script type="text/javascript" src="js/modernizr.custom.js"></script> 
-<script type="text/javascript" src="js/royal_preloader.min.js"></script>
-<script type="text/javascript">
+<!--<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+ <script type="text/javascript">
             Royal_Preloader.config({
                 mode:           'text', // 'number', "text" or "logo"
                 text:           'ZEN HOME CLEANING',
-                timeout:        0,
+				timeout:        0,
                 showInfo:       true,
                 opacity:        1,
                 background:     ['#000000']
             });
-</script>	
+</script>	 -->
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
 <script type="text/javascript" src="js/styleswitcher.js"></script>

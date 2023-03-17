@@ -21,16 +21,6 @@
 	#Forms
 	#Misc */
 
-/* Colors
-================================================== */
-:root {
-	--main-bg-color: #e1e1e1;
-	--main-bg-color-transparent: rgba(225, 225, 225, .9);
-	--gold-color: #eca44f;
-	--black-color: #000;
-
-	--font-hand: "Dancing Script";
-}
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -60,7 +50,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: var(--main-bg-color);
+		background: #faf2e4;
 		font-family: 'OpenSans-Light-webfont';
 		font-size: 14px;
 		line-height:22px;
@@ -77,8 +67,8 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: var(--gold-color);
-		font-family: var(--font-hand);
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
 		text-align:center;
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -191,10 +181,6 @@
 	}
 /* #Images
 ================================================== */
-
-
-
-
 
 
 /* #Misc
