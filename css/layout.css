@@ -309,7 +309,6 @@ body.royal_loader {
 
 #menu-wrap{
     position: fixed;
-	padding-bottom:10px;
 	width:100%;
 	z-index:1000;
 	top:0;
@@ -329,7 +328,7 @@ body.royal_loader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background:rgba(60,60,60,1);
+	background:rgba(60,60,60,.8);
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:116px;
@@ -340,6 +339,18 @@ body.royal_loader {
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
 	transition : all 0.5s ease-out;
+}
+
+.cbp-af-header.cbp-af-header-shrink .collapse-button{
+	color: var(--main-bg-color-transparent);
+}
+
+.cbp-af-header.cbp-af-header-shrink .collapse-button .icon-bar {
+    background-color: var(--main-bg-color-transparent);
+}
+
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a {
+    color: var(--main-bg-color);
 }
 
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu {
@@ -368,11 +379,6 @@ ul.slimmenu li ul {
 	box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-
-
-
-
-
 .logo{
 	position:absolute;
 	width:146px;
@@ -384,13 +390,11 @@ ul.slimmenu li ul {
 	background-size:146px 80px;
 }
 
-
-
 .menu-collapser {
     position: relative;
     width: 100%;
-    height: 48px;
-    line-height: 48px;
+    height: 60px;
+    line-height: 60px;
     font-size: 16px;
     padding: 0 8px;
     box-sizing: border-box;
@@ -405,7 +409,7 @@ ul.slimmenu li ul {
     border-style: solid;
     border-width: 1px;
 	border-radius: 5px;
-    color: #000;
+    color: var(--black-color);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
     padding: 7px 10px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -425,11 +429,26 @@ ul.slimmenu li ul {
 }
 .collapse-button:hover, .collapse-button:focus {
     background-image: none;
-    background-color: #040404;
-    color: #FFF;
+    background-color: var(--black-color);
 }
+.collapse-button:hover .icon-bar, .collapse-button:focus .icon-bar {
+	background-color: var(--main-bg-color);
+}
+
+.cbp-af-header.cbp-af-header-shrink .collapse-button:hover,
+.cbp-af-header.cbp-af-header-shrink .collapse-button:focus {
+    background-image: none;
+    background-color: var(--main-bg-color);
+}
+
+.cbp-af-header.cbp-af-header-shrink .collapse-button:hover .icon-bar,
+.cbp-af-header.cbp-af-header-shrink .collapse-button:focus .icon-bar {
+    background-image: none;
+    background-color: var(--black-color);
+}
+
 .collapse-button .icon-bar {
-    background-color: #000;
+    background-color: var(--black-color);
     border-radius: 1px 1px 1px 1px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
     display: block;
@@ -474,8 +493,6 @@ ul.slimmenu li a {
 }
 ul.slimmenu li a:hover {
     text-decoration: none;
-}
-ul.slimmenu li {
 }
 ul.slimmenu li:first-child {
 	background:none;
@@ -538,10 +555,13 @@ ul.slimmenu.collapsed li {
 }
 ul.slimmenu.collapsed li a {
     display: block;
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid var(--black-color-transparent);
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box
+    -webkit-box-sizing: border-box;
+}
+ul.slimmenu.collapsed li:last-child a {
+	border-bottom: none;
 }
 ul.slimmenu.collapsed li .sub-collapser {
     height: 40px;

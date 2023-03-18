@@ -118,9 +118,9 @@
 				<div class="container">
 					<div class="sixteen columns">
 						<h1><span>Despre noi</span></h1>
-						<div class="head-subtext">Noi suntem Sabrina și Mioara, mamă și fiică, iar Zen Home Cleaning s-a născut din pasiunea noastră pentru curățenie și atenție la detalii.</div>
+						<div class="head-subtext">Suntem unul dintre cei mai experimentați furnizori de servicii de curățenie profesionale din Romănia, cu peste 10 ani de activitate în domeniu atât in România, cât și în Finlanda.</div>
 					</div>
-					<div class="clear"></div>
+					<!-- <div class="clear"></div>
 					<div class="sixteen columns">
 						<div id="main" class="main">
 							<figure>
@@ -141,19 +141,25 @@
 								</div>
 							</figure>
 						</div>
-					</div>
+					</div> -->
 					<div class="clear"></div>
 					<div class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-						<h6>WHAT WE DO.</h6>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p>
+						<h6>Siguranță și calitate</h6>
+						<p>Prioritatea noastră absolută este siguranța clienților noștri, lucru deosebit de important în general, dar mai ales în urma pandemiei.</p>
+						<p>De aceea am implementat politici si proceduri stricte, ce asigură nu doar un standard ridicat de calitate, dar și conformitatea serviciilor oferite cu regulile guvernamentale de sănătate și siguranță.</p>
 					</div>
 					<div class="one-third column" data-scrollreveal="enter bottom and move 50px over 1s"> 
-						<h6>WHAT WE ACHIEVE.</h6>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p>
+						<h6>Produse alese cu atenție</h6>
+						<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
+						<p>Utilizăm în mod intens și curățarea cu aburi, acolo unde tipul de curățenie ne permite. Acest tip de curățare îndepărtează bacteriile în proporție de 99,9% și, fiind bazat exclusiv pe apă, nu există riscul de a lăsa reziduuri chimice pe suprafețele tratate, care ar putea fi toxice pentru copii sau animale de companie.</p>
+						<p>Avem în dotare doar aspiratoare cu filtru HEPA (High Efficiency Particulate Air), capabile să capteze până la 99,97% dintre particulele de praf cu dimensiuni de până la 0,3 microni. Acest lucru este benefic mai ales pentru persoanele care suferă de astm sau care au alergie la polen, dar contribuie și la o calitate îmbunătățită a aerului interior. </p>
 					</div>
 					<div class="one-third column" data-scrollreveal="enter right and move 50px over 1s"> 
-						<h6>AT THE END.</h6>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p>
+						<h6>Valorile noastre</h6>
+						<p><b>Respect:</b> ne alocăm timp pentru a înțelege și a aprecia fiecare client și respectăm alegerile acestuia.</p>
+						<p><b>Responsabilitate:</b> acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
+						<p><b>Excelență:</b> căutăm întotdeauna să oferim cea mai bună experiență de calitate în ceea ce privește curățarea și serviciul nostru pentru clienți.</p>
+						<p><b>Inovație:</b> pentru a fi lideri în industrie.</p>
 					</div>
 				</div>
 			</div>
