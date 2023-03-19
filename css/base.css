@@ -25,7 +25,8 @@
 ================================================== */
 :root {
 	--main-bg-color: #e1e1e1;
-	--main-bg-color-transparent: rgba(225, 225, 225, .9);
+	--main-bg-color-transparent: rgba(225, 225, 225, .8);
+	--gray-bg-transparent: rgba(60,60,60,.8);
 	--gold-color: #c4a048;
 	--black-color: #000;
 	--black-color-transparent: rgba(0,0,0,.8);
@@ -62,7 +63,7 @@
 ================================================== */
 	body {
 		background: var(--main-bg-color);
-		font-family: 'OpenSans-Light-webfont';
+		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
 		line-height:22px;
 		color:#a6a6a6;

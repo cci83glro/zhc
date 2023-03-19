@@ -47,7 +47,7 @@
 							<a class="scroll" href="#home">acasă</a>
 						</li>
 						<li>
-							<a class="scroll" href="#about">despre noi</a>
+							<a class="scroll" href="#about-section">despre noi</a>
 							<!-- <ul>
 								<li>
 									<a class="scroll" href="#about">about Chronos</a>
@@ -84,9 +84,9 @@
 				<div class="big-text">
 					<ul class="flippy">
 						<li><span>Zen Home Cleaning</span></li>
-						<li><span>Profesionalism</span></li>
+						<li><span>Respect</span></li>
+						<li><span>Responsabilitate</span></li>
 						<li><span>Excelență</span></li>
-						<li><span>Încredere</span></li>
 					</ul>
 				</div>
 				<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
@@ -114,132 +114,118 @@
 				<a class="scroll" href="#about"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
 			</div>
 
-			<div id="about">
+			<section id="about-section">
 				<div class="container">
 					<div class="sixteen columns">
-						<h1><span>Despre noi</span></h1>
+					<h1><span>Despre noi</span></h1>
 						<div class="head-subtext">Suntem unul dintre cei mai experimentați furnizori de servicii de curățenie profesionale din Romănia, cu peste 10 ani de activitate în domeniu atât in România, cât și în Finlanda.</div>
 					</div>
-					<!-- <div class="clear"></div>
-					<div class="sixteen columns">
-						<div id="main" class="main">
-							<figure>
-								<div class="drawings mac">
-									<img class="illustration" src="images/imac.png" alt="iMac Illustration" />
-									<svg class="line-drawing" id="mac" width="100%" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
-										<path d="M 257.85024,158.16843 754.90716,35.953537 731.06035,405.57906 228.78695,448.8014 z" /> 
-										<path d="m 259.83736,136.30872 c 0,0 -6.74232,0.97288 -11.61303,5.46502 -3.96751,3.659 -6.12527,9.40831 -7.01729,20.86596 l -36.5158,346.77284 c 0,0 -3.47753,13.41382 10.68151,14.15903 l 517.67468,-21.11485 c 0,0 18.38216,0.74522 19.87257,-19.62369 L 784.07068,11.384991 c 0,0 0.059,-13.07475 -23.20111,-7.2266959 L 259.83736,136.30872 z" /> 
-										<path d="m 211.29271,522.89381 c 0,0 12.5259,6.63947 19.72988,5.64573 l 513.45197,-19.12737 c 0,0 18.87884,0.74557 21.61112,-18.87848 l 29.5596,-462.528221 c 0,0 1.49047,-10.184447 -13.54272,-21.4997553" /> 
-										<path d="M 208.59466,472.34637 756.27723,432.02629" /> 
-										<path d="m 591.36015,515.11602 11.15099,41.36862 c 0,0 8.62435,33.16197 -11.15099,33.16197 l -55.35924,4.26821 c 0,0 -9.65275,0.58387 -13.08781,0.58387 -1.35069,0 -5.16991,0.0265 -5.16991,0.0265 l -149.57016,-0.0347 c 0,0 -1.45726,0.12035 -1.52173,-0.0853 -0.14195,-0.4531 1.2173,-0.44973 1.2173,-0.44973 l 93.42473,-4.68143 c 0,0 23.85536,1.49042 23.85127,-27.57288 l -2.70885,-42.52741" /> 
-										<path d="m 595.82547,514.94947 11.52956,43.3982 c 0,0 8.23944,32.78936 -11.52956,38.00586 h -58.52044 l -12.10971,0.99374 -16.58099,-0.61332 -128.7355,0.17849 c 0,0 -10.74373,-0.45795 -13.22753,-2.50727" /> 
-										<path d="m 486.38703,90.292617 c -0.3846,2.126175 -1.9686,3.619643 -3.5379,3.335758 -1.5693,-0.283875 -2.5297,-2.237606 -2.1451,-4.363775 0.38461,-2.12617 1.96859,-3.619642 3.53789,-3.335762 1.56931,0.283879 2.52971,2.23761 2.14511,4.363779 z" /> 
-										<path d="m 483.95449,571.8934 120.41968,0" /> 
-										<path class="line-round" d="m 783.49986,166.74023 -9.12881,133.48624" /> 
-										<path class="line-round" d="m 773.91008,309.26031 -1.81646,29.43591" />
-									</svg>
-								</div>
-							</figure>
-						</div>
-					</div> -->
 					<div class="clear"></div>
-					<div class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
 						<h6>Siguranță și calitate</h6>
-						<p>Prioritatea noastră absolută este siguranța clienților noștri, lucru deosebit de important în general, dar mai ales în urma pandemiei.</p>
-						<p>De aceea am implementat politici si proceduri stricte, ce asigură nu doar un standard ridicat de calitate, dar și conformitatea serviciilor oferite cu regulile guvernamentale de sănătate și siguranță.</p>
-					</div>
-					<div class="one-third column" data-scrollreveal="enter bottom and move 50px over 1s"> 
-						<h6>Produse alese cu atenție</h6>
-						<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
-						<p>Utilizăm în mod intens și curățarea cu aburi, acolo unde tipul de curățenie ne permite. Acest tip de curățare îndepărtează bacteriile în proporție de 99,9% și, fiind bazat exclusiv pe apă, nu există riscul de a lăsa reziduuri chimice pe suprafețele tratate, care ar putea fi toxice pentru copii sau animale de companie.</p>
-						<p>Avem în dotare doar aspiratoare cu filtru HEPA (High Efficiency Particulate Air), capabile să capteze până la 99,97% dintre particulele de praf cu dimensiuni de până la 0,3 microni. Acest lucru este benefic mai ales pentru persoanele care suferă de astm sau care au alergie la polen, dar contribuie și la o calitate îmbunătățită a aerului interior. </p>
-					</div>
-					<div class="one-third column" data-scrollreveal="enter right and move 50px over 1s"> 
-						<h6>Valorile noastre</h6>
-						<p><b>Respect:</b> ne alocăm timp pentru a înțelege și a aprecia fiecare client și respectăm alegerile acestuia.</p>
-						<p><b>Responsabilitate:</b> acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
-						<p><b>Excelență:</b> căutăm întotdeauna să oferim cea mai bună experiență de calitate în ceea ce privește curățarea și serviciul nostru pentru clienți.</p>
-						<p><b>Inovație:</b> pentru a fi lideri în industrie.</p>
-					</div>
-				</div>
-			</div>
-			
-			<div id="team">
-				<div class="container">
-					<div class="sixteen columns">
-						<h1><span>the team</span></h1>
-						<div class="head-subtext">WE'RE A SMALL, FRIENDLY AND TALENTED TEAM. WE CRAFT BEAUTIFUL DIGITAL SOLUTIONS FOR AWESOME CLIENTS ACROSS ALL THE PLATFORMS.</div>
-					</div>
-					<div class="clear"></div>
-					<div class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-						<h6>JAMES BEAN</h6>
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/team1.jpg" alt="" />
+									<img src="images/about/safety_310_310.webp" alt="Hand wiping door handle" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
 								</div>
 								<div class="face back">
-									<p><small><em>Art Director</em></small></p>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui. Sed ut perspiciatis unde omnis iste natus error. </p>
-									<div class="social-team">
-										<ul class="team-social">
-											<li class="icon-team tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf099;</a></li>
-											<li class="icon-team tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf09a;</a></li>
-											<li class="icon-team tipped" data-title="github"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf09b;</a></li>
-											<li class="icon-team tipped" data-title="google +"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf0d5;</a></li>
-										</ul>	
+									<p>Prioritatea noastră absolută este siguranța clienților noștri, lucru deosebit de important în general, dar mai ales în urma pandemiei.</p>
+									<p>De aceea am implementat politici si proceduri stricte, ce asigură nu doar un standard ridicat de calitate, dar și conformitatea serviciilor oferite cu regulile guvernamentale de sănătate și siguranță.</p>
+									<div class="layover">
+										<p>Înapoi</p>
 									</div>
 								</div>
 							</div>
 						</div>					
-					</div>
-					<div class="one-third column" data-scrollreveal="enter bottom and move 50px over 1s">
-						<h6>ISABELLA MORO</h6> 
+					</article>
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+						<h6>Ecologie</h6>
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/team2.jpg" alt="" />
+									<img src="images/about/ecology_310_310.webp" alt="Hand holding small tree" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
 								</div>
 								<div class="face back">
-									<p><small><em>Graphic Designer</em></small></p>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui. Sed ut perspiciatis unde omnis iste natus error. </p>
-									<div class="social-team">
-										<ul class="team-social">
-											<li class="icon-team tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf099;</a></li>
-											<li class="icon-team tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf09a;</a></li>
-											<li class="icon-team tipped" data-title="github"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf09b;</a></li>
-											<li class="icon-team tipped" data-title="google +"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf0d5;</a></li>
-										</ul>
-									</div>									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="one-third column" data-scrollreveal="enter right and move 50px over 1s"> 
-						<h6>DAVID IVE</h6>
-						<div class="flipWrapper">
-							<div class="card">
-								<div class="face front">
-									<img src="images/team3.jpg" alt="" />
-								</div>
-								<div class="face back">
-									<p><small><em>Web Developer</em></small></p>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui. Sed ut perspiciatis unde omnis iste natus error. </p>
-									<div class="social-team">
-										<ul class="team-social">
-											<li class="icon-team tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf099;</a></li>
-											<li class="icon-team tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf09a;</a></li>
-											<li class="icon-team tipped" data-title="github"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf09b;</a></li>
-											<li class="icon-team tipped" data-title="google +"  data-tipper-options='{"direction":"top","follow":"true"}'><a href="#">&#xf0d5;</a></li>
-										</ul>
+									<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
+									<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienți sau cei dragi lor.</p>
+									<div class="layover">
+										<p>Înapoi</p>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
+						</div>					
+					</article>
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+						<h6>Curățare cu aburi</h6>
+						<div class="flipWrapper">
+							<div class="card">
+								<div class="face front">
+									<img src="images/about/steam_310_310.webp" alt="STeam cleaning the carpet" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
+								</div>
+								<div class="face back">
+									<p>Utilizăm în mod intens și curățarea cu aburi, acolo unde tipul de curățenie ne permite.</p>
+									<p>Acest tip de curățare îndepărtează bacteriile în proporție de 99,9% și, fiind bazat exclusiv pe apă, nu există riscul de a lăsa reziduuri chimice pe suprafețele tratate, care ar putea fi toxice pentru copii sau animale de companie.</p>
+									<div class="layover">
+										<p>Înapoi</p>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</article>
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+						<h6>Filtre HEPA</h6>
+						<div class="flipWrapper">
+							<div class="card">
+								<div class="face front">
+									<img src="images/about/hepa_310_310.webp" alt="Vacuum cleaner in livingroom" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
+								</div>
+								<div class="face back">
+									<p>Avem în dotare doar aspiratoare cu filtru HEPA (High Efficiency Particulate Air), capabile să capteze până la 99,97% dintre particulele de praf cu dimensiuni de până la 0,3 microni.</p>
+									<p>Acest lucru este benefic mai ales pentru persoanele care suferă de astm sau care au alergie la polen, însă contribuie totodată și la o calitate îmbunătățită a aerului interior.</p>
+									<div class="layover">
+										<p>Înapoi</p>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</article>
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+						<h6>Valorile noastre</h6>
+						<div class="flipWrapper">
+							<div class="card">
+								<div class="face front">
+									<img src="images/about/values_620_620.webp" alt="Hands together" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
+								</div>
+								<div class="face back">
+									<p><b>Respect:</b> Ne alocăm timp pentru a înțelege necesitățile fiecăruia dintre clienții noștri și respectăm alegerile acestora.</p>
+									<p><b>Responsabilitate:</b> Acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
+									<p><b>Excelență:</b> căutăm întotdeauna să oferim cea mai bună experiență de calitate în ceea ce privește curățarea și serviciul nostru pentru clienți.</p>
+									<div class="layover">
+										<p>Înapoi</p>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</article>
+					
 					<div class="clear"></div>
 				</div>
-			</div>			
+			</section>			
 			
 			<div id="sep">	
 				<div class="just_pattern"></div>
