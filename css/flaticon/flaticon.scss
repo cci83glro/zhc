@@ -1,0 +1,153 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b636a9c227e48b2d59590e5934e0b4cf") format("truetype"),
+url("./flaticon.woff?b636a9c227e48b2d59590e5934e0b4cf") format("woff"),
+url("./flaticon.woff2?b636a9c227e48b2d59590e5934e0b4cf") format("woff2"),
+url("./flaticon.eot?b636a9c227e48b2d59590e5934e0b4cf#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b636a9c227e48b2d59590e5934e0b4cf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cleaning-service": "\f101",
+    "telephone": "\f102",
+    "location": "\f103",
+    "up-arrow": "\f104",
+    "left-arrow": "\f105",
+    "right-arrow": "\f106",
+    "email": "\f107",
+    "customer-service": "\f108",
+    "email-1": "\f109",
+    "calendar": "\f10a",
+    "project": "\f10b",
+    "loupe": "\f10c",
+    "right-arrow-1": "\f10d",
+    "price-tag": "\f10e",
+    "share": "\f10f",
+    "carpet": "\f110",
+    "fridge": "\f111",
+    "toilet": "\f112",
+    "check": "\f113",
+    "house": "\f114",
+    "basket": "\f115",
+    "next": "\f116",
+    "share-1": "\f117",
+    "spray": "\f118",
+    "kitchen": "\f119",
+    "close": "\f11a",
+    "accounting": "\f11b",
+    "mop": "\f11c",
+    "disinfectant": "\f11d",
+    "online-booking": "\f11e",
+    "tank": "\f11f",
+    "quote": "\f120",
+);
+
+.flaticon-cleaning-service:before {
+    content: map-get($flaticon-map, "cleaning-service");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon-map, "customer-service");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon-map, "email-1");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-project:before {
+    content: map-get($flaticon-map, "project");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon-map, "right-arrow-1");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon-map, "price-tag");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-carpet:before {
+    content: map-get($flaticon-map, "carpet");
+}
+.flaticon-fridge:before {
+    content: map-get($flaticon-map, "fridge");
+}
+.flaticon-toilet:before {
+    content: map-get($flaticon-map, "toilet");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-basket:before {
+    content: map-get($flaticon-map, "basket");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-share-1:before {
+    content: map-get($flaticon-map, "share-1");
+}
+.flaticon-spray:before {
+    content: map-get($flaticon-map, "spray");
+}
+.flaticon-kitchen:before {
+    content: map-get($flaticon-map, "kitchen");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-accounting:before {
+    content: map-get($flaticon-map, "accounting");
+}
+.flaticon-mop:before {
+    content: map-get($flaticon-map, "mop");
+}
+.flaticon-disinfectant:before {
+    content: map-get($flaticon-map, "disinfectant");
+}
+.flaticon-online-booking:before {
+    content: map-get($flaticon-map, "online-booking");
+}
+.flaticon-tank:before {
+    content: map-get($flaticon-map, "tank");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}

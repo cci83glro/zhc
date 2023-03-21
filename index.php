@@ -23,7 +23,8 @@
 	<link rel="stylesheet" href="css/font-awesome.css" />
 	<link rel="stylesheet" href="css/colorbox.css"/>
 	<link rel="stylesheet" href="css/retina.css"/>
-    <link rel="stylesheet" type="text/css" href="css/colors/color-gold.css">	
+    <link rel="stylesheet" type="text/css" href="css/colors/color-gold.css">
+	<link rel="stylesheet" type="text/css" href="css/flaticon/flaticon.css">
 		
 	<!-- Favicons
 	================================================== -->
@@ -44,35 +45,22 @@
 					<div class="logo"></div>
 					<ul class="slimmenu">
 						<li> 
-							<a class="scroll" href="#home">acasă</a>
+							<a class="scroll" href="#home">Acasă</a>
 						</li>
 						<li>
-							<a class="scroll" href="#about-section">despre noi</a>
-							<!-- <ul>
-								<li>
-									<a class="scroll" href="#about">about Chronos</a>
-								</li>
-								<li>
-									<a class="scroll" href="#team">the team</a>
-								</li>
-							</ul> -->
+							<a class="scroll" href="#about-section">Despre noi</a>
 						</li>
 						<li>
-							<a class="scroll" href="#work">work</a>
+							<a class="scroll" href="#products-section">Produse utilizate</a>
 						</li>
 						<li> 
-							<a class="scroll" href="#services">services</a>
-							<ul>
-								<li>
-									<a class="scroll" href="#services">Offered Services</a>
-								</li>
-								<li>
-									<a class="scroll" href="#pricing">PRICING TABLES</a>
-								</li>
-							</ul>
+							<a class="scroll" href="#services-section">Servicii oferite</a>
+						</li>
+						<li> 
+							<a class="scroll" href="#prices-section">Prețuri</a>
 						</li>
 						<li>
-							<a class="scroll" href="#contact">contact</a>
+							<a class="scroll" href="#contact-section">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -122,11 +110,32 @@
 					</div>
 					<div class="clear"></div>
 					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+						<h6>Valorile noastre</h6>
+						<div class="flipWrapper">
+							<div class="card">
+								<div class="face front">
+									<img src="images/about/values_620_620.webp" alt="Hands together" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
+								</div>
+								<div class="face back">
+									<p><b>Respect:</b> Ne alocăm timp pentru a înțelege necesitățile clienților noștri și respectăm alegerile acestora.</p>
+									<p><b>Responsabilitate:</b> Acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
+									<p><b>Excelență:</b> Căutăm întotdeauna să oferim cea mai bună experiență în ceea ce privește calitatea serviciilor oferite clienților.</p>
+									<div class="layover">
+										<p>Înapoi</p>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</article>
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
 						<h6>Siguranță și calitate</h6>
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/safety_310_310.webp" alt="Hand wiping door handle" />
+									<img src="images/about/safety_620_620.webp" alt="Hand wiping door handle" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -139,34 +148,66 @@
 									</div>
 								</div>
 							</div>
-						</div>					
+						</div>
 					</article>
+					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+						<h6>Transparență</h6>
+						<div class="flipWrapper">
+							<div class="card">
+								<div class="face front">
+									<img src="images/about/transparency_620_620.webp" alt="Surveillance camera" />
+									<div class="layover">
+										<p>Citește mai mult</p>
+									</div>
+								</div>
+								<div class="face back">
+									<p>Suntem printre primele firme de curățenie din România care oferă, la cerere, live streaming în timpul curățeniei.</p>
+									<p>În plus, specialiștii noștri certificați sunt dispuși să ofere prezentări live ale serviciilor de curățenie profesionale pe care le oferim.</p>
+									<div class="layover">
+										<p>Înapoi</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					
+					<div class="clear"></div>
+				</div>
+			</section>
+
+			<section id="products-section">
+				<div class="container">
+					<div class="sixteen columns">
+					<h1><span>Produse utilizate</span></h1>
+						<div class="head-subtext">Nu facem compromisuri în ceea ce privește calitatea produselor și materialelor utilizate, întrucât suntem conștienți că modul în care lucrăm își pune amprenta atăt asupra mediului înconjurător, cât și asupra sănătății clienților noștri.</div>
+					</div>
+					<div class="clear"></div>
 					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
 						<h6>Ecologie</h6>
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/ecology_310_310.webp" alt="Hand holding small tree" />
+									<img src="images/products/ecology_620_620.webp" alt="Hand holding small tree" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
 								</div>
 								<div class="face back">
 									<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
-									<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienți sau cei dragi lor.</p>
+									<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienții noștri sau cei dragi lor.</p>
 									<div class="layover">
 										<p>Înapoi</p>
 									</div>
 								</div>
 							</div>
-						</div>					
+						</div>
 					</article>
 					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
 						<h6>Curățare cu aburi</h6>
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/steam_310_310.webp" alt="STeam cleaning the carpet" />
+									<img src="images/products/steam_620_620.webp" alt="STeam cleaning the carpet" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -182,39 +223,18 @@
 						</div>					
 					</article>
 					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-						<h6>Filtre HEPA</h6>
+						<h6>Filtrare HEPA</h6>
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/hepa_310_310.webp" alt="Vacuum cleaner in livingroom" />
+									<img src="images/products/hepa_620_620.webp" alt="Vacuum cleaner in livingroom" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
 								</div>
 								<div class="face back">
 									<p>Avem în dotare doar aspiratoare cu filtru HEPA (High Efficiency Particulate Air), capabile să capteze până la 99,97% dintre particulele de praf cu dimensiuni de până la 0,3 microni.</p>
-									<p>Acest lucru este benefic mai ales pentru persoanele care suferă de astm sau care au alergie la polen, însă contribuie totodată și la o calitate îmbunătățită a aerului interior.</p>
-									<div class="layover">
-										<p>Înapoi</p>
-									</div>
-								</div>
-							</div>
-						</div>					
-					</article>
-					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-						<h6>Valorile noastre</h6>
-						<div class="flipWrapper">
-							<div class="card">
-								<div class="face front">
-									<img src="images/about/values_620_620.webp" alt="Hands together" />
-									<div class="layover">
-										<p>Citește mai mult</p>
-									</div>
-								</div>
-								<div class="face back">
-									<p><b>Respect:</b> Ne alocăm timp pentru a înțelege necesitățile fiecăruia dintre clienții noștri și respectăm alegerile acestora.</p>
-									<p><b>Responsabilitate:</b> Acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
-									<p><b>Excelență:</b> căutăm întotdeauna să oferim cea mai bună experiență de calitate în ceea ce privește curățarea și serviciul nostru pentru clienți.</p>
+									<p>Acest lucru contribuie la o calitate îmbunătățită a aerului interior și este benefic în special pentru persoanele care suferă de astm sau alergie la polen.</p>
 									<div class="layover">
 										<p>Înapoi</p>
 									</div>
@@ -225,130 +245,113 @@
 					
 					<div class="clear"></div>
 				</div>
-			</section>			
-			
-			<div id="sep">	
-				<div class="just_pattern"></div>
-				<div class="just_pattern1"></div>
-				<div class="parallax"></div>	
-				<div class="container z-index">
-					<div class="four columns">
-						<div class="facts-wrap">
-							<div class="facts-line"></div>
-							<div class="facts-wrap-num"><span class="counter">87</span></div>
-							<h6>Clients</h6> 
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="facts-wrap">
-							<div class="facts-line"></div>
-							<div class="facts-wrap-num"><span class="counter">25</span></div>
-							<h6>Awards</h6> 
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="facts-wrap">
-							<div class="facts-line"></div>
-							<div class="facts-wrap-num"><span class="counter">68</span></div>
-							<h6>Projects</h6> 
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="facts-wrap">
-							<div class="facts-wrap-num"><span class="counter">46</span></div>
-							<h6>Mails</h6> 
-						</div>
-					</div>
-				</div>
-			</div>		
-
-
-			<div id="work">
+			</section>
+		
+			<div id="services-section">
 				<div class="container">
 					<div class="sixteen columns">
-						<h1><span>our work</span></h1>
-						<div class="head-subtext">WE BELIEVE OUR WORK SPEAKS FOR ITSELF. BROWSE OUR MOST RECENT PROJECTS BELOW.</div>
+						<h1><span>Servicii</span></h1>
+						<div class="head-subtext">Stăm la dispoziția clienților noștri cu o gamă largă de servicii de curățenie atât în domeniul rezidențial, cât și în cel comercial.</div>
 					</div>
-				</div>
-				
-				<div class="clear"></div>
-			
-				<div class="container">
-					<div class="sixteen columns">
-						<div id="portfolio-filter">
-							<ul id="filter">
-								<li><a href="#" class="current" data-filter="*" title="">Show all</a></li>
-								<li><a href="#" data-filter=".photography" title="">photography</a></li>
-								<li><a href="#" data-filter=".illustration1" title="">illustration</a></li>
-								<li><a href="#" data-filter=".motion-graphics" title="">motion graphics</a></li>
-								<li><a href="#" data-filter=".web-design" title="">web design</a></li>
-							</ul>
+					<div class="clear"></div>
+
+					<div class="flipWrapper service eight columns">
+						<div class="card">
+							<div class="face front">
+								<i class="flaticon-cleaning-service"></i>
+								<h6>Curățenie generală</h6>
+								<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
+								<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
+								<p><i class="flaticon-next"></i>Curățare prize, plinte, întrerupătoare, tablouri electrice și guri de aerisire</p>
+								<p><i class="flaticon-next"></i>Curățarea caloriferelor și țevilor</p>
+								<p><i class="flaticon-next"></i>Curățare scaune, fotolii, canapele</p>
+								<p><i class="flaticon-next"></i>Curățare geamuri interior/exterior</p>
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+							<p><i class="flaticon-next"></i>Curățare interior/exterior a aparatelor electrocasnice</p>
+								<p><i class="flaticon-next"></i>Curățat și spălat uși și tocuri</p>
+								<p><i class="flaticon-next"></i>Curățat mobilier exterior</p>
+								<p><i class="flaticon-next"></i>Curățare și dezinfectare gresie, faianță, oglinzi, chiuvete, cabină de duș, WC</p>
+								<p><i class="flaticon-next"></i>Îndepărtarea pânzelor de păianjen</p>
+								<p><i class="flaticon-next"></i>Ștergerea umedă a pardoselilor (parchet, gresie)</p>
+								<p><i class="flaticon-next"></i>Alte servicii conform dorințelor clientului</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<ul class="portfolio-wrap">
-					<li class="portfolio-box photography web-design">	
-						<a class="iframe group1" href="project.html" title="">
-							<img  src="images/gallery/1.jpg" alt="" />	
-							<div class="mask"></div>
-							<h4>All The Time</h4>
-						</a>	
-					</li>
-					<li class="portfolio-box illustration1 motion-graphics">	
-						<a class="iframe group1" href="project1.html" title="">
-							<img  src="images/gallery/2.jpg" alt="" />
-							<div class="mask"></div>	
-							<h4>Golden Eagle</h4>	
-						</a>		
-					</li>		
-					<li class="portfolio-box motion-graphics photography">	
-						<a class="iframe group1" href="project2.html" title="">
-							<img  src="images/gallery/3.jpg" alt="" />
-							<div class="mask"></div>
-							<h4>All The Time</h4>
-						</a>				
-					</li>	
-					<li class="portfolio-box web-design illustration1">
-						<a class="iframe group1" href="project.html" title="">
-							<img  src="images/gallery/4.jpg" alt="" />
-							<div class="mask"></div>
-							<h4>Fixed Mag</h4>	
-						</a> 			
-					</li>	
-					<li class="portfolio-box photography web-design">	
-						<a class="iframe group1" href="project1.html" title="">
-							<img  src="images/gallery/5.jpg" alt="" />	
-							<div class="mask"></div>	
-							<h4>La Catería</h4>
-						</a>			
-					</li>
-					<li class="portfolio-box illustration1 motion-graphics">	
-						<a class="iframe group1" href="project2.html" title="">
-							<img  src="images/gallery/6.jpg" alt="" />
-							<div class="mask"></div>
-							<h4>5th Anniversary Set</h4>
-						</a>			
-					</li>	
-					<li class="portfolio-box motion-graphics photography">
-						<a class="iframe group1" href="project.html" title="">
-							<img  src="images/gallery/7.jpg" alt="" />	
-							<div class="mask"></div>
-							<h4>La Catería</h4>
-						</a>			
-					</li>	
-					<li class="portfolio-box web-design illustration1">
-						<a class="iframe group1" href="project1.html" title="">
-							<img  src="images/gallery/8.jpg" alt="" />	
-							<div class="mask"></div>
-							<h4>Dan Fink</h4>
-						</a>			
-					</li>	
-				</ul>					
 
-				<div class="clear"></div>	
-				
-			</div>			
-			
+					<div class="flipWrapper service eight columns">
+						<div class="card">
+							<div class="face front">
+								<i class="flaticon-cleaning-service"></i>
+								<h6>Curățenie de întreținere</h6>
+								<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
+								<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienții noștri sau cei dragi lor.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
+						<div class="last-services1">
+							<h6>Curățenie generală, inclusiv curățenie înainte de sărbători</h6>
+							<div class="icon-right1">&#xf0c6;</div>
+							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+						</div>
+					</div>
+					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
+						<div class="last-services">
+							<i class="flaticon-cleaning-service"></i>
+							<h6>Curățenie de întreținere</h6>
+							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
+						<div class="last-services1">
+							<h6>Curățenie asociații de proprietari și ansambluri imobiliare</h6>
+							<div class="icon-right1">&#xf120;</div>
+							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+						</div>
+					</div>
+					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
+						<div class="last-services">
+							<div class="icon-left1">&#xf002;</div>
+							<h6>Curățenie după constructor</h6>
+							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+						</div>
+					</div>
+					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
+						<div class="last-services1">
+							<h6>Curățenia birourilor</h6>
+							<div class="icon-right1">&#xf120;</div>
+							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+						</div>
+					</div>
+					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
+						<div class="last-services">
+							<div class="icon-left1">&#xf002;</div>
+							<h6>Curățare profesională canapele și mochete</h6>
+							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
 
 			<div id="sep1">	
 				<a href="#contact" class="scroll">
@@ -386,48 +389,6 @@
 				</div>	
 			</div>
 
-		
-			<div id="services">
-				<div class="container">
-					<div class="sixteen columns">
-						<h1><span>services</span></h1>
-						<div class="head-subtext">JUST CHECK OUT ALL OF THE SERVICE LISTS BELOW TO GET A GENERAL IDEA OF WHAT WE ARE CAPABLE OF DELIVERING.</div>
-					</div>
-					<div class="clear"></div>
-					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
-						<div class="last-services1">
-							<h6>Networking.</h6>
-							<div class="icon-right1">&#xf0c6;</div>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
-					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
-						<div class="last-services">
-							<div class="icon-left1">&#xf080;</div>
-							<h6>Analytics.</h6>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
-					<div class="clear"></div>
-					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
-						<div class="last-services1">
-							<h6>Development.</h6>
-							<div class="icon-right1">&#xf120;</div>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
-					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
-						<div class="last-services">
-							<div class="icon-left1">&#xf002;</div>
-							<h6>Support.</h6>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-
-			
 			<div id="pricing">
 				<div class="container">
 					<div class="sixteen columns">
