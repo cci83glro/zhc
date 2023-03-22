@@ -266,17 +266,18 @@
 								<p><i class="flaticon-next"></i>Curățarea caloriferelor și țevilor</p>
 								<p><i class="flaticon-next"></i>Curățare scaune, fotolii, canapele</p>
 								<p><i class="flaticon-next"></i>Curățare geamuri interior/exterior</p>
+								<p><i class="flaticon-next"></i>Curățat și spălat uși și tocuri</p>
 								<div class="layover">
 									<p>Citește mai mult</p>
 								</div>
 							</div>
 							<div class="face back">
-							<p><i class="flaticon-next"></i>Curățare interior/exterior a aparatelor electrocasnice</p>
-								<p><i class="flaticon-next"></i>Curățat și spălat uși și tocuri</p>
+								<p><i class="flaticon-next"></i>Curățare interior/exterior a aparatelor electrocasnice</p>								
 								<p><i class="flaticon-next"></i>Curățat mobilier exterior</p>
 								<p><i class="flaticon-next"></i>Curățare și dezinfectare gresie, faianță, oglinzi, chiuvete, cabină de duș, WC</p>
 								<p><i class="flaticon-next"></i>Îndepărtarea pânzelor de păianjen</p>
 								<p><i class="flaticon-next"></i>Ștergerea umedă a pardoselilor (parchet, gresie)</p>
+								<p><i class="flaticon-next"></i>Aerisirea și odorizarea încăperilor</p>
 								<p><i class="flaticon-next"></i>Alte servicii conform dorințelor clientului</p>
 								<div class="layover">
 									<p>Înapoi</p>
@@ -290,14 +291,25 @@
 							<div class="face front">
 								<i class="flaticon-cleaning-service"></i>
 								<h6>Curățenie de întreținere</h6>
-								<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+								<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
+								<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
+								<p><i class="flaticon-next"></i>Ștergerea de praf a pervazelor</p>
+								<p><i class="flaticon-next"></i>Curățarea caloriferelor</p>
+								<p><i class="flaticon-next"></i>Curățare scaune, fotolii, canapele</p>
+								<p><i class="flaticon-next"></i>Curățare la exterior a aparatelor electrocasnice</p>
+								<p><i class="flaticon-next"></i>Curățat mobilier exterior</p>
 								<div class="layover">
 									<p>Citește mai mult</p>
 								</div>
 							</div>
 							<div class="face back">
-								<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
-								<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienții noștri sau cei dragi lor.</p>
+								<p><i class="flaticon-next"></i>Curățarea și dezinfectarea bucătăriei</p>
+								<p><i class="flaticon-next"></i>Curățare și dezinfectare gresie, faianță, oglinzi, chiuvete, cabină de duș, WC</p>
+								<p><i class="flaticon-next"></i>Îndepărtarea pânzelor de păianjen</p>
+								<p><i class="flaticon-next"></i>Ștergerea umedă a pardoselilor (parchet, gresie)</p>
+								<p><i class="flaticon-next"></i>Degajarea gunoiului și înlocuirea sacilor menajeri</p>
+								<p><i class="flaticon-next"></i>Aerisirea și odorizarea încăperilor</p>
+								<p><i class="flaticon-next"></i>Alte servicii conform dorințelor clientului</p>
 								<div class="layover">
 									<p>Înapoi</p>
 								</div>
@@ -305,50 +317,116 @@
 						</div>
 					</div>
 
+					<div class="flipWrapper service eight columns">
+						<div class="card">
+							<div class="face front">
+								<i class="flaticon-cleaning-service"></i>
+								<h6 class="long">Curățenie asociații de proprietari și ansambluri rezidențiale</h6>
+								<p><i class="flaticon-next"></i>Aspirat, spălat casa scărilor</p>
+								<p><i class="flaticon-next"></i>Aspirat și spălat intrările în bloc</p>
+								<p><i class="flaticon-next"></i>Măturat aleea de acces în scările de bloc</p>
+								<p><i class="flaticon-next"></i>Măturat aleea din jurul blocului</p>
+								<p><i class="flaticon-next"></i>Șters balustrade</p>
+								<p><i class="flaticon-next"></i>Spălat geamuri intrare bloc</p>
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p><i class="flaticon-next"></i>Curățarea spațiului aferent fiecărei ghene de pe etaj</p>
+								<p><i class="flaticon-next"></i>Spălarea lifturilor</p>
+								<p><i class="flaticon-next"></i>Spălarea tuturor ușilor de la lift pe fiecare etaj</p>
+								<p><i class="flaticon-next"></i>Șters praful și îndepărtat pânzele de păianjen din interiorul imobilului de câte ori este nevoie</p>
+								<p><i class="flaticon-next"></i>Curățenie în grădină (hârtii, sticle etc.)</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
-						<div class="last-services1">
-							<h6>Curățenie generală, inclusiv curățenie înainte de sărbători</h6>
-							<div class="icon-right1">&#xf0c6;</div>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+					<div class="flipWrapper service eight columns">
+						<div class="card">
+							<div class="face front">
+								<i class="flaticon-cleaning-service"></i>
+								<h6 class="long">Curățenia după constructor</h6>
+								<p><i class="flaticon-next"></i>Aspirarea pereților</p>
+								<p><i class="flaticon-next"></i>Spălarea gresiei și faianței</p>
+								<p><i class="flaticon-next"></i>Curățarea grinzilor și geamurilor</p>
+								<p><i class="flaticon-next"></i>Dezinfectarea și odorizarea grupurilor sanitare, igienizare</p>
+								<p><i class="flaticon-next"></i>Curățarea pervazelor, balustradelor etc.</p>
+								<p><i class="flaticon-next"></i>Curățarea geamurilor și a tocăriei</p>
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p><i class="flaticon-next"></i>Curățarea corpurilor de iluminat</p>
+								<p><i class="flaticon-next"></i>Curățarea caloriferelor și a aparatelor de aer condiționat</p>
+								<p><i class="flaticon-next"></i>Aspirarea și spălarea pardoselilor</p>
+								<p><i class="flaticon-next"></i>Curățarea rosturilor (la cerere)</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
-						<div class="last-services">
-							<i class="flaticon-cleaning-service"></i>
-							<h6>Curățenie de întreținere</h6>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+
+					<div class="flipWrapper service eight columns">
+						<div class="card">
+							<div class="face front">
+								<i class="flaticon-cleaning-service"></i>
+								<h6>Curățenia birourilor</h6>
+								<p><i class="flaticon-next"></i>Aspirarea întregii suprafețe</p>
+								<p><i class="flaticon-next"></i>Aspirarea și spălarea prin injecție-extracție a covoarelor, mochetelor și tapițeriilor</p>
+								<p><i class="flaticon-next"></i>Aspirarea și spălarea pardoselilor</p>
+								<p><i class="flaticon-next"></i>Spălarea geamurilor accesibile</p>
+								<p><i class="flaticon-next"></i>Curățarea și igienizarea grupurilor sanitare</p>
+								<p><i class="flaticon-next"></i>Curățarea spațiilor de servit cafea</p>
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p><i class="flaticon-next"></i>Ștergerea mobilierului cu lavete și soluții antistatice</p>
+								<p><i class="flaticon-next"></i>Curățarea echipamentului de birou cu soluții speciale</p>
+								<p><i class="flaticon-next"></i>Evacuarea gunoiului și a resturilor menajere</p>
+								<p><i class="flaticon-next"></i>Curățare feronerie, calorifere și corpuri de iluminat</p>
+								<p><i class="flaticon-next"></i>Aspirarea pânzelor de păianjen</p>
+								<p><i class="flaticon-next"></i>Ștergerea cu soluții speciale a obiectelor din aluminiu/inox/crom</p>
+								<p><i class="flaticon-next"></i>Îndepărtarea petelor de pe pereții lavabili</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="clear"></div>
-					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
-						<div class="last-services1">
-							<h6>Curățenie asociații de proprietari și ansambluri imobiliare</h6>
-							<div class="icon-right1">&#xf120;</div>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+
+					<div class="flipWrapper service eight columns">
+						<div class="card">
+							<div class="face front">
+								<i class="flaticon-cleaning-service"></i>
+								<h6>Curățare profesională canapele și mochete</h6>
+								<p><i class="flaticon-next"></i>Curățarea se face utilizând un sistem profesional de injecție-extracție</p>
+								<p><i class="flaticon-next"></i>Timp de uscare minim</p>
+								<p><i class="flaticon-next"></i>Înlăturăm peste 90% din pete</p>
+								<p><i class="flaticon-next"></i>Eliminăm bacteriile și mirosurile neplăcute, ce pot crea diverse alergii și afecțiuni de sănătate</p>
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p><i class="flaticon-next"></i>Culori reîmprospătate și țesături fortificate</p>
+								<p><i class="flaticon-next"></i>Igienă la un nivel superior</p>
+								<p><i class="flaticon-next"></i>Miros plăcut, reconfortant</p>
+								<p><i class="flaticon-next"></i>Economisire de timp și bani</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
-						<div class="last-services">
-							<div class="icon-left1">&#xf002;</div>
-							<h6>Curățenie după constructor</h6>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
-					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
-						<div class="last-services1">
-							<h6>Curățenia birourilor</h6>
-							<div class="icon-right1">&#xf120;</div>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
-					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
-						<div class="last-services">
-							<div class="icon-left1">&#xf002;</div>
-							<h6>Curățare profesională canapele și mochete</h6>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-						</div>
-					</div>
+					
 					<div class="clear"></div>
 				</div>
 			</div>
