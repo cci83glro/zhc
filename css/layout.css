@@ -705,11 +705,11 @@ top: 0;
 /* #Video
 ================================================== */
 
-
 #video_background { 
 	position: absolute; 
-	bottom: 0px; 
-	right: 0px;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
@@ -2577,7 +2577,117 @@ iframe{
 .logos-wrap:hover img{
 	opacity:.7;
 }
- 
+
+/* Price calculator
+================================================== */
+
+.price-calculator-section {
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.price-calculator-section.hideable {
+	display: none;
+}
+
+.price-calculator-section > h4 {
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 22px;
+}
+
+.price-calculator-section > h4.subsection {
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.price-calculator-section > p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.price-calculator-section > label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.price-calculator-section > label > input {
+	width: auto;
+}
+
+.price-calculator-section > label > input[type=radio] {
+	align-items: center;
+	-webkit-appearance: none;
+	background-color: var(--gold-color);
+	/*border: 2px solid var(--main-bg-color);*/
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin: 0 5px 0 0;
+	min-height: 18px;
+	max-height: 18px;
+	min-width: 18px;
+	max-width: 18px;
+	position: relative;
+	outline: none;
+}
+
+.price-calculator-section > label > input[type=radio]:checked {
+	background-color: var(--main-bg-color);
+	border: 4px solid var(--gold-color);
+}
+
+.price-calculator-section > label > input[type=radio]:before {
+	border-radius: 50%;
+	content: "";
+	display: block;
+	height: 6px;
+	width: 6px;
+}
+
+input[type="range"] {
+	-webkit-appearance: none;
+	appearance: none;
+	background: transparent;
+	cursor: pointer;
+	width: 100%;
+}
+
+input[type='range']::-webkit-slider-runnable-track{
+	background: var(--black-color);
+	height: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+-webkit-appearance: none; /* Override default look */
+appearance: none;
+margin-top: -8px; /* Centers thumb on the track */
+background-color: var(--gold-color);
+height: 20px;
+width: 20px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-track {
+	background: var(--black-color);
+	height: 5px;
+}
+
+input[type="range"]::-moz-range-thumb {
+-webkit-appearance: none; /* Override default look */
+appearance: none;
+margin-top: -12px; /* Centers thumb on the track */
+background-color: var(--gold-color);
+height: 20px;
+width: 20px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
  
  
 /* #Media Queries
@@ -2611,7 +2721,10 @@ h1 { font-size: 28px; line-height:28px; }
 	transition : all 0.5s ease-out;
 }
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li a {
-    border-bottom:none;
+    border-bottom: 1px solid var(--main-bg-color);
+}
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li:last-child a {
+    border-bottom: none;
 }
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li a:hover {
     border-bottom:none;

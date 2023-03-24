@@ -95,18 +95,16 @@
 					</ul>	
 				</div>	
 				<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="images/1.jpg"> 
-					<source src="videos/video.webm" type="video/webm"> 
-					<source src="videos/video.mp4" type="video/mp4"> 
-					<source src="videos/video.ogg" type="video/ogg"> 
+					<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 				</video>		
-				<a class="scroll" href="#about"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
+				<a class="scroll" href="#about-section"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
 			</div>
 
 			<section id="about-section">
 				<div class="container">
 					<div class="sixteen columns">
 					<h1><span>Despre noi</span></h1>
-						<div class="head-subtext">Suntem unul dintre cei mai experimentați furnizori de servicii de curățenie profesionale din Romănia, cu peste 10 ani de activitate în domeniu atât in România, cât și în Finlanda.</div>
+						<div class="head-subtext">Suntem unul dintre cei mai experimentați furnizori de servicii de curățenie profesionale, cu peste 10 ani de activitate în domeniu atât in România, cât și în Finlanda</div>
 					</div>
 					<div class="clear"></div>
 					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
@@ -179,7 +177,7 @@
 				<div class="container">
 					<div class="sixteen columns">
 					<h1><span>Produse utilizate</span></h1>
-						<div class="head-subtext">Nu facem compromisuri în ceea ce privește calitatea produselor și materialelor utilizate, întrucât suntem conștienți că modul în care lucrăm își pune amprenta atăt asupra mediului înconjurător, cât și asupra sănătății clienților noștri.</div>
+						<div class="head-subtext">Nu facem compromisuri în ceea ce privește calitatea produselor și materialelor utilizate, întrucât suntem conștienți că modul în care lucrăm își pune amprenta atăt asupra mediului înconjurător, cât și asupra sănătății clienților noștri</div>
 					</div>
 					<div class="clear"></div>
 					<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
@@ -251,7 +249,7 @@
 				<div class="container">
 					<div class="sixteen columns">
 						<h1><span>Servicii</span></h1>
-						<div class="head-subtext">Stăm la dispoziția clienților noștri cu o gamă largă de servicii de curățenie atât în domeniul rezidențial, cât și în cel comercial.</div>
+						<div class="head-subtext">Stăm la dispoziția clienților noștri cu o gamă largă de servicii de curățenie atât în domeniul rezidențial, cât și în cel comercial</div>
 					</div>
 					<div class="clear"></div>
 
@@ -289,7 +287,7 @@
 					<div class="flipWrapper service eight columns">
 						<div class="card">
 							<div class="face front">
-								<i class="flaticon-cleaning-service"></i>
+								<i class="flaticon-mop"></i>
 								<h6>Curățenie de întreținere</h6>
 								<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
 								<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
@@ -320,7 +318,7 @@
 					<div class="flipWrapper service eight columns">
 						<div class="card">
 							<div class="face front">
-								<i class="flaticon-cleaning-service"></i>
+								<i class="flaticon-house"></i>
 								<h6 class="long">Curățenie asociații de proprietari și ansambluri rezidențiale</h6>
 								<p><i class="flaticon-next"></i>Aspirat, spălat casa scărilor</p>
 								<p><i class="flaticon-next"></i>Aspirat și spălat intrările în bloc</p>
@@ -348,7 +346,7 @@
 					<div class="flipWrapper service eight columns">
 						<div class="card">
 							<div class="face front">
-								<i class="flaticon-cleaning-service"></i>
+								<i class="flaticon-disinfectant"></i>
 								<h6 class="long">Curățenia după constructor</h6>
 								<p><i class="flaticon-next"></i>Aspirarea pereților</p>
 								<p><i class="flaticon-next"></i>Spălarea gresiei și faianței</p>
@@ -375,7 +373,7 @@
 					<div class="flipWrapper service eight columns">
 						<div class="card">
 							<div class="face front">
-								<i class="flaticon-cleaning-service"></i>
+								<i class="flaticon-online-booking"></i>
 								<h6>Curățenia birourilor</h6>
 								<p><i class="flaticon-next"></i>Aspirarea întregii suprafețe</p>
 								<p><i class="flaticon-next"></i>Aspirarea și spălarea prin injecție-extracție a covoarelor, mochetelor și tapițeriilor</p>
@@ -389,7 +387,7 @@
 							</div>
 							<div class="face back">
 								<p><i class="flaticon-next"></i>Ștergerea mobilierului cu lavete și soluții antistatice</p>
-								<p><i class="flaticon-next"></i>Curățarea echipamentului de birou cu soluții speciale</p>
+								<p><i class="flaticon-next"></i>Curățarea echipamentului de birou</p>
 								<p><i class="flaticon-next"></i>Evacuarea gunoiului și a resturilor menajere</p>
 								<p><i class="flaticon-next"></i>Curățare feronerie, calorifere și corpuri de iluminat</p>
 								<p><i class="flaticon-next"></i>Aspirarea pânzelor de păianjen</p>
@@ -405,8 +403,8 @@
 					<div class="flipWrapper service eight columns">
 						<div class="card">
 							<div class="face front">
-								<i class="flaticon-cleaning-service"></i>
-								<h6>Curățare profesională canapele și mochete</h6>
+								<i class="flaticon-carpet"></i>
+								<h6 class="long">Curățare profesională canapele și mochete</h6>
 								<p><i class="flaticon-next"></i>Curățarea se face utilizând un sistem profesional de injecție-extracție</p>
 								<p><i class="flaticon-next"></i>Timp de uscare minim</p>
 								<p><i class="flaticon-next"></i>Înlăturăm peste 90% din pete</p>
