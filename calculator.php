@@ -87,15 +87,19 @@
 		</div>
 		<div id="stairs-options" class="price-calculator-section hideable" level='1'>
 			<h4>Numărul de scări</h4>
+			<p id="stair-price-per-mp"></p>
 			<input type="range" id="number-of-stairs" min='0' max='100' step='1' value='0'
-				oninput="this.nextElementSibling.value = this.value"/>
-			<output>0</output>
+				oninput="handle_stairs();"/>
+			<output id="number-of-stairs-value">0</output>
 		</div>
 
 		<div id="price-info" class="price-calculator-section" level='1'>
 			<h4>Sumar</h4>
 			<div id="summary-lines"></div>
-			<div id="total-line"></div>			
+			<div id="summary-total">
+				<span class="summary-line-title">Total</span>
+				<span class="summary-line-price" id="total-price">0</span>
+			</div>
 		</div>
 	</div>
 
