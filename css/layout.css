@@ -819,11 +819,10 @@ h1 span:after  {
 }
 .head-subtext {
 	text-align:center;
-	padding-top:30px;
-	padding-bottom:20px;
+	padding-top:20px;
 	font-family: 'Roboto', sans-serif;
 	text-transform:uppercase;
-	font-size: 17px;
+	font-size: 16px;
 	line-height:22px;
 	color:#737373;
 }
@@ -831,7 +830,7 @@ h1 span:after  {
 	padding-bottom:30px;
 }
 #services-section .head-subtext {
-	padding-bottom:30px;
+	padding-bottom:10px;
 }
 svg {
 	pointer-events: none;
@@ -894,7 +893,7 @@ path.stroke-thin {
 	margin: 0 auto;
 	width: 100%;
 	overflow:hidden;
-	padding-top:50px;
+	padding-top:40px;
 	z-index:2;
 } 
 #about-section h6,
@@ -1014,7 +1013,8 @@ path.stroke-thin {
 	color: var(--black-color);
 	text-align: left;
 	font-size: 16px;
-	margin-bottom: 5px;
+	line-height: 20px;
+	margin-bottom: 8px;
 }
 .flipWrapper .card .front .layover p,
 .flipWrapper .card .back .layover p{
@@ -1685,7 +1685,7 @@ path.stroke-thin {
 	margin: 0 auto;
 	width: 100%;
 	overflow:hidden;
-	padding-top:50px;
+	padding-top:40px;
 	z-index:2;
 } 
  
@@ -2371,19 +2371,23 @@ iframe{
 }
 
 
-/* #pricing
+/* #pricing-section
 ================================================== */
 
-#pricing{
+#pricing-section{
 	position: relative; 
 	margin: 0 auto;
 	width: 100%;
 	overflow:hidden;
-	background:#292929;
-	padding-top:50px;
+	background:var(--main-bg-color);
+	padding-top:40px;
 	padding-bottom:70px;
 	z-index:2;
-} 
+}
+
+#pricing-section .head-subtext {
+	padding-bottom: 10px;
+}
 
 .services-offer{
 	position: relative; 
@@ -2581,10 +2585,25 @@ iframe{
 /* Price calculator
 ================================================== */
 
+#house-options-generic, #house-options-maintenance, #house-options-constructor,
+#office-options-generic, #office-options-maintenance, #office-options-constructor,
+#house-options-generic-room-extra-options, #house-options-generic-kitchen-extra-options,
+#house-options-maintenance-room-extra-options, #house-options-maintenance-kitchen-extra-options,
+#house-options-constructor-room-extra-options, #house-options-constructor-kitchen-extra-options {
+	width: 100%;
+	margin-top: 10px;
+}
+
 .price-calculator-section {
+	box-sizing: border-box;
 	display: inline-block;
-	margin-right: 20px;
+	width: 49%;
 	vertical-align: top;
+}
+
+.price-calculator-section .radio-label {
+	font-size: 14px;
+	line-height: 16px;
 }
 
 .price-calculator-section.hideable {
@@ -2594,7 +2613,7 @@ iframe{
 .price-calculator-section > h4 {
 	display: inline-block;
 	font-size: 20px;
-	margin-bottom: 22px;
+	margin-bottom: 15px;
 }
 
 .price-calculator-section > h4.subsection {
@@ -2617,6 +2636,7 @@ iframe{
 	display: flex;
 	align-items: center;
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
 .price-calculator-section input {
@@ -2692,7 +2712,7 @@ iframe{
 }
 
 .price-calculator-section > .extra-service-toggle > .toggle-wrapper > label{
-	background: var(--black-color);
+	background: var(--black-color-transparent);
 	border-radius: 45px;
 	display: inline-block;
 	height: 24px;
@@ -2718,6 +2738,14 @@ iframe{
 	transition: .5s;
 	width: 18px;
 	z-index: 2;
+}
+
+#price-info {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	margin-top: 20px;
 }
 
 #price-info .summary-line {

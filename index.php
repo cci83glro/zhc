@@ -245,7 +245,7 @@
 				</div>
 			</section>
 		
-			<div id="services-section">
+			<section id="services-section">
 				<div class="container">
 					<div class="sixteen columns">
 						<h1><span>Servicii</span></h1>
@@ -427,9 +427,9 @@
 					
 					<div class="clear"></div>
 				</div>
-			</div>
+			</section>
 
-			<div id="sep1">	
+			<!-- <div id="sep1">	
 				<a href="#contact" class="scroll">
 					<div id="action">	
 						<div class="container">	
@@ -463,68 +463,17 @@
 						</ul> 
 					</div>	
 				</div>	
-			</div>
+			</div> -->
 
-			<div id="pricing">
+			<section id="pricing-section">
 				<div class="container">
 					<div class="sixteen columns">
-						<h1><span>PRICING TABLES</span></h1>
-						<div class="head-subtext">You can configure your pricing table using the grid system in order to make it responsive for small devices.</div>
+						<h1><span>Calculator de Preț</span></h1>
+						<div class="head-subtext">Aici poți calcula prețul aproximativ, în funcție de serviciile dorite, și trimite cererea de ofertă pe email. Noi te vom contacta în cel mai scurt timp pentru a stabili următorii pași</div>
 					</div>
-					<div class="clear"></div>
-					<div class="one-third column" data-scrollreveal="enter left and move 150px over 1s">
-						<div class="services-offer">
-							<h6>STANDARD</h6>
-							<div class="services-icon">19</div>
-							<p>Curabitur justo urna, congue quis volutpat sed.</p>
-							<div class="services-list">
-								<ul class="list-services">
-									<li><p>Brand Design</p></li>
-									<li><p>User Interface</p></li>
-									<li><p>Illustrations</p></li>
-									<li><p>Social Media</p></li>
-									<li><p>Digital Installations</p></li>
-								</ul>
-							</div>
-							<a href="#"><div class="services-link">sing up</div></a>
-						</div>
-					</div>
-					<div class="one-third column" data-scrollreveal="enter bottom and move 150px over 1s">
-						<div class="services-offer featured">
-							<h6>PREMIUM</h6>
-							<div class="services-icon">39</div>
-							<p>Nulla odio elit, rutrum at convallis in, rhoncus ac urna.</p>
-							<div class="services-list">
-								<ul class="list-services">
-									<li><p>Product Design</p></li>
-									<li><p>User Interface</p></li>
-									<li><p>Search Engine Marketing</p></li>
-									<li><p>Social Media</p></li>
-									<li><p>Digital Installations</p></li>
-								</ul>
-							</div>
-							<a href="#"><div class="services-link">sing up</div></a>
-						</div>
-					</div>
-					<div class="one-third column" data-scrollreveal="enter right and move 150px over 1s">
-						<div class="services-offer">
-							<h6>ULTIMATE</h6>
-							<div class="services-icon">99</div>
-							<p>Curabitur justo urna, congue quis volutpat sed.</p>
-							<div class="services-list">
-								<ul class="list-services">
-									<li><p>Interactive Experience</p></li>
-									<li><p>User Interface</p></li>
-									<li><p>Search Engine Marketing</p></li>
-									<li><p>Social Media</p></li>
-									<li><p>Digital Installations</p></li>
-								</ul>
-							</div>
-							<a href="#"><div class="services-link">sing up</div></a>
-						</div>
-					</div>
+					<?php include_once "price-calculator.php"?>					
 				</div>
-			</div>
+			</section>
 
 			
 			<div id="logos">
@@ -552,7 +501,7 @@
 				</div>		
 			</div>		
 			
-			<div id="contact">				
+			<!-- <div id="contact">				
 				<div class="just_pattern"></div>
 				<div class="just_pattern1"></div>
 				<div class="parallax2"></div>
@@ -585,7 +534,7 @@
 				</div>
 				<a class="button-map close-map"><span>Locate Us on Map</span></a>
 			</div>
-			<div id="google_map"></div>	
+			<div id="google_map"></div>	 -->
 
 
 
@@ -656,7 +605,8 @@
 <script type="text/javascript" src="js/contact.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript" src="js/plugins.js"></script>
-<script type="text/javascript" src="js/template.js"></script>  	  
+<script type="text/javascript" src="js/price-calculator.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
 <!-- End Document
 ================================================== -->
 </body>
