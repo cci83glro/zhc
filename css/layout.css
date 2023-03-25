@@ -2608,13 +2608,18 @@ iframe{
 	margin-bottom: 0;
 }
 
+.price-calculator-section .areas-detail .title {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
 .price-calculator-section > label {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
 }
 
-.price-calculator-section > label > input {
+.price-calculator-section input {
 	width: auto;
 }
 
@@ -2647,6 +2652,116 @@ iframe{
 	display: block;
 	height: 6px;
 	width: 6px;
+}
+
+.price-calculator-section > .extra-service-toggle {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.price-calculator-section > .extra-service-toggle > .title {
+	margin: 0;
+	font-size: 16px;
+}
+
+.price-calculator-section > .extra-service-toggle > .toggle-wrapper {
+	align-items: center;
+	display: flex;
+	margin: 0 10px 0 0;
+	position: relative;
+}
+
+.price-calculator-section > .extra-service-toggle > .toggle-wrapper > input[type=checkbox]{
+	cursor: pointer;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	padding: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+.price-calculator-section > .extra-service-toggle > .toggle-wrapper > input[type=checkbox]:checked+label{
+	background: var(--gold-color);
+}
+
+.price-calculator-section > .extra-service-toggle > .toggle-wrapper > input[type=checkbox]:checked+label:after{
+	left: 24px;
+}
+
+.price-calculator-section > .extra-service-toggle > .toggle-wrapper > label{
+	background: var(--black-color);
+	border-radius: 45px;
+	display: inline-block;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 45px;
+}
+
+.price-calculator-section > .extra-service-toggle > .toggle-wrapper > label:after{
+	background: var(--main-bg-color);
+	border-color: black;
+	color: var(--gold-color);
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 100%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	content: "";
+	height: 18px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	transition: .5s;
+	width: 18px;
+	z-index: 2;
+}
+
+#price-info .summary-line {
+	position: relative;
+	width: 100%;
+	min-width: 300px;
+	margin-top: 10px;
+}
+
+#price-info .summary-line:first-child {
+	margin-top: 0;
+}
+
+#price-info .summary-line .summary-line-title {
+	display: inline-block;
+	width: 70%;
+}
+
+#price-info .summary-line:not(.indent) {
+	font-size: 16px;
+}
+
+#price-info .summary-line.indent {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+#price-info .summary-line.indent .summary-line-title {
+	padding-left: 10px;
+}
+
+#price-info .summary-line .summary-line-price,
+#price-info #summary-total .summary-line-price {
+	position: absolute;
+	right: 0;
+}
+
+#price-info #summary-total {
+	position: relative;
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+	min-width: 300px;
 }
 
 input[type="range"] {
