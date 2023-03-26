@@ -192,3 +192,27 @@ function calculate_total() {
 
 	_totalPrice.text(totalPrice + ' RON');
 }
+
+function sendCalculation() {
+	var message = "Bună ziua,\n\nV-am fi foarte recunoscători dacă ați putea să ne furnizați detalii despre cotația următoarelor servicii\n\n";
+	$('#summary-lines').children('.summary-line').each(function() {
+		if ($(this).hasClass('indent')){
+			message += '  ';
+		}
+
+		var title = $(this).children('.summary-line-title')[0].innerHTML;
+		var price = $(this).children('.summary-line-price')[0].innerHTML;
+		message += title + ' - ' + price + '\n';
+	});
+
+	var totalPrice = $('#summary-total').children('.summary-line-price')[0].innerHTML;
+	message += 'TOTAL - ' + totalPrice;
+
+	message += "\n\nAșteptăm cu nerăbdare un răspuns de la dvs.	Mulţumim anticipat!"
+
+	$('#message').text(message);
+
+	$('html, body').animate({
+        scrollTop: $("#contact-section").offset().top
+    }, 1500);
+}

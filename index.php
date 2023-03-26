@@ -87,22 +87,6 @@
 					</ul>
 				</div>
 				<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
-				<!-- <div class="social-top">
-					<ul class="list-social">
-						<li class="icon-soc tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'>
-							<a href="#">&#xf099;</a>
-						</li>
-						<li class="icon-soc tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'>
-							<a href="#">&#xf09a;</a>
-						</li>
-						<li class="icon-soc tipped" data-title="github"  data-tipper-options='{"direction":"top","follow":"true"}'>
-							<a href="#">&#xf09b;</a>
-						</li>
-						<li class="icon-soc tipped" data-title="google +"  data-tipper-options='{"direction":"top","follow":"true"}'>
-							<a href="#">&#xf0d5;</a>
-						</li>
-					</ul>	
-				</div>	 -->
 				<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="images/1.jpg"> 
 					<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 				</video>		
@@ -438,42 +422,6 @@
 				</div>
 			</section>
 
-			<!-- <div id="sep1">	
-				<a href="#contact" class="scroll">
-					<div id="action">	
-						<div class="container">	
-							<div class="sixteen columns">
-								<h6>ARE YOU READY TO START A CONVERSATION?</h6> 
-								<p><small><span>Get In Touch!</span></small></p>
-							</div>	
-						</div>			
-					</div>
-				</a>			
-				<div class="just_pattern"></div>
-				<div class="just_pattern1"></div>
-				<div class="parallax1"></div>
-				<div class="container z-index">	
-					<div class="sixteen columns">
-						<ul class="slider3"> 
-							<li>
-								<div class="test">
-									<div class="icon-test">&#xf10e;</div> 
-									<h6>Pellentesque egestas ornare sagittis. Sed augue lorem, dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit.</h6>			
-									<p><span>John Doe, Utcrayons General director</span></p>
-								</div> 
-							</li> 
-							<li>
-								<div class="test">
-									<div class="icon-test">&#xf10e;</div> 
-									<h6>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per.</h6>			
-									<p><span>Caroline Smith, Imperio General director</span></p>
-								</div> 
-							</li>
-						</ul> 
-					</div>	
-				</div>	
-			</div> -->
-
 			<section id="pricing-section">
 				<div class="container">
 					<div class="sixteen columns">
@@ -489,6 +437,7 @@
 					<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
 						<h1><span>Contact</span></h1>
 						<div class="contact-wrap">
+							<p><a href="mailto:office@zenhomecleaning.ro"><i class="icon-contact1">&#xf0e0;</i>office@zenhomecleaning.ro</a></p>
 							<p><a href="tel:0040720997887"><i class="icon-contact1">&#xf095;</i>0720 997 887</a> | Luni–Duminică: 10–18</p>
 							<p><a target=_blank href="https://goo.gl/maps/8fSioDuxD2GWXHzB8"><i class="icon-contact1">&#xf041;</i>Strada Frumoasă 39, București 010986</a></p>
 							<h6>Formular de contact</h6>
@@ -508,7 +457,9 @@
 								<input name="phone" id="phone" type="text" />
 								<label for="message">Mesaj</label>
 								<textarea name="message" id="message"></textarea>
-								<div id="button-container"><button class="action-button" id="send">Trimite</button></div>
+								<div class="button-container">
+									<button class="action-button" id="send">Trimite</button>
+								</div>
 								<div class="error text-align-center" id="err-form">Datele introduse nu sunt valide!</div>
 								<div class="error text-align-center" id="err-timedout">Conexiunea către server a expirat!</div>
 								<div class="error" id="err-state"></div>
@@ -529,36 +480,6 @@
 					</div>
 				</div>	
 			</div>
-
-
-    <!-- Switch Panel -->
-    <!-- <div id="switch">
-        <div class="content-switcher" >        
-			<p>Color Options:</p>
-			<ul class="header">           
-				<li><a href="#" onClick="setActiveStyleSheet('orange'); return false;" class="button color switch" style="background-color:#e67e22"></a></li>
-				<li><a href="#" onClick="setActiveStyleSheet('green'); return false;" class="button color switch" style="background-color:#2ecc71"></a></li>
-				<li><a href="#" onClick="setActiveStyleSheet('red'); return false;" class="button color switch" style="background-color:#e74c3c"></a></li>
-				<li><a href="#" onClick="setActiveStyleSheet('blue'); return false;" class="button color switch" style="background-color:#3498db"></a></li>
-				<li><a href="#" onClick="setActiveStyleSheet('yellow'); return false;" class="button color switch" style="background-color:#f1c40f"></a></li> 
-			</ul>        
-			<div class="clear"></div>      
-			<p>Page Templates:</p> 
-			<div class="home-options">
-				<a href="http://ivang-design.com/chronos/slider/">Slider Version</a>
-				<a href="http://ivang-design.com/chronos/parallax/">Parallax Version</a>
-				<a href="http://ivang-design.com/chronos/light/">Light Version</a>
-			</div>  
-			<div id="hide">
-				<img  src="images/close.png" alt="" /> 
-			</div>
-        </div>
-	</div>
-	<div id="show" style="display: block;">
-        <div id="setting"></div>
-    </div> -->
-    <!-- Switch Panel -->
-
 	
 	<!-- JAVASCRIPT
     ================================================== -->

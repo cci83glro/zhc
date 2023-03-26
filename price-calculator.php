@@ -561,13 +561,16 @@
 <!-- ============= Office level 2 end ================ -->
 
 
-	<div id="price-info" class="price-calculator-section">
+	<section id="price-info" class="price-calculator-section">
 		<h4>Sumar</h4>
 		<div id="summary-lines"></div>
 		<div id="summary-total">
 			<span class="summary-line-title">Total</span>
 			<span class="summary-line-price" id="total-price">0 RON</span>
 		</div>
-		<button class="" id="send-calculation">Trimite cererea de ofertă</button></div>
-	</div>
+		<p>* Prețurile afișate sunt estimative. Prețul final se va stabili în urma unei verificări detaliate, făcută împreună cu clientul, la adresa locației.</p>
+		<div class="button-container">
+			<button class="action-button" id="send-calculation" onclick="sendCalculation();">Trimite cererea de ofertă</button>
+		</div>
+	</section>
 </section>
