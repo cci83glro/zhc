@@ -1,6 +1,6 @@
 ﻿<section id="price-calculator">
 	<div class="price-calculator-section" level='0'>
-		<h4>Tipul construcției</h4>
+		<h4>Tip construcție</h4>
 		<label>
 			<input type="radio" name="construction_type" value="house" data-ref-id="house-options"/>
 			<span class="radio-label">Apartament / casă</span>
@@ -16,7 +16,7 @@
 	</div>
 
 	<div id="house-options" class="price-calculator-section hideable" level='1'>
-		<h4>Tipul curățeniei</h4>
+		<h4>Tip curățenie</h4>
 		<!-- <p>Apartament / casă</p> -->
 		<label>
 			<input type="radio" name="house_cleaning_type" data-ref-id="house-options-generic"/>
@@ -32,7 +32,7 @@
 		</label>
 	</div>
 	<div id="office-options" class="price-calculator-section hideable" level='1'>
-		<h4>Tipul curățeniei</h4>
+		<h4>Tip curățenie</h4>
 		<!-- <p>Spațiu comercial / birou</p> -->
 		<label>
 			<input type="radio" name="office_cleaning_type" data-ref-id="office-options-generic"/>
@@ -568,5 +568,6 @@
 			<span class="summary-line-title">Total</span>
 			<span class="summary-line-price" id="total-price">0 RON</span>
 		</div>
+		<button class="" id="send-calculation">Trimite cererea de ofertă</button></div>
 	</div>
 </section>

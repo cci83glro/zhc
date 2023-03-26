@@ -3,15 +3,14 @@
 /* Code by David McKeown - craftedbydavid.com */
 /* Editable entries are bellow */
 
-$send_to = "mail@server.com";
-$send_subject = "Ajax form ";
-
-
+$send_to = "ciprian_condurachi@yahoo.com";
 
 /*Be careful when editing below this line */
 
 $f_name = cleanupentries($_POST["name"]);
+$send_subject = "Mesaj de la " . $f_name;
 $f_email = cleanupentries($_POST["email"]);
+$f_phone = cleanupentries($_POST["phone"]);
 $f_message = cleanupentries($_POST["message"]);
 $from_ip = $_SERVER['REMOTE_ADDR'];
 $from_browser = $_SERVER['HTTP_USER_AGENT'];
@@ -24,11 +23,12 @@ function cleanupentries($entry) {
 	return $entry;
 }
 
-$message = "This email was submitted on " . date('m-d-Y') . 
-"\n\nName: " . $f_name . 
+$message = "Mesaj trimis la data de " . date('d-m-Y') . 
+"\n\nNume: " . $f_name . 
 "\n\nE-Mail: " . $f_email . 
-"\n\nMessage: \n" . $f_message . 
-"\n\n\nTechnical Details:\n" . $from_ip . "\n" . $from_browser;
+"\n\nTelefon: " . $f_phone . 
+"\n\nMesaj: \n" . $f_message . 
+"\n\n\nDetalii tehnice:\n" . $from_ip . "\n" . $from_browser;
 
 $send_subject .= " - {$f_name}";
 

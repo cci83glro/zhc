@@ -43,6 +43,15 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="logo"></div>
+					<address class="contact-info">						
+						<div class="phones">
+							<a href="tel:0720997887"><i class="icon-telephone">&#xf095;</i> 0720 997 887</a>
+							<a href="tel:0767439439"><i class="icon-telephone">&#xf095;</i> 0767 439 439</a>
+						</div>
+						<a class="whats-app" href="https://api.whatsapp.com/send?phone=40767439439" target=_blank>
+							<div class="whats-app-icon"></div>
+						</a>
+					</address>
 					<ul class="slimmenu">
 						<li> 
 							<a class="scroll" href="#home">Acasă</a>
@@ -57,7 +66,7 @@
 							<a class="scroll" href="#services-section">Servicii oferite</a>
 						</li>
 						<li> 
-							<a class="scroll" href="#prices-section">Prețuri</a>
+							<a class="scroll" href="#pricing-section">Prețuri</a>
 						</li>
 						<li>
 							<a class="scroll" href="#contact-section">Contact</a>
@@ -78,7 +87,7 @@
 					</ul>
 				</div>
 				<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
-				<div class="social-top">
+				<!-- <div class="social-top">
 					<ul class="list-social">
 						<li class="icon-soc tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'>
 							<a href="#">&#xf099;</a>
@@ -93,7 +102,7 @@
 							<a href="#">&#xf0d5;</a>
 						</li>
 					</ul>	
-				</div>	
+				</div>	 -->
 				<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="images/1.jpg"> 
 					<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 				</video>		
@@ -112,7 +121,7 @@
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/values_620_620.webp" alt="Hands together" />
+									<img src="images/about/values_620_670.webp" alt="Hands together" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -133,7 +142,7 @@
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/safety_620_620.webp" alt="Hand wiping door handle" />
+									<img src="images/about/safety_620_670.webp" alt="Hand wiping door handle" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -153,7 +162,7 @@
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/about/transparency_620_620.webp" alt="Surveillance camera" />
+									<img src="images/about/transparency_620_670.webp" alt="Surveillance camera" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -185,7 +194,7 @@
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/products/ecology_620_620.webp" alt="Hand holding small tree" />
+									<img src="images/products/ecology_620_670.webp" alt="Hand holding small tree" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -205,7 +214,7 @@
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/products/steam_620_620.webp" alt="STeam cleaning the carpet" />
+									<img src="images/products/steam_620_670.webp" alt="STeam cleaning the carpet" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -225,7 +234,7 @@
 						<div class="flipWrapper">
 							<div class="card">
 								<div class="face front">
-									<img src="images/products/hepa_620_620.webp" alt="Vacuum cleaner in livingroom" />
+									<img src="images/products/hepa_620_670.webp" alt="Vacuum cleaner in livingroom" />
 									<div class="layover">
 										<p>Citește mai mult</p>
 									</div>
@@ -474,76 +483,49 @@
 					<?php include_once "price-calculator.php"?>					
 				</div>
 			</section>
-
 			
-			<div id="logos">
-				<div class="container z-index">	
+			<div id="contact-section">
+				<div class="container">
 					<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
-						<div class="logos-wrap">
-							<img  src="images/logos/1.png" alt="" />	
-						</div>
-						<div class="logos-wrap">
-							<img  src="images/logos/2.png" alt="" />	
-						</div>	
-						<div class="logos-wrap">
-							<img  src="images/logos/3.png" alt="" />	
-						</div>	
-						<div class="logos-wrap">
-							<img  src="images/logos/4.png" alt="" />	
-						</div>	
-						<div class="logos-wrap">
-							<img  src="images/logos/5.png" alt="" />	
-						</div>	
-						<div class="logos-wrap">
-							<img  src="images/logos/2.png" alt="" />	
-						</div>		
-					</div>
-				</div>		
-			</div>		
-			
-			<!-- <div id="contact">				
-				<div class="just_pattern"></div>
-				<div class="just_pattern1"></div>
-				<div class="parallax2"></div>
-				<div class="container z-index">	
-					<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
+						<h1><span>Contact</span></h1>
 						<div class="contact-wrap">
-							<p><i class="icon-contact1">&#xf095;</i><span>call us:</span> (381) 267-6386 <small><em>Monday–Friday | 9am–5pm (GMT +1)</em></small></p>
-							<p><i class="icon-contact1">&#xf041;</i><span>Visit Us:</span> First Street, Sunrise Avenue, New York, USA</p>
-							<h6>contact us:</h6>
+							<p><a href="tel:0040720997887"><i class="icon-contact1">&#xf095;</i>0720 997 887</a> | Luni–Duminică: 10–18</p>
+							<p><a target=_blank href="https://goo.gl/maps/8fSioDuxD2GWXHzB8"><i class="icon-contact1">&#xf041;</i>Strada Frumoasă 39, București 010986</a></p>
+							<h6>Formular de contact</h6>
 							<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-								<label for="name">Your Lovely Name: * 
-									<span class="error" id="err-name">please enter name</span>
-								</label>
+								<label for="name">Nume * 
+									<span class="error" id="err-name">Introduceți numele dvs.</span>
+								</label>								
 								<input name="name" id="name" type="text" />
-								<label for="email">E-Mail: * 
-									<span class="error" id="err-email">please enter e-mail</span>
-									<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+								<label for="email">E-Mail * 
+									<span class="error" id="err-email">Introducețt adresa de e-mail</span>
+									<span class="error" id="err-emailvld">Formatul adresei de e-mail nu este valid</span>
 								</label>
 								<input name="email" id="email" type="text" />
-								<label for="message">Tell Us Everything:</label>
+								<label for="phone">Telefon
+									<span class="error" id="err-phone">Introduceți numărul de telefon</span>
+								</label>								
+								<input name="phone" id="phone" type="text" />
+								<label for="message">Mesaj</label>
 								<textarea name="message" id="message"></textarea>
-								<div id="button-con"><button class="send_message" id="send">Submit</button></div>	
-								<div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
-								<div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
+								<div id="button-container"><button class="action-button" id="send">Trimite</button></div>
+								<div class="error text-align-center" id="err-form">Datele introduse nu sunt valide!</div>
+								<div class="error text-align-center" id="err-timedout">Conexiunea către server a expirat!</div>
 								<div class="error" id="err-state"></div>
 							</form>
-							<div id="ajaxsuccess">Successfully sent!!</div>	
+							<div id="ajaxsuccess">Mesajul a fost trimis!</div>
 						</div>
 					</div>	
 				</div>
-				<a class="button-map close-map"><span>Locate Us on Map</span></a>
+				<!-- <a class="button-map close-map"><span>Locate Us on Map</span></a> -->
 			</div>
-			<div id="google_map"></div>	 -->
-
-
-
+			<!-- <div id="google_map"></div> -->
 
 			<div id="footer">
 				<a class="scroll" href="#home"><div class="back-top">&#xf102;</div></a>	
 				<div class="container">
 					<div class="sixteen columns">
-						<p><small>Trepavo Creative AGency</small></p>
+						<p><small>Trepavo Creative Agency</small></p>
 					</div>
 				</div>	
 			</div>
