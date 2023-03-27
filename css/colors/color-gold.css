@@ -16,12 +16,12 @@ ul.slimmenu li ul li a:hover {
 .line-drawing path {
 	stroke: var(--gold-color);
 }
-h1 span:before  {
+/* h1 span:before  {
 	color: var(--gold-color);
-}
+} 
 h1 span:after  {
 	color: var(--gold-color);
-}
+}*/
 .team-social li.icon-team a {
 	color:var(--gold-color);
 }

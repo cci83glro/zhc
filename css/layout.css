@@ -319,7 +319,7 @@ body.royal_loader {
 }
 
 
-.cbp-af-header {
+/* .cbp-af-header {
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
@@ -327,7 +327,6 @@ body.royal_loader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	/* background:rgba(60,60,60,.8); */
 	background:var(--gray-transparent);
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
@@ -365,7 +364,11 @@ body.royal_loader {
 	background:none;
 }
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li ul li:first-child { 
-	background:none; }
+	background:none; } 
+.cbp-af-header.cbp-af-header-shrink .contact-info a {
+	color: var(--main-bg-color);
+}*/
+
 ul.slimmenu li ul li a {
     color: #fff;
 }
@@ -381,18 +384,18 @@ ul.slimmenu li ul {
 
 .logo{
 	position:absolute;
-	width:146px;
-	height:80px;
+	width:75px;
+	height:75px;
 	z-index:10000;
 	left:10px;
 	top:10px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:146px 80px;
+	background:url('../images/logo_200_200.png') no-repeat center center;
+	background-size:75px 75px;
 }
 
 .contact-info {
 	position: absolute;	
-	left: 51%;
+	right: 0;
 	top: 18px;
 	-ms-transform: translate(-50%, 0);
   	transform: translate(-50%, 0);
@@ -406,8 +409,21 @@ ul.slimmenu li ul {
 	font-weight: bold;
 }
 
-.cbp-af-header.cbp-af-header-shrink .contact-info a {
-	color: var(--main-bg-color);
+.contact-info .whats-app-icon{
+	width:40px;
+	height:40px;
+	background:url('../images/whats-app.png') no-repeat center center;
+	background-size:40px 40px;
+}
+
+
+.contact-info a.whats-app {
+	display: inline-block;
+	margin-left: 15px;
+}	
+.contact-info .phones {
+	display: inline-block;
+	color: var(--black-color);
 }
 
 .menu-collapser {
@@ -487,7 +503,6 @@ ul.slimmenu {
 ul.slimmenu li {
     position: relative;
     display: inline-block;
-	background:url('../images/line1.png') 0 14px no-repeat;
 	background-size:15px 10px;
 	padding-left:20px;
 }
@@ -2863,75 +2878,68 @@ border-radius: 50%;
 
 
 @media only screen and (max-width: 800px) {
-h1 { font-size: 28px; line-height:28px; }
-#royal_preloader.text .loader {
-    letter-spacing: 2px;
-    font-size: 26px;
-}
-.logo{
-	width:60px;
-	height:60px;
-	left:5px;
-	top:10px;
-	background:url('../images/logo_200_200.png') no-repeat center center;
-	background-size:60px 60px;
-}
-.contact-info a.whats-app {
-	display: inline-block;
-	margin-left: 15px;
-}
-.contact-info .whats-app-icon{
-	width:40px;
-	height:40px;
-	background:url('../images/whats-app.png') no-repeat center center;
-	background-size:40px 40px;
-}
-.contact-info .phones {
-	display: inline-block;
-	color: var(--black-color);
-}
-.contact-info .phones i {
-	margin-right: 3px;
-}
-.cbp-af-header.cbp-af-header-shrink .logo{
-	width:60px;
-	height:60px;
-	left:5px;
-	top:10px;
-	background:url('../images/logo_200_200.png') no-repeat center center;
-	background-size:60px 60px;
-	-webkit-transition : all 0.5s ease-out;
-	-moz-transition : all 0.5s ease-out;
-	-o-transition :all 0.5s ease-out;
-	transition : all 0.5s ease-out;
-}
-.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a {
-    border-bottom: 1px solid var(--main-bg-color);
-}
-.cbp-af-header.cbp-af-header-shrink ul.slimmenu li:last-child a {
-    border-bottom: none;
-}
-.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a:hover {
-    border-bottom:none;
-	background:none;
-}
-.cbp-af-header.cbp-af-header-shrink ul.slimmenu li {
-	background:none;
-}
-ul.slimmenu li a: {
-    border-bottom:none;
-}
-ul.slimmenu li a:hover {
-    border-bottom:none;
-	background:none;
-}
-ul.slimmenu li {
-	background:none;
-}
-ul.slimmenu li > ul {
-    width: 100%;
-	text-align:right;
-}
+	h1 { font-size: 28px; line-height:28px; }
+	#royal_preloader.text .loader {
+		letter-spacing: 2px;
+		font-size: 26px;
+	}
+	.logo{
+		width:60px;
+		height:60px;
+		left:5px;
+		top:10px;
+		background:url('../images/logo_200_200.png') no-repeat center center;
+		background-size:60px 60px;
+	}
+	.contact-info .phones i {
+		margin-right: 3px;
+	}
+	.cbp-af-header.cbp-af-header-shrink .logo{
+		width:60px;
+		height:60px;
+		left:5px;
+		top:10px;
+		background:url('../images/logo_200_200.png') no-repeat center center;
+		background-size:60px 60px;
+		-webkit-transition : all 0.5s ease-out;
+		-moz-transition : all 0.5s ease-out;
+		-o-transition :all 0.5s ease-out;
+		transition : all 0.5s ease-out;
+	}
+	.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a {
+		border-bottom: 1px solid var(--main-bg-color);
+	}
+	.cbp-af-header.cbp-af-header-shrink ul.slimmenu li:last-child a {
+		border-bottom: none;
+	}
+	.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a:hover {
+		border-bottom:none;
+		background:none;
+	}
+	.cbp-af-header.cbp-af-header-shrink ul.slimmenu li {
+		background:none;
+	}
+	ul.slimmenu li a: {
+		border-bottom:none;
+	}
+	ul.slimmenu li a:hover {
+		border-bottom:none;
+		background:none;
+	}
+	ul.slimmenu li {
+		background:none;
+	}
+	ul.slimmenu li > ul {
+		width: 100%;
+		text-align:right;
+	}
+	.contact-info {
+		left: 51%;
+		right: auto;
+	}
+	#menu-wrap .container .sixteen.columns{
+		width: 100%;
+	}
 }
 
 @media only screen and (min-width: 960px) {
