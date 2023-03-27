@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<?php
+    include_once "mailer.php";
+?>
+
+<!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]>
 <!--><html class="no-js" lang="en"><!--<![endif]-->
@@ -441,7 +445,7 @@
 							<p><a href="tel:0040720997887"><i class="icon-contact1">&#xf095;</i>0720 997 887</a> | Luni–Duminică: 10–18</p>
 							<p><a target=_blank href="https://goo.gl/maps/8fSioDuxD2GWXHzB8"><i class="icon-contact1">&#xf041;</i>Strada Frumoasă 39, București 010986</a></p>
 							<h6>Formular de contact</h6>
-							<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+							<form name="ajax-form" id="ajax-form" action="mailer.php" method="post">
 								<label for="name">Nume * 
 									<span class="error" id="err-name">Introduceți numele dvs.</span>
 								</label>								

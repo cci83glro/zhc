@@ -17,11 +17,6 @@
 		}
 	);
 	
-
-
-
-
-	
 //Navigation	
 
 $('ul.slimmenu').on('click',function(){
@@ -198,19 +193,6 @@ $(document).ready(function () {
 		});
 
 });	
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
-
- 
  
  //Colorbox single project pop-up
 
