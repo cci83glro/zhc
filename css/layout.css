@@ -2645,7 +2645,7 @@ iframe{
 	line-height: 16px;
 }
 
-.price-calculator-section.hideable {
+#price-calculator .hideable {
 	display: none;
 }
 
@@ -2711,6 +2711,10 @@ iframe{
 	display: block;
 	height: 6px;
 	width: 6px;
+}
+
+.price-calculator-section .extra-service-detail > label {
+	display: inline-block;
 }
 
 .price-calculator-section > .extra-service-toggle {

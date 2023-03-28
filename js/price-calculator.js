@@ -95,14 +95,33 @@ function get_areas_price() {
 function get_extras_price() {
 	var totalPrice = 0;
 	var visibleExtrasSections = $('.price-calculator-section.extras:visible');
-	visibleExtrasSections.each(function() {
-		var chosenExtras = $(this).find("input[type=checkbox]:checked");
-		if (chosenExtras.length === 0) return;
 
+	visibleExtrasSections.each(function() {
+		var extras = $(this).find("input[type=checkbox]");
+		if (extras.length === 0) return;
+		
 		var sectionText = $(this).attr("data-text");
 		var sectionTotalPrice = 0;
 		var sectionLines = "";
-		chosenExtras.each(function(c) {
+		extras.each(function() {
+			var refId = '#' + $(this).attr("data-ref-id");
+			var checked = $(this).is(":checked");
+			if (typeof refId !== '#undefined') {
+				if (checked){
+					if ($(refId).is(":hidden")) {
+						show_progressive($(refId));
+					}
+					var inputChild = $(refId).children("input")[0];
+					var val = parseInt(inputChild.value);
+					$('#' + inputChild.id + '-value').val(val);
+				} else {
+					if ($(refId).is(":visible")) {
+						$(refId).hide();
+					}
+				}
+
+				return true;
+			}
 			var price = parseInt($(this).attr("data-price-per-unit"));
 			if (price > 0)
 			{

@@ -19,15 +19,17 @@
 		<h4>Tip curățenie</h4>
 		<!-- <p>Apartament / casă</p> -->
 		<label>
-			<input type="radio" name="house_cleaning_type" data-ref-id="house-options-generic"/>
+			<input type="radio" name="house_cleaning_type" data-ref-id="house-options-generic" data-key="generic"/>
 			<span class="radio-label">Generală</span>
 		</label>
 		<label>
-			<input type="radio" name="house_cleaning_type" data-ref-id="house-options-maintenance"/>
+			<!-- <input type="radio" name="house_cleaning_type" data-ref-id="house-options-maintenance"/> -->
+			<input type="radio" name="house_cleaning_type" data-ref-id="house-options-generic"  data-key="maintenance"/>
 			<span class="radio-label">Întreținere</span>
 		</label>
 		<label>
-			<input type="radio" name="house_cleaning_type"  data-ref-id="house-options-constructor"/>
+			<!-- <input type="radio" name="house_cleaning_type"  data-ref-id="house-options-constructor"/> -->
+			<input type="radio" name="house_cleaning_type"  data-ref-id="house-options-generic" data-key="constructor"/>
 			<span class="radio-label">După constructor</span>
 		</label>
 	</div>
@@ -63,43 +65,45 @@
 			<p class="title">Nr. camere</p>
 			<output id="house-options-generic-number-of-rooms-value">0</output>
 			<input type="range" id="house-options-generic-number-of-rooms" min='0' max='10' step='1' value='0' 
-				data-ref-id="house-options-generic-room-extra-options" data-text="Curățenie generală camere" data-price-per-unit='125'
+				data-ref-id="house-options-generic-room-extra-options" data-text="Curățenie generală camere"
+				data-price-per-unit-generic='125' data-price-per-unit-maintenance='75' data-price-per-unit-constructor='150'
 				oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail">
 			<p class="title">Nr. băi</p>
 			<output id="house-options-generic-number-of-bathrooms-value">0</output>
-			<input type="range" id="house-options-generic-number-of-bathrooms" min='0' max='10' step='1' value='0' 
-				data-text="Curățenie generală băi" data-price-per-unit='150' oninput="calculate_total();"/>
+			<input type="range" id="house-options-generic-number-of-bathrooms" min='0' max='10' step='1' value='0' data-text="Curățenie generală băi"
+			data-price-per-unit-generic='150' data-price-per-unit-maintenance='75' data-price-per-unit-constructor='150' oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail">
 			<p class="title">Nr. bucătării</p>
 			<output id="house-options-generic-number-of-kitchens-value">0</output>
 			<input type="range" id="house-options-generic-number-of-kitchens" min='0' max='10' step='1' value='0'
-				data-ref-id="house-options-generic-kitchen-extra-options" data-text="Curățenie generală bucătării" data-price-per-unit='175'
+				data-ref-id="house-options-generic-kitchen-extra-options" data-text="Curățenie generală bucătării" 
+				data-price-per-unit-generic='175' data-price-per-unit-maintenance='100' data-price-per-unit-constructor='200'
 				oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail">
 			<p class="title">Nr. balcoane</p>
 			<output id="house-options-generic-number-of-balconies-value">0</output>
-			<input type="range" id="house-options-generic-number-of-balconies" min='0' max='10' step='1' value='0'
-				data-text="Curățenie generală balcoane" data-price-per-unit='50' oninput="calculate_total();"/>
+			<input type="range" id="house-options-generic-number-of-balconies" min='0' max='10' step='1' value='0' data-text="Curățenie generală balcoane"
+			data-price-per-unit-generic='50' data-price-per-unit-maintenance='25' data-price-per-unit-constructor='50' oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail">
 			<p class="title">Nr. terase</p>
 			<output id="house-options-generic-number-of-terraces-value">0</output>
-			<input type="range" id="house-options-generic-number-of-terraces" min='0' max='10' step='1' value='0'
-				data-text="Curățenie generală terase" data-price-per-unit='75' oninput="calculate_total();"/>
+			<input type="range" id="house-options-generic-number-of-terraces" min='0' max='10' step='1' value='0' data-text="Curățenie generală terase"
+			data-price-per-unit-generic='75' data-price-per-unit-maintenance='50' data-price-per-unit-constructor='50' oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail">
 			<p class="title">Nr. mansarde</p>
 			<output id="house-options-generic-number-of-attics-value">0</output>
-			<input type="range" id="house-options-generic-number-of-attics" min='0' max='10' step='1' value='0'
-				data-text="Curățenie generală terase" data-price-per-unit='75' oninput="calculate_total();"/>
+			<input type="range" id="house-options-generic-number-of-attics" min='0' max='10' step='1' value='0' data-text="Curățenie generală terase"
+			data-price-per-unit-generic='75' data-price-per-unit-maintenance='50' data-price-per-unit-constructor='50' oninput="calculate_total();"/>
 		</div>			
 	</div>
 
-	<div id="house-options-maintenance" class="price-calculator-section areas hideable" level='2'>
+	<!-- <div id="house-options-maintenance" class="price-calculator-section areas hideable" level='2'>
 		<h4>Spații de curățat</h4>
 		<div class="areas-detail">
 			<p class="title">Nr. camere</p>
@@ -181,7 +185,7 @@
 			<input type="range" id="house-options-constructor-number-of-attics" min='0' max='10' step='1' value='0'
 				data-text="Curățenie după constructor mansarde" data-price-per-unit='50' oninput="calculate_total();"/>
 		</div>
-	</div>
+	</div> -->
 
 <!-- ============= House level 2 end ================ -->
 
@@ -189,7 +193,7 @@
 <!-- ============= House level 3 start ================ -->
 	<div id="house-options-generic-room-extra-options" class="price-calculator-section extras hideable" 
 		data-text="Servicii extra - dormitor" level='3'>
-		<h4>Servicii extra - dormitor</h4>
+		<h4>Servicii extra living / dormitor</h4>
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare interior mobilier" data-price-per-unit='60' oninput="calculate_total();"/>
@@ -197,7 +201,7 @@
 			</div>
 			<p class="title">Curățare interior mobilier</p>
 		</div>
-		<div class="extra-service-toggle">
+		<!-- <div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare saltea" data-price-per-unit='100' oninput="calculate_total();"/>
 				<label></label>
@@ -231,15 +235,21 @@
 				<label></label>
 			</div>
 			<p class="title">Curățare canapea șezlong</p>
-		</div>
+		</div> -->
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
-				<input type="checkbox" data-text="Curățare canapea 2 locuri" data-price-per-unit='139' oninput="calculate_total();"/>
+				<input type="checkbox" data-ref-id="couch-number-of-seats" oninput="calculate_total();"/>
 				<label></label>
 			</div>
-			<p class="title">Curățare canapea 2 locuri</p>
+			<p class="title">Curățare cu injecție/extracție canapea sau scaun (preț estimativ, se calculează la nr. de locuri)</p>			
 		</div>
-		<div class="extra-service-toggle">
+		<div id="couch-number-of-seats" class="extra-service-detail hideable">
+			<label>Nr. locuri</label>
+			<output id="couch-number-of-seats-input-value">0</output>
+			<input type="range" id="couch-number-of-seats-input" min='0' max='10' step='1' value='2' data-text="Curățenie canapea/scaun"
+			data-price-per-unit-generic='50' oninput="calculate_total();"/>
+		</div>
+		<!-- <div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare canapea 3 locuri" data-price-per-unit='179' oninput="calculate_total();"/>
 				<label></label>
@@ -259,27 +269,27 @@
 				<label></label>
 			</div>
 			<p class="title">Curățare canapea în L 6/7 locuri</p>
-		</div>
+		</div> -->
 	</div>
 
 	<div id="house-options-generic-kitchen-extra-options" class="price-calculator-section extras hideable"
 		data-text="Servicii extra - bucătărie" level='3'>
 		<h4>Servicii extra - bucătărie</h4>
-		<div class="extra-service-toggle">
+		<!-- <div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Spălare vase" data-price-per-unit='25' oninput="calculate_total();"/>
 				<label></label>
 			</div>
 			<p class="title">Spălare vase</p>
-		</div>
+		</div> -->
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
-				<input type="checkbox" data-text="Curățare frigider interior" data-price-per-unit='50' oninput="calculate_total();"/>
+				<input type="checkbox" data-text="Curățare electrocasnice interior" data-price-per-unit='50' oninput="calculate_total();"/>
 				<label></label>
 			</div>
-			<p class="title">Curățare frigider interior</p>
+			<p class="title">Curățare electrocasnice interior (frigider, cuptor microunde etc.)</p>
 		</div>
-		<div class="extra-service-toggle">
+		<!-- <div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare hotă" data-price-per-unit='30' oninput="calculate_total();"/>
 				<label></label>
@@ -299,7 +309,7 @@
 				<label></label>
 			</div>
 			<p class="title">Curățare cuptor aragaz interior</p>
-		</div>
+		</div> -->
 	</div>
 
 	<div id="house-options-maintenance-room-extra-options" class="price-calculator-section extras hideable" 
