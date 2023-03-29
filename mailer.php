@@ -2,6 +2,9 @@
 
 include_once "smtp.php";
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+
 if (array_key_exists('email', $_POST)) {
     date_default_timezone_set('Etc/UTC');
     require './vendor/autoload.php';
@@ -42,15 +45,15 @@ if (array_key_exists('email', $_POST)) {
         $mail->addAddress($smtp_toEmail);
         
         if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-            $mail->Subject = $_POST['subject'];
+            $mail->Subject = "Detaliere ofertă de preț";
             //Keep it simple - don't use HTML
             $mail->isHTML(false);
             //Build a simple message body
             $mail->Body = <<<EOT
-    Navn: {$_POST['name']}
+    Nume: {$_POST['name']}
     Telefon: {$_POST['phone']}
     Email: {$_POST['email']}
-    Besked: {$_POST['message']}
+    Mesaj: {$_POST['message']}
     EOT;
     
             //Send the message, check for errors
@@ -63,18 +66,18 @@ if (array_key_exists('email', $_POST)) {
     
                 $response = [
                     "status" => false,
-                    "message" => 'Der er opstået en fejl!<br/>Prøv venligst igen senere eller brug vores kontakt info til at skrive/ringe til os.'
+                    "message" => 'Eroare la trimiterea mesajului!<br/>Vă rugăm reveniți mai târziu sau contactați-ne telefonic sau prin email.'
                 ];
             } else {
                 $response = [
                     "status" => true,
-                    "message" => 'Tak for din besked!<br/>Vi vender tilbage hurtigst muligt.'
+                    "message" => 'Mulțumim pentru mesaj!<br/>Vă vom contacta cât mai curând posibil.'
                 ];
             }
         } else {
             $response = [
                 "status" => false,
-                "message" => 'Ugyldig email, prøv venligst igen!<br/>Beskeden er ikke blevet sendt.'
+                "message" => 'Adresa de email nu este validă!'
             ];
         }
 

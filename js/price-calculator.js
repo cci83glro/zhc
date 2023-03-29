@@ -246,7 +246,7 @@ function sendCalculation() {
 
 		var title = $(this).children('.summary-line-title')[0].innerHTML;
 		var price = $(this).children('.summary-line-price')[0].innerHTML;
-		message += title + ' - ' + price + '\n';
+		message += title + ' = ' + price + '\n';
 	});
 
 	var totalPrice = $('#summary-total').children('.summary-line-price')[0].innerHTML;

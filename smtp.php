@@ -8,6 +8,7 @@
   $smtp_secure = 'ssl';//PHPMailer::ENCRYPTION_SMTPS;
   $smtp_fromEmail = 'robot@letvikar.dk';
   $smtp_fromName = 'Mail robot';
-  $smtp_toEmail = 'kontakt@letvikar.dk';
+  //$smtp_toEmail = 'kontakt@letvikar.dk';
+  $smtp_toEmail = 'ciprian_condurachi@yahoo.com';
 
 ?>
