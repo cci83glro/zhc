@@ -2728,8 +2728,8 @@ iframe{
 }
 
 .price-calculator-section > .extra-service-toggle > .toggle-wrapper {
-	align-items: center;
-	display: flex;
+	/* align-items: center;
+	display: flex; */
 	margin: 0 10px 0 0;
 	position: relative;
 }
@@ -2781,6 +2781,15 @@ iframe{
 	transition: .5s;
 	width: 18px;
 	z-index: 2;
+}
+
+.areas-detail > output,
+.extra-service-detail > output{
+	font-weight: bold;	
+}
+
+.title-and-slider > .title {
+	margin-bottom: 5px;
 }
 
 #price-info {

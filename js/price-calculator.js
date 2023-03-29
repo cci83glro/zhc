@@ -52,6 +52,11 @@ function Handle_radio(option) {
 
 	var refId = $(option).attr('data-ref-id');
 	show_progressive($('#'+refId));
+
+	var key = $(option).attr("data-key");
+	if (typeof key !== 'undefined') {
+		$('#'+refId).attr('data-key', key);
+	}
 	
 	activate_selected_children($('#'+refId));
 	calculate_total();
@@ -66,7 +71,9 @@ function show_progressive(el) {
 
 function get_areas_price() {
 	var totalPrice = 0;
-	var visibleRangeInputs = $('.price-calculator-section.areas:visible .areas-detail input[type=range]');
+	var visiblePriceCalculatorSection = $('.price-calculator-section.areas:visible')[0];
+	var visibleRangeInputs = $(visiblePriceCalculatorSection).find('.areas-detail input[type=range]');
+
 	visibleRangeInputs.each(function(){
 		var val = $(this).val();
 		$('#' + this.id + '-value').text(val);
@@ -79,11 +86,12 @@ function get_areas_price() {
 			$(refId).hide();
 		}
 
-		var price = val * $(this).attr('data-price-per-unit');
+		var key = $(visiblePriceCalculatorSection).attr('data-key');
+		var price = val * $(this).attr('data-price-per-unit-' + key);
 		if (price > 0) {
 			_summaryLines.append(
 				_summaryListItem
-				.replace('{{summaryLineTitle}}', $(this).attr('data-text'))
+				.replace('{{summaryLineTitle}}', $(this).attr('data-text-' + key))
 				.replace('{{summaryLinePrice}}', price + ' RON'));
 		}
 		totalPrice += price;
@@ -106,22 +114,39 @@ function get_extras_price() {
 		extras.each(function() {
 			var refId = '#' + $(this).attr("data-ref-id");
 			var checked = $(this).is(":checked");
-			if (typeof refId !== '#undefined') {
-				if (checked){
-					if ($(refId).is(":hidden")) {
-						show_progressive($(refId));
-					}
-					var inputChild = $(refId).children("input")[0];
-					var val = parseInt(inputChild.value);
-					$('#' + inputChild.id + '-value').val(val);
-				} else {
+			if (refId !== '#undefined') {
+				if (!checked){
 					if ($(refId).is(":visible")) {
 						$(refId).hide();
 					}
+					return true;
+				}
+
+				if ($(refId).is(":hidden")) {
+					show_progressive($(refId));
+				}
+				var inputChild = $(refId).children("input")[0];
+				var val = parseInt(inputChild.value);
+				$('#' + inputChild.id + '-value').val(val);
+				
+				var pricePerUnit = parseInt($(inputChild).attr('data-price-per-unit-generic'));
+				var price = val * pricePerUnit;
+				var dataUnitAttr = 'data-unit';
+				if (val === 1) dataUnitAttr += '-1';
+
+				if (price > 0){
+					var text = $(inputChild).attr('data-text') + ' - ' + val + ' ' + $(inputChild).attr(dataUnitAttr) + ' * ' + pricePerUnit + ' RON';
+					sectionLines += _summaryListItemWithIndent
+						.replace('{{summaryLineTitle}}', text)
+						.replace('{{summaryLinePrice}}', price + ' RON');
+					sectionTotalPrice += price;	
 				}
 
 				return true;
 			}
+		
+
+			if (!checked) return true;
 			var price = parseInt($(this).attr("data-price-per-unit"));
 			if (price > 0)
 			{
