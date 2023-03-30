@@ -91,7 +91,7 @@
 					</ul>
 				</div>
 				<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
-				<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="images/1.jpg"> 
+				<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster=""> 
 					<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 				</video>		
 				<a class="scroll" href="#about-section"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
@@ -247,6 +247,7 @@
 					<div class="sixteen columns">
 						<h1><span>Servicii</span></h1>
 						<div class="head-subtext">Stăm la dispoziția clienților noștri cu o gamă largă de servicii de curățenie atât în domeniul rezidențial, cât și în cel comercial</div>
+						<div class="head-subtext"><b>Satisfacție garantată!</b> rambursăm 100% contravaloarea sesiunii de curățenie în cazul în care sunteți nemulțumiți de serviciile noastre</div>
 					</div>
 					<div class="clear"></div>
 
@@ -254,7 +255,9 @@
 						<div class="card">
 							<div class="face front">
 								<i class="flaticon-cleaning-service"></i>
-								<h6>Curățenie generală</h6>
+								<div class="title-wrapper">
+									<h6>Curățenie generală</h6>
+								</div>
 								<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
 								<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
 								<p><i class="flaticon-next"></i>Curățare prize, plinte, întrerupătoare, tablouri electrice și guri de aerisire</p>
@@ -285,7 +288,9 @@
 						<div class="card">
 							<div class="face front">
 								<i class="flaticon-mop"></i>
-								<h6>Curățenie de întreținere</h6>
+								<div class="title-wrapper">
+									<h6>Curățenie de întreținere</h6>
+								</div>
 								<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
 								<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
 								<p><i class="flaticon-next"></i>Ștergerea de praf a pervazelor</p>
@@ -316,7 +321,9 @@
 						<div class="card">
 							<div class="face front">
 								<i class="flaticon-house"></i>
-								<h6 class="long">Curățenie asociații de proprietari și ansambluri rezidențiale</h6>
+								<div class="title-wrapper long-title">
+									<h6>Curățenie asociații de proprietari și ansambluri rezidențiale</h6>
+								</div>
 								<p><i class="flaticon-next"></i>Aspirat, spălat casa scărilor</p>
 								<p><i class="flaticon-next"></i>Aspirat și spălat intrările în bloc</p>
 								<p><i class="flaticon-next"></i>Măturat aleea de acces în scările de bloc</p>
@@ -344,7 +351,9 @@
 						<div class="card">
 							<div class="face front">
 								<i class="flaticon-disinfectant"></i>
-								<h6 class="long">Curățenia după constructor</h6>
+								<div class="title-wrapper">
+									<h6>Curățenia după constructor</h6>
+								</div>
 								<p><i class="flaticon-next"></i>Aspirarea pereților</p>
 								<p><i class="flaticon-next"></i>Spălarea gresiei și faianței</p>
 								<p><i class="flaticon-next"></i>Curățarea grinzilor și geamurilor</p>
@@ -371,7 +380,9 @@
 						<div class="card">
 							<div class="face front">
 								<i class="flaticon-online-booking"></i>
-								<h6>Curățenia birourilor</h6>
+								<div class="title-wrapper">
+									<h6>Curățenia birourilor</h6>
+								</div>
 								<p><i class="flaticon-next"></i>Aspirarea întregii suprafețe</p>
 								<p><i class="flaticon-next"></i>Aspirarea și spălarea prin injecție-extracție a covoarelor, mochetelor și tapițeriilor</p>
 								<p><i class="flaticon-next"></i>Aspirarea și spălarea pardoselilor</p>
@@ -401,7 +412,9 @@
 						<div class="card">
 							<div class="face front">
 								<i class="flaticon-carpet"></i>
-								<h6 class="long">Curățare profesională canapele și mochete</h6>
+								<div class="title-wrapper">
+									<h6>Curățare profesională canapele și mochete</h6>
+								</div>
 								<p><i class="flaticon-next"></i>Curățarea se face utilizând un sistem profesional de injecție-extracție</p>
 								<p><i class="flaticon-next"></i>Timp de uscare minim</p>
 								<p><i class="flaticon-next"></i>Înlăturăm peste 90% din pete</p>
@@ -463,6 +476,7 @@
 								<textarea name="message" id="message"></textarea>
 								<div class="button-container">
 									<button class="action-button" id="send">Trimite</button>
+									<img class="loader" src="images/loader.gif" alt="Loader image" />
 								</div>
 								<div class="error text-align-center" id="err-form">Datele introduse nu sunt valide!</div>
 								<div class="error text-align-center" id="err-timedout">Conexiunea către server a expirat!</div>
@@ -489,7 +503,8 @@
     ================================================== -->
 <script type="text/javascript" src="js/jquery.js"></script>	
 <script type="text/javascript" src="js/modernizr.custom.js"></script> 
-<!--<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+
+<script type="text/javascript" src="js/royal_preloader.min.js"></script>
  <script type="text/javascript">
             Royal_Preloader.config({
                 mode:           'text', // 'number', "text" or "logo"
@@ -499,7 +514,8 @@
                 opacity:        1,
                 background:     ['#000000']
             });
-</script>	 -->
+</script>	
+
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
 <script type="text/javascript" src="js/styleswitcher.js"></script>
@@ -511,7 +527,9 @@
 <script type="text/javascript" src="js/jquery.colorbox.js"></script> 
 <script type="text/javascript" src="js/contact.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
+<!-- <script type="text/javascript" src="js/plugins.js"></script> -->
+<script type="text/javascript" src="js/jquery.slimmenu.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="js/price-calculator.js"></script>
 <script type="text/javascript" src="js/template.js"></script>
 <!-- End Document

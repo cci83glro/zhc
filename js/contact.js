@@ -2,6 +2,7 @@
 jQuery(document).ready(function ($) { // wait until the document is ready
 	$('#send').click(function(){ // when the button is clicked the code executes
 		$('.error').fadeOut('slow'); // reset the error messages (hides them)
+		$('.loader').fadeIn('slow');
 
 		var error = false; // we will set this true if the form isn't valid
 
@@ -48,6 +49,7 @@ jQuery(document).ready(function ($) { // wait until the document is ready
 			}
 		});
 
+		$('.loader').fadeOut('slow');
 		return false; // stops user browser being directed to the php file
 	}); // end click function
 });

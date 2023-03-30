@@ -66,7 +66,8 @@ if (array_key_exists('email', $_POST)) {
     
                 $response = [
                     "status" => false,
-                    "message" => 'Eroare la trimiterea mesajului!<br/>Vă rugăm reveniți mai târziu sau contactați-ne telefonic sau prin email.'
+                    "message" => 'Eroare la trimiterea mesajului!<br/>Vă rugăm reveniți mai târziu sau contactați-ne telefonic sau prin email.',
+                    "debug" => $mail->ErrorInfo
                 ];
             } else {
                 $response = [

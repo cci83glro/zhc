@@ -238,7 +238,7 @@ function calculate_total() {
 }
 
 function sendCalculation() {
-	var message = "Bună ziua,\n\nV-am fi foarte recunoscători dacă ați putea să ne furnizați detalii despre cotația următoarelor servicii\n\n";
+	var message = "Bună ziua,\n\nV-am fi foarte recunoscători dacă ați putea să ne furnizați mai multe detalii despre cotația următoarelor servicii\n\n";
 	$('#summary-lines').children('.summary-line').each(function() {
 		if ($(this).hasClass('indent')){
 			message += '  ';
@@ -252,7 +252,7 @@ function sendCalculation() {
 	var totalPrice = $('#summary-total').children('.summary-line-price')[0].innerHTML;
 	message += 'TOTAL - ' + totalPrice;
 
-	message += "\n\nAșteptăm cu nerăbdare un răspuns de la dvs.	Mulţumim anticipat!"
+	message += "\n\nAșteptăm cu nerăbdare un răspuns de la dvs. Mulţumim anticipat!"
 
 	$('#message').text(message);
 
