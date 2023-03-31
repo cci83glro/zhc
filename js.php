@@ -1,6 +1,3 @@
-﻿
-<!-- JAVASCRIPT
-================================================== -->
 <script type="text/javascript" src="js/jquery.js"></script>	
 <script type="text/javascript" src="js/modernizr.custom.js"></script> 
 
@@ -28,3 +25,4 @@
 <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="js/price-calculator.js"></script>
 <script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/cookies-popup.js"></script>
