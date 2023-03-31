@@ -389,7 +389,7 @@ ul.slimmenu li ul {
 	z-index:10000;
 	left:10px;
 	top:10px;
-	background:url('../images/logo_200_200.png') no-repeat center center;
+	background:url('../images/logo_100_100.png') no-repeat center center;
 	background-size:75px 75px;
 }
 
@@ -2952,7 +2952,7 @@ border-radius: 50%;
 		height:60px;
 		left:5px;
 		top:10px;
-		background:url('../images/logo_200_200.png') no-repeat center center;
+		background:url('../images/logo_100_100.png') no-repeat center center;
 		background-size:60px 60px;
 	}
 	.contact-info .phones i {
