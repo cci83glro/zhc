@@ -1,4 +1,4 @@
-﻿<h1>Politica de cookies</h1>
+<h1>Politica de cookies</h1>
 
 <p>Această politică se referă la cookie-urile și paginile web operate de Lifetime Detail Cleaners SRL cu sediul social in Oraș Pantelimon, Strada Vidrei, nr. 18, Județ Ilfov (proprietara site-ului zenhomecleaning.ro).</p>
 

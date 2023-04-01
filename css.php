@@ -1,4 +1,4 @@
-﻿<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
 <link rel="stylesheet" type="text/css" href="css/skeleton.css"/>
 <link rel="stylesheet" type="text/css" href="css/layout.css"/>
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />

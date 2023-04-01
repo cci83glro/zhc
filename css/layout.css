@@ -637,7 +637,7 @@ ul.slimmenu.collapsed li > ul {
 }
 .big-text { 
 	position: absolute; 
-	top: 50%;
+	top: 80%;
 	margin-top:-30px;
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
@@ -659,7 +659,7 @@ ul.slimmenu.collapsed li > ul {
 }
 .small-text { 
 	position: absolute; 
-	top: 50%;
+	top: 80%;
 	margin-top:55px;
 	color:#fff;
 	width: 100%;
@@ -744,6 +744,11 @@ top: 0;
 	height: auto;
 	z-index: -1000;
 	overflow: hidden;
+	object-fit: cover;
+}
+
+#video_background[poster] {
+	width: 100%;
 }
 
 .just_pattern { 
@@ -1725,7 +1730,7 @@ path.stroke-thin {
 	border-top-left-radius:3px;
 	border-top-right-radius:3px;
 	text-align:center;
-	z-index:10000;	
+	z-index:100;
 	font-size: 22px;
 	line-height: 40px;
 	background:var(--gray-transparent);
@@ -2963,7 +2968,7 @@ border-radius: 50%;
 		height:60px;
 		left:5px;
 		top:10px;
-		background:url('../images/logo_200_200.png') no-repeat center center;
+		background:url('../images/logo_100_100.png') no-repeat center center;
 		background-size:60px 60px;
 		-webkit-transition : all 0.5s ease-out;
 		-moz-transition : all 0.5s ease-out;

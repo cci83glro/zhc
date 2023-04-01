@@ -1,4 +1,4 @@
-﻿<?php
+<?php
     include_once "mailer.php";
 ?>
 
@@ -85,7 +85,7 @@
 				</ul>
 			</div>
 			<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
-			<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster=""> 
+			<video id="video_background" playsinline autoplay muted loop poster="images/video-banner.webp">
 				<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 			</video>		
 			<a class="scroll" href="#about-section"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>

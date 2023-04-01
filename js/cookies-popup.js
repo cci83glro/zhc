@@ -4,7 +4,8 @@
 	var document = window.document;
 	var cookie_name = "zenHomeCleaningConsentCookie";
 	var box_title_text = "Notificare cookies";
-	var box_content_text = "Acest website colectează și utilizează cookies pentru a oferi utilizatorilor o experiență personalizată.<br />Prin continuarea navigării sunteți de acord cu politica noastră de cookies și prelucrare date personale.";
+	var box_content_text = "Acest website colectează și utilizează cookies pentru a oferi utilizatorilor o experiență personalizată.<br />"
+							+"Prin continuarea navigării sunteți de acord cu politica noastră de cookies și prelucrare a datelor personale.";
 	var text_button_accept_required = "Acceptă necesare";
 	var text_button_accept_all = "Acceptă toate";
 	
@@ -93,7 +94,7 @@
 		},
 		readCookie: function (name) {
 		    var nameEQ = name + "=";
-		    var ca = document.cookie.split(',');
+		    var ca = document.cookie.split(';');
 		    for(var i=0;i < ca.length;i++) {
 		        var c = ca[i];
 		        while (c.charAt(0) === ' ') {
@@ -126,7 +127,7 @@
 			
 			var barDiv = document.createElement('div');
 			barDiv.id = "cookiePopup";
-			barDiv.className = "black-background";
+			//barDiv.className = "black-background";
 			document.body.appendChild(barDiv);
 			barDiv.innerHTML = htmlBar;
 			
