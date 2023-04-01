@@ -1,33 +1,9 @@
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
 
-
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
-
-/* Colors
-================================================== */
 :root {
+	--main-text-color: #000;
 	--main-bg-color: #e1e1e1;
 	--main-bg-color-transparent: rgba(225, 225, 225, .8);
 	--menu-bg-color-transparent: rgba(255,255,255, .8);
-	/* --menu-bg-color-transparent: rgba(195, 200, 203, .8); */
 	--gray-transparent: rgba(60,60,60,.8);
 	--gold-color: #c4a048;
 	--gold-color-transparent: rgba(196, 160, 72, .8);
@@ -40,8 +16,6 @@
 	--flip-box-height-service: 350px;
 }
 
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select{
 		margin: 0;
 		padding: 0;
@@ -65,8 +39,6 @@
 		border-collapse: collapse;
 		border-spacing: 0; }
 
-/* #Basic Styles
-================================================== */
 	body {
 		background: var(--main-bg-color);
 		font-family: 'Roboto', sans-serif;
@@ -82,10 +54,9 @@
 		overflow-x:hidden; 
 	height:100%;
 }
-/* #Typography
-================================================== */
+
 	h1, h2, h3, h4, h5, h6 {
-		color: var(--gray-transparent);
+		color: var(--black-color);
 		/* color: var(--gold-color); */
 		/* font-family: var(--font-hand); */
 		text-align:center;
@@ -112,9 +83,6 @@
 	strong { font-weight: 600;}
 	small { font-size: 80%; }
 	
-
-
-/*	Blockquotes  */
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
@@ -123,9 +91,6 @@
 
 	hr { border: solid #323a3d; border-width: 1px 0 0; clear: both; margin:0 10px 0 10px; height: 0; position:relative;}
 
-
-/* #Links
-================================================== */
 	a, a:visited { text-decoration: none; }
 	a:hover, a:focus { color: #e74c3c;}
 	p a, p a:visited { line-height: inherit; text-decoration: none;}
@@ -133,8 +98,6 @@
 	outline:none;
 	}
 
-/* #Lists
-================================================== */
 	ul, ol { }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
@@ -149,8 +112,6 @@
 	li { line-height: 18px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
-/* #Buttons
-================================================== */
 
 	.button,
 	button,
@@ -204,16 +165,7 @@
     border: 0;
     padding: 0;
 	}
-/* #Images
-================================================== */
 
-
-
-
-
-
-/* #Misc
-================================================== */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }

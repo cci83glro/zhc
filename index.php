@@ -21,18 +21,8 @@
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-	
-	
-	<link rel="stylesheet" type="text/css" href="css/base.css"/>
-<link rel="stylesheet" type="text/css" href="css/skeleton.css"/>
-<link rel="stylesheet" type="text/css" href="css/layout.css"/>
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="css/colorbox.css"/>
-<link rel="stylesheet" type="text/css" href="css/retina.css"/>
-<link rel="stylesheet" type="text/css" href="css/colors/color-gold.css">
-<link rel="stylesheet" type="text/css" href="css/flaticon/flaticon.css">
 
-<?php include "css.php" ?>
+	<?php include_once "css.php" ?>
 	
 </head>
 
@@ -43,7 +33,7 @@
 				<div class="logo"></div>
 				<address class="contact-info">						
 					<div class="phones">
-						<a href="tel:0720997887"><i class="icon-telephone">&#xf095;</i> 0720 997 887</a>
+						<!-- <a href="tel:0720997887"><i class="icon-telephone">&#xf095;</i> 0720 997 887</a> -->
 						<a href="tel:0767439439"><i class="icon-telephone">&#xf095;</i> 0767 439 439</a>
 					</div>
 					<a class="whats-app" href="https://api.whatsapp.com/send?phone=40767439439" target=_blank>
@@ -74,7 +64,7 @@
 		</div>
 	</div>		
 
-		<div id="home">	
+		<section id="home">	
 			<div class="just_pattern"></div>	
 			<div class="big-text">
 				<ul class="flippy">
@@ -89,161 +79,14 @@
 				<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 			</video>		
 			<a class="scroll" href="#about-section"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
-		</div>
-
-		<section id="about-section">
-			<div class="container">
-				<div class="sixteen columns">
-				<h1><span>Despre noi</span></h1>
-					<div class="head-subtext">Suntem unul dintre cei mai experimentați furnizori de servicii de curățenie profesionale, cu peste 10 ani de activitate în domeniu atât in România, cât și în Finlanda</div>
-				</div>
-				<div class="clear"></div>
-				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Valorile noastre</h6>
-					<div class="flipWrapper">
-						<div class="card">
-							<div class="face front">
-								<img src="images/about/values_620_670.webp" alt="Hands together" />
-								<div class="layover">
-									<p>Citește mai mult</p>
-								</div>
-							</div>
-							<div class="face back">
-								<p><b>Respect:</b> Ne alocăm timp pentru a înțelege necesitățile clienților noștri și respectăm alegerile acestora.</p>
-								<p><b>Responsabilitate:</b> Acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
-								<p><b>Excelență:</b> Căutăm întotdeauna să oferim cea mai bună experiență în ceea ce privește calitatea serviciilor oferite clienților.</p>
-								<div class="layover">
-									<p>Înapoi</p>
-								</div>
-							</div>
-						</div>
-					</div>					
-				</article>
-				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Siguranță și calitate</h6>
-					<div class="flipWrapper">
-						<div class="card">
-							<div class="face front">
-								<img src="images/about/safety_620_670.webp" alt="Hand wiping door handle" />
-								<div class="layover">
-									<p>Citește mai mult</p>
-								</div>
-							</div>
-							<div class="face back">
-								<p>Prioritatea noastră absolută este siguranța clienților noștri, lucru deosebit de important în general, dar mai ales în urma pandemiei.</p>
-								<p>De aceea am implementat politici si proceduri stricte, ce asigură nu doar un standard ridicat de calitate, dar și conformitatea serviciilor oferite cu regulile guvernamentale de sănătate și siguranță.</p>
-								<div class="layover">
-									<p>Înapoi</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Transparență</h6>
-					<div class="flipWrapper">
-						<div class="card">
-							<div class="face front">
-								<img src="images/about/transparency_620_670.webp" alt="Surveillance camera" />
-								<div class="layover">
-									<p>Citește mai mult</p>
-								</div>
-							</div>
-							<div class="face back">
-								<p>Suntem printre primele firme de curățenie din România care oferă, la cerere, live streaming în timpul curățeniei.</p>
-								<p>În plus, specialiștii noștri certificați sunt dispuși să ofere prezentări live ale serviciilor de curățenie profesionale pe care le oferim.</p>
-								<div class="layover">
-									<p>Înapoi</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-				
-				<div class="clear"></div>
-			</div>
 		</section>
 
-		<section id="products-section">
-			<div class="container">
-				<div class="section-separator"></div>
-				<div class="sixteen columns">
-				<h1><span>Produse utilizate</span></h1>
-					<div class="head-subtext">Nu facem compromisuri în ceea ce privește calitatea produselor și materialelor utilizate, întrucât suntem conștienți că modul în care lucrăm își pune amprenta atăt asupra mediului înconjurător, cât și asupra sănătății clienților noștri</div>
-				</div>
-				<div class="clear"></div>
-				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Ecologie</h6>
-					<div class="flipWrapper">
-						<div class="card">
-							<div class="face front">
-								<img src="images/products/ecology_620_670.webp" alt="Hand holding small tree" />
-								<div class="layover">
-									<p>Citește mai mult</p>
-								</div>
-							</div>
-							<div class="face back">
-								<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
-								<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienții noștri sau cei dragi lor.</p>
-								<div class="layover">
-									<p>Înapoi</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Curățare cu aburi</h6>
-					<div class="flipWrapper">
-						<div class="card">
-							<div class="face front">
-								<img src="images/products/steam_620_670.webp" alt="STeam cleaning the carpet" />
-								<div class="layover">
-									<p>Citește mai mult</p>
-								</div>
-							</div>
-							<div class="face back">
-								<p>Utilizăm în mod intens și curățarea cu aburi, acolo unde tipul de curățenie ne permite.</p>
-								<p>Acest tip de curățare îndepărtează bacteriile în proporție de 99,9% și, fiind bazat exclusiv pe apă, nu există riscul de a lăsa reziduuri chimice pe suprafețele tratate, care ar putea fi toxice pentru copii sau animale de companie.</p>
-								<div class="layover">
-									<p>Înapoi</p>
-								</div>
-							</div>
-						</div>
-					</div>					
-				</article>
-				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Filtrare HEPA</h6>
-					<div class="flipWrapper">
-						<div class="card">
-							<div class="face front">
-								<img src="images/products/hepa_620_670.webp" alt="Vacuum cleaner in livingroom" />
-								<div class="layover">
-									<p>Citește mai mult</p>
-								</div>
-							</div>
-							<div class="face back">
-								<p>Avem în dotare doar aspiratoare cu filtru HEPA (High Efficiency Particulate Air), capabile să capteze până la 99,97% dintre particulele de praf cu dimensiuni de până la 0,3 microni.</p>
-								<p>Acest lucru contribuie la o calitate îmbunătățită a aerului interior și este benefic în special pentru persoanele care suferă de astm sau alergie la polen.</p>
-								<div class="layover">
-									<p>Înapoi</p>
-								</div>
-							</div>
-						</div>
-					</div>					
-				</article>
-				
-				<div class="clear"></div>
-			</div>
-		</section>
-	
 		<section id="services-section">
 			<div class="container">
-				<div class="section-separator"></div>
 				<div class="sixteen columns">
 					<h1><span>Servicii</span></h1>
-					<div class="head-subtext">Stăm la dispoziția clienților noștri cu o gamă largă de servicii de curățenie atât în domeniul rezidențial, cât și în cel comercial</div>
-					<div class="head-subtext"><b>Satisfacție garantată!</b> rambursăm 100% contravaloarea sesiunii de curățenie în cazul în care sunteți nemulțumiți de serviciile noastre</div>
+					<p class="head-subtext">Stăm la dispoziția clienților noștri cu o gamă largă de servicii de curățenie atât în domeniul rezidențial, cât și în cel comercial</p>
+					<p class="head-subtext strong">Satisfacție garantată! <u>Rambursăm 100% contravaloarea sesiunii de curățenie în cazul în care sunteți nemulțumiți de serviciile noastre</u></p>
 				</div>
 				<div class="clear"></div>
 
@@ -445,6 +288,153 @@
 				<?php include_once "price-calculator.php"?>					
 			</div>
 		</section>
+
+		<section id="about-section">
+			<div class="container">
+				<div class="section-separator"></div>
+				<div class="sixteen columns">
+				<h1><span>Despre noi</span></h1>
+					<div class="head-subtext">Suntem unul dintre cei mai experimentați furnizori de servicii de curățenie profesionale, cu peste 10 ani de activitate în domeniu atât in România, cât și în Finlanda</div>
+				</div>
+				<div class="clear"></div>
+				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<h6>Valorile noastre</h6>
+					<div class="flipWrapper">
+						<div class="card">
+							<div class="face front">
+								<img src="images/about/values_620_670.webp" alt="Hands together" />
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p><b>Respect:</b> Ne alocăm timp pentru a înțelege necesitățile clienților noștri și respectăm alegerile acestora.</p>
+								<p><b>Responsabilitate:</b> Acționăm cu integritate față de personalul nostru, clienții noștri, comunitate și mediu.</p>
+								<p><b>Excelență:</b> Căutăm întotdeauna să oferim cea mai bună experiență în ceea ce privește calitatea serviciilor oferite clienților.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</article>
+				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<h6>Siguranță și calitate</h6>
+					<div class="flipWrapper">
+						<div class="card">
+							<div class="face front">
+								<img src="images/about/safety_620_670.webp" alt="Hand wiping door handle" />
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p>Prioritatea noastră absolută este siguranța clienților noștri, lucru deosebit de important în general, dar mai ales în urma pandemiei.</p>
+								<p>De aceea am implementat politici si proceduri stricte, ce asigură nu doar un standard ridicat de calitate, dar și conformitatea serviciilor oferite cu regulile guvernamentale de sănătate și siguranță.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<h6>Transparență</h6>
+					<div class="flipWrapper">
+						<div class="card">
+							<div class="face front">
+								<img src="images/about/transparency_620_670.webp" alt="Surveillance camera" />
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p>Suntem printre primele firme de curățenie din România care oferă, la cerere, live streaming în timpul curățeniei.</p>
+								<p>În plus, specialiștii noștri certificați sunt dispuși să ofere prezentări live ale serviciilor de curățenie profesionale pe care le oferim.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				
+				<div class="clear"></div>
+			</div>
+		</section>
+
+		<section id="products-section">
+			<div class="container">
+				<div class="section-separator"></div>
+				<div class="sixteen columns">
+				<h1><span>Produse utilizate</span></h1>
+					<div class="head-subtext">Nu facem compromisuri în ceea ce privește calitatea produselor și materialelor utilizate, întrucât suntem conștienți că modul în care lucrăm își pune amprenta atăt asupra mediului înconjurător, cât și asupra sănătății clienților noștri</div>
+				</div>
+				<div class="clear"></div>
+				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<h6>Ecologie</h6>
+					<div class="flipWrapper">
+						<div class="card">
+							<div class="face front">
+								<img src="images/products/ecology_620_670.webp" alt="Hand holding small tree" />
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p>În activitatea noastră folosim exclusiv produse de curățenie ecologice, care ne ajută să protejăm mediul înconjurător.</p>
+								<p>Neutilizând substanțe chimice, care ar crește riscul poluării, ne asigurăm totodată de faptul că, în urma procesului de curățenie, nu există reziduuri care ar putea fi nocive pentru clienții noștri sau cei dragi lor.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<h6>Curățare cu aburi</h6>
+					<div class="flipWrapper">
+						<div class="card">
+							<div class="face front">
+								<img src="images/products/steam_620_670.webp" alt="STeam cleaning the carpet" />
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p>Utilizăm în mod intens și curățarea cu aburi, acolo unde tipul de curățenie ne permite.</p>
+								<p>Acest tip de curățare îndepărtează bacteriile în proporție de 99,9% și, fiind bazat exclusiv pe apă, nu există riscul de a lăsa reziduuri chimice pe suprafețele tratate, care ar putea fi toxice pentru copii sau animale de companie.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</article>
+				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
+					<h6>Filtrare HEPA</h6>
+					<div class="flipWrapper">
+						<div class="card">
+							<div class="face front">
+								<img src="images/products/hepa_620_670.webp" alt="Vacuum cleaner in livingroom" />
+								<div class="layover">
+									<p>Citește mai mult</p>
+								</div>
+							</div>
+							<div class="face back">
+								<p>Avem în dotare doar aspiratoare cu filtru HEPA (High Efficiency Particulate Air), capabile să capteze până la 99,97% dintre particulele de praf cu dimensiuni de până la 0,3 microni.</p>
+								<p>Acest lucru contribuie la o calitate îmbunătățită a aerului interior și este benefic în special pentru persoanele care suferă de astm sau alergie la polen.</p>
+								<div class="layover">
+									<p>Înapoi</p>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</article>
+				
+				<div class="clear"></div>
+			</div>
+		</section>
 		
 		<div id="contact-section">
 			<div class="container">
@@ -453,8 +443,15 @@
 					<h1><span>Contact</span></h1>
 					<div class="contact-wrap">
 						<p><a href="mailto:office@zenhomecleaning.ro"><i class="icon-contact1">&#xf0e0;</i>office@zenhomecleaning.ro</a></p>
-						<p><a href="tel:0040720997887"><i class="icon-contact1">&#xf095;</i>0720 997 887</a> | Luni–Duminică: 10–18</p>
-						<p><a target=_blank href="https://goo.gl/maps/8fSioDuxD2GWXHzB8"><i class="icon-contact1">&#xf041;</i>Strada Frumoasă 39, București 010986</a></p>
+						<p>
+							<i class="icon-contact1">&#xf095;</i>
+							<a href="tel:0767439439">0767 439 439</a>
+							<i class="icon-contact1">&#xf095;</i>
+							<a href="tel:0720997887">0720 997 887</a>
+						</p>						
+						<!-- <p><a target=_blank href="https://goo.gl/maps/8fSioDuxD2GWXHzB8"><i class="icon-contact1">&#xf041;</i>Strada Frumoasă 39, București 010986</a></p> -->
+						<p><i class="icon-contact1">&#xf073;</i> Luni–Duminică: 10–18</p>
+						
 						<h6>Formular de contact</h6>
 						<form name="ajax-form" id="ajax-form" action="mailer.php" method="post">
 							<label for="name">Nume * 
@@ -502,12 +499,12 @@
 			<input type="checkbox" id="3" />
 			<div class="modal">
 				<div class="modal__inner">
-					<p>Place here your popup content.</p>
+					<?php //include_once "cookies-policy.php" ?>
 					<label class="btn-close" for="3">X</label>
 				</div>
 			</div>
 		</div> -->
 
-		<?php include "js.php" ?>
+		<?php include_once "js.php" ?>
 </body>
 </html>
