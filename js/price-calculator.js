@@ -1,9 +1,12 @@
 
 /* Prices */
 const _stairPricePerMp = 10;
+const _villasGenericPricePerMp = 14;
+const _villasMaintenancePricePerMp = 8;
+const _villasConstructorPricePerMp = 18;
 const _officeGenericPricePerMp = 10;
-const _officeMaintenancePricePerMp = 8;
-const _officeConstructorPricePerMp = 10;
+const _officeMaintenancePricePerMp = 5;
+const _officeConstructorPricePerMp = 12;
 
 /* Total containers */
 const _summaryLines = $('#summary-lines');
@@ -23,6 +26,9 @@ const _summaryListItemWithIndent =
 
 $(document).ready(function() {
 	//$('#stair-price-per-mp').text(_stairPricePerMp + ' RON/mp');
+	$('#villas-generic-price-per-mp').text(_villasGenericPricePerMp);
+	$('#villas-maintanence-price-per-mp').text(_villasMaintenancePricePerMp);
+	$('#villas-constructor-price-per-mp').text(_villasConstructorPricePerMp);
 	$('#office-generic-price-per-mp').text(_officeGenericPricePerMp);
 	$('#office-maintanence-price-per-mp').text(_officeMaintenancePricePerMp);
 	$('#office-constructor-price-per-mp').text(_officeConstructorPricePerMp);
@@ -174,10 +180,10 @@ function calculate_house() {
 	return get_areas_price() + get_extras_price();
 }
 
-function calculate_office() {
+function calculate_mp_based_area(type) {
 	var totalPrice = 0;
 
-	$('.price-calculator-section.office:visible').each(function(){
+	$('.price-calculator-section.' + type + ':visible').each(function(){
 		var pricePerMp = $(this).find('span.unit-price')[0].innerHTML;
 		var input = $(this).find('input[type=range]')[0];
 		var val = parseInt(input.value);
@@ -190,9 +196,8 @@ function calculate_office() {
 
 		_summaryLines.append(
 			_summaryListItem
-			.replace('{{summaryLineTitle}}', $(input).attr("data-text"))
+			.replace('{{summaryLineTitle}}', $(input).attr("data-text") + ' ' + val + ' mp')
 			.replace('{{summaryLinePrice}}', price + ' RON'));
-
 	});
 
 	return totalPrice;
@@ -216,7 +221,6 @@ function calculate_stairs() {
 function calculate_total() {
 	_summaryLines.empty();
 	var totalPrice = 0;
-
 	var constructionType = $('input[type=radio][name="construction_type"]:checked').val();
 	
 	if (constructionType === "house")
@@ -224,9 +228,9 @@ function calculate_total() {
 		totalPrice += calculate_house();
 	}
 
-	if (constructionType === "office")
+	if (constructionType === "office" || constructionType === "villas")
 	{
-		totalPrice += calculate_office();
+		totalPrice += calculate_mp_based_area(constructionType);
 	}
 
 	// if (constructionType === "stairs")

@@ -3,7 +3,11 @@
 		<h3>Tip imobil</h3>
 		<label>
 			<input type="radio" name="construction_type" value="house" data-ref-id="house-options"/>
-			<span class="radio-label">Apartament / casă</span>
+			<span class="radio-label">Apartament</span>
+		</label>
+		<label>
+			<input type="radio" name="construction_type" value="villas" data-ref-id="villas-options"/>
+			<span class="radio-label">Case / vile peste 120 mp</span>
 		</label>
 		<label>
 			<input type="radio" name="construction_type" value="office" data-ref-id="office-options"/>
@@ -30,6 +34,22 @@
 		<label>
 			<!-- <input type="radio" name="house_cleaning_type"  data-ref-id="house-options-constructor"/> -->
 			<input type="radio" name="house_cleaning_type"  data-ref-id="house-options-generic" data-key="constructor"/>
+			<span class="radio-label">După constructor</span>
+		</label>
+	</div>
+	<div id="villas-options" class="price-calculator-section hideable" level='1'>
+		<h3>Tip curățenie</h3>
+		<!-- <p>Spațiu comercial / birou</p> -->
+		<label>
+			<input type="radio" name="villas_cleaning_type" data-ref-id="villas-options-generic"/>
+			<span class="radio-label">Generală</span>
+		</label>
+		<label>
+			<input type="radio" name="villas_cleaning_type" data-ref-id="villas-options-maintenance"/>
+			<span class="radio-label">Întreținere</span>
+		</label>
+		<label>
+			<input type="radio" name="villas_cleaning_type" data-ref-id="villas-options-constructor"/>
 			<span class="radio-label">După constructor</span>
 		</label>
 	</div>
@@ -64,7 +84,7 @@
 		<div class="areas-detail four columns">
 			<p class="title">Nr. camere:</p>
 			<output id="house-options-generic-number-of-rooms-value">0</output>
-			<input type="range" id="house-options-generic-number-of-rooms" min='0' max='10' step='1' value='0' 
+			<input type="range" id="house-options-generic-number-of-rooms" min='0' max='7' step='1' value='0' 
 				data-ref-id="house-options-generic-room-extra-options" data-text-generic="Curățenie camere - generală"
 				data-text-maintenance="Curățenie camere - întreținere" data-text-constructor="Curățenie camere - după constructor"
 				data-price-per-unit-generic='125' data-price-per-unit-maintenance='75' data-price-per-unit-constructor='150'
@@ -73,27 +93,27 @@
 		<div class="areas-detail four columns">
 			<p class="title">Nr. băi:</p>
 			<output id="house-options-generic-number-of-bathrooms-value">0</output>
-			<input type="range" id="house-options-generic-number-of-bathrooms" min='0' max='10' step='1' value='0'
+			<input type="range" id="house-options-generic-number-of-bathrooms" min='0' max='4' step='1' value='0'
 			data-text-generic="Curățenie baie - generală" data-text-maintenance="Curățenie baie - întreținere" data-text-constructor="Curățenie baie - după constructor"
 			data-price-per-unit-generic='150' data-price-per-unit-maintenance='75' data-price-per-unit-constructor='150' oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail four columns">
 			<p class="title">Nr. bucătării:</p>
 			<output id="house-options-generic-number-of-kitchens-value">0</output>
-			<input type="range" id="house-options-generic-number-of-kitchens" min='0' max='10' step='1' value='0'
+			<input type="range" id="house-options-generic-number-of-kitchens" min='0' max='2' step='1' value='0'
 				data-ref-id="house-options-generic-kitchen-extra-options" data-text-generic="Curățenie bucătărie - generală"
 				data-text-maintenance="Curățenie bucătărie - întreținere" data-text-constructor="Curățenie bucătărie - după constructor"
 				data-price-per-unit-generic='175' data-price-per-unit-maintenance='100' data-price-per-unit-constructor='200'
 				oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail four columns">
-			<p class="title">Nr. balcoane:</p>
+			<p class="title">Nr. balcoane / terase:</p>
 			<output id="house-options-generic-number-of-balconies-value">0</output>
-			<input type="range" id="house-options-generic-number-of-balconies" min='0' max='10' step='1' value='0' data-text-generic="Curățenie balcon - generală"
+			<input type="range" id="house-options-generic-number-of-balconies" min='0' max='3' step='1' value='0' data-text-generic="Curățenie balcon - generală"
 			data-text-maintenance="Curățenie balcon - întreținere" data-text-constructor="Curățenie balcon - după constructor"
 			data-price-per-unit-generic='50' data-price-per-unit-maintenance='25' data-price-per-unit-constructor='50' oninput="calculate_total();"/>
 		</div>
-		<div class="areas-detail four columns">
+		<!-- <div class="areas-detail four columns">
 			<p class="title">Nr. terase:</p>
 			<output id="house-options-generic-number-of-terraces-value">0</output>
 			<input type="range" id="house-options-generic-number-of-terraces" min='0' max='10' step='1' value='0' data-text-generic="Curățenie terasă - generală"
@@ -106,7 +126,7 @@
 			<input type="range" id="house-options-generic-number-of-attics" min='0' max='10' step='1' value='0' data-text-generic="Curățenie mansardă - generală"
 			data-text-maintenance="Curățenie mansardă - întreținere" data-text-constructor="Curățenie mansardă - după constructor"
 			data-price-per-unit-generic='75' data-price-per-unit-maintenance='50' data-price-per-unit-constructor='50' oninput="calculate_total();"/>
-		</div>			
+		</div>			 -->
 	</div>
 
 	<!-- <div id="house-options-maintenance" class="price-calculator-section areas hideable" level='2'>
@@ -194,7 +214,6 @@
 	</div> -->
 
 <!-- ============= House level 2 end ================ -->
-
 
 <!-- ============= House level 3 start ================ -->
 	<div id="house-options-generic-room-extra-options" class="price-calculator-section extras hideable" 
@@ -561,29 +580,50 @@
 
 <!-- ============= House level 3 end ================ -->
 
+<!-- ============= Villas level 2 start ================ -->
+	<div id="villas-options-generic" class="price-calculator-section villas hideable" level='2'>
+		<h3>Case / vile peste 120 mp - curățenie generală (<span id="villas-generic-price-per-mp" class="unit-price"></span> RON/mp)</h3>
+		<output id="villas-generic-mp-value">120 mp</output>
+		<input type="range" id="villas-generic-mp" min='120' max='500' step='5' value='120'
+			data-text="Case / vile peste 120 mp - curățenie generală" oninput="calculate_total();"/>
+	</div>
+	
+	<div id="villas-options-maintenance" class="price-calculator-section villas hideable" level='2'>
+		<h3>Case / vile peste 120 mp - curățenie de întrețínere (<span id="villas-maintanence-price-per-mp" class="unit-price"></span> RON/mp)</h3>
+		<output id="villas-maintenance-mp-value">120 mp</output>
+		<input type="range" id="villas-maintenance-mp" min='120' max='500' step='5' value='120'
+			data-text="Case / vile peste 120 mp - curățenie de întrețínere" oninput="calculate_total();"/>
+		
+	</div>
+	
+	<div id="villas-options-constructor" class="price-calculator-section villas hideable" level='2'>
+	<h3>Case / vile peste 120 mp - curățenie după constructor (<span id="villas-constructor-price-per-mp" class="unit-price"></span> RON/mp)</h3>
+		<output id="villas-constructor-mp-value">120 mp</output>
+		<input type="range" id="villas-constructor-mp" min='120' max='500' step='5' value='120'
+		data-text="Case / vile peste 120 mp - curățenie după constructor" oninput="calculate_total();"/>
+	</div>
+<!-- ============= Villas level 2 end ================ -->
+
 <!-- ============= Office level 2 start ================ -->
 	<div id="office-options-generic" class="price-calculator-section office hideable" level='2'>
-		<h3>Spațíu comercial peste 120 mp - curățenie generală</h3>
-		<p><span id="office-generic-price-per-mp" class="unit-price"></span> RON/mp</p>
+		<h3>Spațíu comercial peste 120 mp - curățenie generală (<span id="office-generic-price-per-mp" class="unit-price"></span> RON/mp)</h3>
+		<output id="office-generic-mp-value">120 mp</output>
 		<input type="range" id="office-generic-mp" min='120' max='500' step='5' value='120'
 			data-text="Spațíu comercial - curățenie generală" oninput="calculate_total();"/>
-		<output id="office-generic-mp-value">120</output>
 	</div>
 	
 	<div id="office-options-maintenance" class="price-calculator-section office hideable" level='2'>
-		<h3>Spațíu comercial peste 120 mp - curățenie de întrețínere</h3>
-		<p><span id="office-maintanence-price-per-mp" class="unit-price"></span> RON/mp</p>
+		<h3>Spațíu comercial peste 120 mp - curățenie de întrețínere (<span id="office-maintanence-price-per-mp" class="unit-price"></span> RON/mp)</h3>
+		<output id="office-maintenance-mp-value">120 mp</output>
 		<input type="range" id="office-maintenance-mp" min='120' max='500' step='5' value='120'
 			data-text="Spațíu comercial - curățenie de întrețínere" oninput="calculate_total();"/>
-		<output id="office-maintenance-mp-value">120</output>
 	</div>
 	
 	<div id="office-options-constructor" class="price-calculator-section office hideable" level='2'>
-		<h3>Spațíu comercial peste 120 mp - curățenie după constructor</h3>
-		<p><span id="office-constructor-price-per-mp" class="unit-price"></span> RON/mp</p>
+		<h3>Spațíu comercial peste 120 mp - curățenie după constructor (<span id="office-constructor-price-per-mp" class="unit-price"></span> RON/mp)</h3>
+		<output id="office-constructor-mp-value">120 mp</output>
 		<input type="range" id="office-constructor-mp" min='120' max='500' step='5' value='120'
-		data-text="Spațíu comercial - curățenie după constructor" oninput="calculate_total();"/>
-		<output id="office-constructor-mp-value">120</output>
+			data-text="Spațíu comercial - curățenie după constructor" oninput="calculate_total();"/>
 	</div>
 <!-- ============= Office level 2 end ================ -->
 

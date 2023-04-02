@@ -1222,6 +1222,7 @@ iframe{
 
 #house-options-generic, #house-options-maintenance, #house-options-constructor,
 #office-options-generic, #office-options-maintenance, #office-options-constructor,
+#villas-options-generic, #villas-options-maintenance, #villas-options-constructor,
 #house-options-generic-room-extra-options, #house-options-generic-kitchen-extra-options,
 #house-options-maintenance-room-extra-options, #house-options-maintenance-kitchen-extra-options,
 #house-options-constructor-room-extra-options, #house-options-constructor-kitchen-extra-options {
@@ -1248,6 +1249,7 @@ iframe{
 .price-calculator-section > h3 {
 	display: inline-block;
 	font-size: var(--section-subheader-font-size-mobile);
+	line-height: var(--section-subheader-line-height-mobile);
 	margin-bottom: 15px;
 	text-align: left;
 }
@@ -1258,8 +1260,10 @@ iframe{
 	margin-bottom: 0;
 }
 
-.price-calculator-section > p {
-	font-size: 14px;
+.price-calculator-section > p,
+.price-calculator-section > output {
+	display: block;
+	font-size: var(--content-text-font-size-mobile);
 	margin-bottom: 0;
 }
 
@@ -1320,9 +1324,13 @@ iframe{
 	margin-bottom: 10px;
 }
 
-.price-calculator-section > .extra-service-toggle > .title {
+.price-calculator-section > .extra-service-toggle .title {
 	margin: 0;
-	font-size: 16px;
+	font-size: var(--content-text-font-size-mobile);
+}
+
+.price-calculator-section > .extra-service-toggle .title-and-slider > .title {
+	margin-bottom: 5px;
 }
 
 .price-calculator-section > .extra-service-toggle > .toggle-wrapper {
@@ -1387,9 +1395,6 @@ iframe{
 	font-size: var(--section-subheader-font-size-mobile);
 }
 
-.title-and-slider > .title {
-	margin-bottom: 5px;
-}
 
 #price-info {
 	position: relative;
@@ -1455,6 +1460,7 @@ input[type="range"] {
 	background: transparent;
 	cursor: pointer;
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 input[type='range']::-webkit-slider-runnable-track{
@@ -1591,6 +1597,12 @@ section h1 {
 	
 	.price-calculator-section > h3 {
 		font-size: var(--section-subheader-font-size-desktop);
+		line-height: var(--section-subheader-line-height-desktop);
+	}
+
+	.price-calculator-section > p,
+	.price-calculator-section > output {
+		font-size: var(--content-text-font-size-desktop);
 	}
 	
 	.price-calculator-section .radio-label {
@@ -1600,6 +1612,16 @@ section h1 {
 
 	.price-calculator-section .areas-detail .title {
 		font-size: var(--content-text-font-size-desktop);
+	}
+
+	.price-calculator-section > .extra-service-toggle .title {
+		margin: 0;
+		font-size: var(--content-text-font-size-desktop);
+	}
+
+	.price-calculator-section.villas input[type="range"],
+	.price-calculator-section.office input[type="range"] {
+		width: 50%;
 	}
 
 	#services-section,
@@ -1649,7 +1671,7 @@ section h1 {
 
 	.action-button{
 		font-size: 16px;
-	}
+	}	
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.big-text { 

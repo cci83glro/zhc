@@ -499,16 +499,16 @@
 			</div>	
 		</div>
 
-		<!-- <div class="popup">
+		<div class="popup">
 			<p><center><label for="3" class="open">Open Popup!</label> to open the pure CSS popup window.</center></p>
 			<input type="checkbox" id="3" />
 			<div class="modal">
 				<div class="modal__inner">
-					<?php //include_once "cookies-policy.php" ?>
+					<?php include_once "cookies-policy.php" ?>
 					<label class="btn-close" for="3">X</label>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
 		<?php include_once "js.php" ?>
 </body>
