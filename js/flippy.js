@@ -1,5 +1,5 @@
 var $ = jQuery;
-// extend jQuery
+
 $.fn.extend({
     flippy: function (options) {
         var settings = {

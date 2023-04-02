@@ -50,6 +50,6 @@ jQuery(document).ready(function ($) { // wait until the document is ready
 		});
 
 		$('.loader').fadeOut('slow');
-		return false; // stops user browser being directed to the php file
-	}); // end click function
+		return false;
+	});
 });

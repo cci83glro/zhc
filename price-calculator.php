@@ -87,7 +87,7 @@
 			<input type="range" id="house-options-generic-number-of-rooms" min='0' max='7' step='1' value='0' 
 				data-ref-id="house-options-generic-room-extra-options" data-text-generic="Curățenie camere - generală"
 				data-text-maintenance="Curățenie camere - întreținere" data-text-constructor="Curățenie camere - după constructor"
-				data-price-per-unit-generic='125' data-price-per-unit-maintenance='75' data-price-per-unit-constructor='150'
+				data-price-per-unit-generic='325' data-price-per-unit-maintenance='120' data-price-per-unit-constructor='400'
 				oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail four columns">
@@ -95,7 +95,7 @@
 			<output id="house-options-generic-number-of-bathrooms-value">0</output>
 			<input type="range" id="house-options-generic-number-of-bathrooms" min='0' max='4' step='1' value='0'
 			data-text-generic="Curățenie baie - generală" data-text-maintenance="Curățenie baie - întreținere" data-text-constructor="Curățenie baie - după constructor"
-			data-price-per-unit-generic='150' data-price-per-unit-maintenance='75' data-price-per-unit-constructor='150' oninput="calculate_total();"/>
+			data-price-per-unit-generic='175' data-price-per-unit-maintenance='100' data-price-per-unit-constructor='200' oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail four columns">
 			<p class="title">Nr. bucătării:</p>
@@ -103,7 +103,7 @@
 			<input type="range" id="house-options-generic-number-of-kitchens" min='0' max='2' step='1' value='0'
 				data-ref-id="house-options-generic-kitchen-extra-options" data-text-generic="Curățenie bucătărie - generală"
 				data-text-maintenance="Curățenie bucătărie - întreținere" data-text-constructor="Curățenie bucătărie - după constructor"
-				data-price-per-unit-generic='175' data-price-per-unit-maintenance='100' data-price-per-unit-constructor='200'
+				data-price-per-unit-generic='180' data-price-per-unit-maintenance='125' data-price-per-unit-constructor='250'
 				oninput="calculate_total();"/>
 		</div>
 		<div class="areas-detail four columns">
@@ -111,7 +111,7 @@
 			<output id="house-options-generic-number-of-balconies-value">0</output>
 			<input type="range" id="house-options-generic-number-of-balconies" min='0' max='3' step='1' value='0' data-text-generic="Curățenie balcon - generală"
 			data-text-maintenance="Curățenie balcon - întreținere" data-text-constructor="Curățenie balcon - după constructor"
-			data-price-per-unit-generic='50' data-price-per-unit-maintenance='25' data-price-per-unit-constructor='50' oninput="calculate_total();"/>
+			data-price-per-unit-generic='75' data-price-per-unit-maintenance='50' data-price-per-unit-constructor='125' oninput="calculate_total();"/>
 		</div>
 		<!-- <div class="areas-detail four columns">
 			<p class="title">Nr. terase:</p>

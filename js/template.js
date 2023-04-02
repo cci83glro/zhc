@@ -1,5 +1,4 @@
 //Home fit screen	
-
 	/*global $:false */
 	$(function(){"use strict";
 		$('#home-section').css({'height':($(window).height())+'px'});

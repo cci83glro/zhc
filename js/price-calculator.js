@@ -234,7 +234,7 @@ function calculate_total() {
 	}
 
 	// if (constructionType === "stairs")
-	// {
+	// { 
 	// 	totalPrice += calculate_stairs();
 	// }
 

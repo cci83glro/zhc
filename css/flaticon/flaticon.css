@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 @font-face {
   font-family: "flaticon";
   src: url("./flaticon.ttf?b636a9c227e48b2d59590e5934e0b4cf") format("truetype"), url("./flaticon.woff?b636a9c227e48b2d59590e5934e0b4cf") format("woff"), url("./flaticon.woff2?b636a9c227e48b2d59590e5934e0b4cf") format("woff2"), url("./flaticon.eot?b636a9c227e48b2d59590e5934e0b4cf#iefix") format("embedded-opentype"), url("./flaticon.svg?b636a9c227e48b2d59590e5934e0b4cf#flaticon") format("svg");

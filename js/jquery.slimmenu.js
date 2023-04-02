@@ -1,7 +1,7 @@
 /**
  * jquery.slimmenu.js
  * http://adnantopal.github.io/slimmenu/
- * Author: @adnantopal
+ * Author: @adnantopal 
  * Copyright 2013, Adnan Topal (atopal.com)
  * Licensed under the MIT license.
  */
