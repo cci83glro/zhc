@@ -1,5 +1,32 @@
 
 :root {
+	/* font size - desktop*/
+	--header-font-size-desktop: 16px;
+	--section-header-font-size-desktop: 40px;
+	--section-subheader-font-size-desktop: 24px;
+	--section-subheader-line-height-desktop: 28px;
+	--section-header-subtext-font-size-desktop: 20px;
+	--section-header-subtext-line-height-desktop: 26px;
+	--content-text-font-size-desktop: 18px;
+	--content-text-line-height-desktop: 24px;
+
+	/* font size - mobile*/
+	--header-font-size-mobile: 14px;
+	--section-header-font-size-mobile: 30px;
+	--section-subheader-font-size-mobile: 18px;
+	--section-subheader-line-height-mobile: 24px;
+	--section-header-subtext-font-size-mobile: 16px;
+	--section-header-subtext-line-height-mobile: 20px;
+	--content-text-font-size-mobile: 16px;
+	--content-text-line-height-mobile: 20px;
+
+	/* spacing - desktop*/
+	--section-padding-top-desktop: 150px;
+	
+	/* spacing - mobile*/
+	--section-padding-top-mobile: 100px;
+
+	/* colors */
 	--main-text-color: #000;
 	--main-bg-color: #e1e1e1;
 	--main-bg-color-transparent: rgba(225, 225, 225, .8);
@@ -20,7 +47,6 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {

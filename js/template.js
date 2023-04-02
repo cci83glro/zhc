@@ -2,21 +2,12 @@
 		
 	/*global $:false */
 	$(function(){"use strict";
-		$('#home').css({'height':($(window).height())+'px'});
+		$('#home-section').css({'height':($(window).height())+'px'});
 		$(window).resize(function(){
-		$('#home').css({'height':($(window).height())+'px'});
+		$('#home-section').css({'height':($(window).height())+'px'});
 		});
 	});
 
-
-//Scrolling	
-		
-	// $(document).ready(
-	// function() {  
-	// 	$("html").niceScroll();
-	// 	}
-	// );
-	
 //Navigation	
 
 $('ul.slimmenu').on('click',function(){

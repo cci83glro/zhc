@@ -1,6 +1,6 @@
 ﻿<section id="price-calculator">
 	<div class="price-calculator-section" level='0'>
-		<h4>Tip construcție</h4>
+		<h3>Tip imobil</h3>
 		<label>
 			<input type="radio" name="construction_type" value="house" data-ref-id="house-options"/>
 			<span class="radio-label">Apartament / casă</span>
@@ -16,7 +16,7 @@
 	</div>
 
 	<div id="house-options" class="price-calculator-section hideable" level='1'>
-		<h4>Tip curățenie</h4>
+		<h3>Tip curățenie</h3>
 		<!-- <p>Apartament / casă</p> -->
 		<label>
 			<input type="radio" name="house_cleaning_type" data-ref-id="house-options-generic" data-key="generic"/>
@@ -34,7 +34,7 @@
 		</label>
 	</div>
 	<div id="office-options" class="price-calculator-section hideable" level='1'>
-		<h4>Tip curățenie</h4>
+		<h3>Tip curățenie</h3>
 		<!-- <p>Spațiu comercial / birou</p> -->
 		<label>
 			<input type="radio" name="office_cleaning_type" data-ref-id="office-options-generic"/>
@@ -50,7 +50,7 @@
 		</label>
 	</div>
 	<!-- <div id="stairs-options" class="price-calculator-section hideable" level='1'>
-		<h4>Numărul de scări</h4>
+		<h3>Numărul de scări</h3>
 		<p id="stair-price-per-mp"></p>
 		<input type="range" id="number-of-stairs" min='0' max='100' step='1' value='0'
 			oninput="calculate_stairs();"/>
@@ -60,7 +60,7 @@
 <!-- ============= House level 2 start ================ -->
 
 	<div id="house-options-generic" class="price-calculator-section areas hideable" level='2'>
-		<h4 class="sixteen columns">Spații de curățat</h4>
+		<h3 class="sixteen columns">Spații de curățat</h3>
 		<div class="areas-detail four columns">
 			<p class="title">Nr. camere:</p>
 			<output id="house-options-generic-number-of-rooms-value">0</output>
@@ -110,7 +110,7 @@
 	</div>
 
 	<!-- <div id="house-options-maintenance" class="price-calculator-section areas hideable" level='2'>
-		<h4>Spații de curățat</h4>
+		<h3>Spații de curățat</h3>
 		<div class="areas-detail">
 			<p class="title">Nr. camere</p>
 			<output id="house-options-maintenance-number-of-rooms-value">0</output>
@@ -152,7 +152,7 @@
 	</div>
 
 	<div id="house-options-constructor" class="price-calculator-section areas hideable" level='2'>
-		<h4>Spații de curățat</h4>
+		<h3>Spații de curățat</h3>
 		<div class="areas-detail">
 			<p class="title">Nr. camere</p>
 			<output id="house-options-constructor-number-of-rooms-value">0</output>
@@ -199,7 +199,7 @@
 <!-- ============= House level 3 start ================ -->
 	<div id="house-options-generic-room-extra-options" class="price-calculator-section extras hideable" 
 		data-text="Servicii extra - living / dormitor" level='3'>
-		<h4>Servicii extra - living / dormitor</h4>
+		<h3>Servicii extra - living / dormitor</h3>
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare interior mobilier" data-price-per-unit='60' oninput="calculate_total();"/>
@@ -250,7 +250,7 @@
 			<div class="title-and-slider">
 				<p class="title">Curățare cu injecție/extracție canapea sau scaun (preț estimativ 50 RON / loc)</p>
 				<div id="couch-number-of-seats" class="extra-service-detail hideable">
-					<label>Nr. locuri (1 - 10):</label>
+					<label>Nr. locuri:</label>
 					<output id="couch-number-of-seats-input-value">0</output>
 					<input type="range" id="couch-number-of-seats-input" min='1' max='10' step='1' value='2' data-text="Curățare canapea/scaun"
 					data-price-per-unit-generic='50' data-unit-1='loc' data-unit='locuri' oninput="calculate_total();"/>
@@ -283,7 +283,7 @@
 
 	<div id="house-options-generic-kitchen-extra-options" class="price-calculator-section extras hideable"
 		data-text="Servicii extra - bucătărie" level='3'>
-		<h4>Servicii extra - bucătărie</h4>
+		<h3>Servicii extra - bucătărie</h3>
 		<!-- <div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Spălare vase" data-price-per-unit='25' oninput="calculate_total();"/>
@@ -299,7 +299,7 @@
 			<div class="title-and-slider">
 			<p class="title">Curățare electrocasnice interior - frigider, cuptor microunde etc. (preț estimativ 50 RON / buc.)</p>
 				<div id="couch-number-of-appliances" class="extra-service-detail hideable">
-					<label>Nr. bucăți (1 - 10):</label>
+					<label>Nr. bucăți:</label>
 					<output id="couch-number-of-appliances-input-value">0</output>
 					<input type="range" id="couch-number-of-appliances-input" min='1' max='10' step='1' value='1' data-text="Curățare electrocasnice"
 					data-price-per-unit-generic='50' data-unit-1='bucată'  data-unit='bucăți' oninput="calculate_total();"/>
@@ -331,7 +331,7 @@
 
 	<div id="house-options-maintenance-room-extra-options" class="price-calculator-section extras hideable" 
 		data-text="Servicii extra - dormitor" level='3'>
-		<h4>Servicii extra - dormitor</h4>
+		<h3>Servicii extra - dormitor</h3>
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare interior mobilier" data-price-per-unit='60' oninput="calculate_total();"/>
@@ -406,7 +406,7 @@
 
 	<div id="house-options-maintenance-kitchen-extra-options" class="price-calculator-section extras hideable"
 		data-text="Servicii extra - bucătărie" level='3'>
-		<h4>Servicii extra - bucătărie</h4>
+		<h3>Servicii extra - bucătărie</h3>
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Spălare vase" data-price-per-unit='25' oninput="calculate_total();"/>
@@ -446,7 +446,7 @@
 
 	<div id="house-options-constructor-room-extra-options" class="price-calculator-section extras hideable" 
 		data-text="Servicii extra - dormitor" level='3'>
-		<h4>Servicii extra - dormitor</h4>
+		<h3>Servicii extra - dormitor</h3>
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Curățare interior mobilier" data-price-per-unit='60' oninput="calculate_total();"/>
@@ -521,7 +521,7 @@
 
 	<div id="house-options-constructor-kitchen-extra-options" class="price-calculator-section extras hideable"
 		data-text="Servicii extra - bucătărie" level='3'>
-		<h4>Servicii extra - bucătărie</h4>
+		<h3>Servicii extra - bucătărie</h3>
 		<div class="extra-service-toggle">
 			<div class="toggle-wrapper">
 				<input type="checkbox" data-text="Spălare vase" data-price-per-unit='25' oninput="calculate_total();"/>
@@ -563,7 +563,7 @@
 
 <!-- ============= Office level 2 start ================ -->
 	<div id="office-options-generic" class="price-calculator-section office hideable" level='2'>
-		<h4>Spațíu comercial peste 120 mp - curățenie generală</h4>
+		<h3>Spațíu comercial peste 120 mp - curățenie generală</h3>
 		<p><span id="office-generic-price-per-mp" class="unit-price"></span> RON/mp</p>
 		<input type="range" id="office-generic-mp" min='120' max='500' step='5' value='120'
 			data-text="Spațíu comercial - curățenie generală" oninput="calculate_total();"/>
@@ -571,7 +571,7 @@
 	</div>
 	
 	<div id="office-options-maintenance" class="price-calculator-section office hideable" level='2'>
-		<h4>Spațíu comercial peste 120 mp - curățenie de întrețínere</h4>
+		<h3>Spațíu comercial peste 120 mp - curățenie de întrețínere</h3>
 		<p><span id="office-maintanence-price-per-mp" class="unit-price"></span> RON/mp</p>
 		<input type="range" id="office-maintenance-mp" min='120' max='500' step='5' value='120'
 			data-text="Spațíu comercial - curățenie de întrețínere" oninput="calculate_total();"/>
@@ -579,7 +579,7 @@
 	</div>
 	
 	<div id="office-options-constructor" class="price-calculator-section office hideable" level='2'>
-		<h4>Spațíu comercial peste 120 mp - curățenie după constructor</h4>
+		<h3>Spațíu comercial peste 120 mp - curățenie după constructor</h3>
 		<p><span id="office-constructor-price-per-mp" class="unit-price"></span> RON/mp</p>
 		<input type="range" id="office-constructor-mp" min='120' max='500' step='5' value='120'
 		data-text="Spațíu comercial - curățenie după constructor" oninput="calculate_total();"/>
@@ -589,7 +589,7 @@
 
 
 	<section id="price-info" class="price-calculator-section">
-		<h4>Sumar</h4>
+		<h3>Sumar</h3>
 		<div id="summary-lines"></div>
 		<div id="summary-total">
 			<span class="summary-line-title">Total</span>

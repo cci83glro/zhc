@@ -42,7 +42,7 @@
 				</address>
 				<ul class="slimmenu">
 					<li> 
-						<a class="scroll" href="#home">Acasă</a>
+						<a class="scroll" href="#home-section">Acasă</a>
 					</li>
 					<li>
 						<a class="scroll" href="#about-section">Despre noi</a>
@@ -64,8 +64,7 @@
 		</div>
 	</div>		
 
-		<section id="home">	
-			<div class="just_pattern"></div>	
+		<section id="home-section">
 			<div class="big-text">
 				<ul class="flippy">
 					<li><span>Zen Home Cleaning</span></li>
@@ -75,7 +74,7 @@
 				</ul>
 			</div>
 			<div class="small-text">- Recapătă-ți zen-ul, ne ocupăm noi de curățenie -</div>
-			<video id="video_background" playsinline autoplay muted loop poster="images/video-banner.webp">
+			<video id="video-background" playsinline autoplay muted loop poster="images/video-banner.webp">
 				<source src="videos/zen-home-cleaning.mp4" type="video/mp4">
 			</video>		
 			<a class="scroll" href="#about-section"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
@@ -95,15 +94,14 @@
 						<div class="face front">
 							<i class="flaticon-cleaning-service"></i>
 							<div class="title-wrapper">
-								<h6>Curățenie generală</h6>
+								<h3>Curățenie generală</h3>
 							</div>
 							<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
 							<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
 							<p><i class="flaticon-next"></i>Curățare prize, plinte, întrerupătoare, tablouri electrice și guri de aerisire</p>
 							<p><i class="flaticon-next"></i>Curățarea caloriferelor și țevilor</p>
 							<p><i class="flaticon-next"></i>Curățare scaune, fotolii, canapele</p>
-							<p><i class="flaticon-next"></i>Curățare geamuri interior/exterior</p>
-							<p><i class="flaticon-next"></i>Curățat și spălat uși și tocuri</p>
+							<p><i class="flaticon-next"></i>Curățare geamuri interior/exterior, uși și tocuri</p>
 							<div class="layover">
 								<p>Citește mai mult</p>
 							</div>
@@ -128,7 +126,7 @@
 						<div class="face front">
 							<i class="flaticon-mop"></i>
 							<div class="title-wrapper">
-								<h6>Curățenie de întreținere</h6>
+								<h3>Curățenie de întreținere</h3>
 							</div>
 							<p><i class="flaticon-next"></i>Aspirarea tuturor încăperilor</p>
 							<p><i class="flaticon-next"></i>Ștergerea prafului (mobilier și electrocasnice)</p>
@@ -161,7 +159,7 @@
 						<div class="face front">
 							<i class="flaticon-house"></i>
 							<div class="title-wrapper long-title">
-								<h6>Curățenie asociații de proprietari și ansambluri rezidențiale</h6>
+								<h3>Curățenie asociații de proprietari și ansambluri rezidențiale</h3>
 							</div>
 							<p><i class="flaticon-next"></i>Aspirat, spălat casa scărilor</p>
 							<p><i class="flaticon-next"></i>Aspirat și spălat intrările în bloc</p>
@@ -191,7 +189,7 @@
 						<div class="face front">
 							<i class="flaticon-disinfectant"></i>
 							<div class="title-wrapper">
-								<h6>Curățenia după constructor</h6>
+								<h3>Curățenia după constructor</h3>
 							</div>
 							<p><i class="flaticon-next"></i>Aspirarea pereților</p>
 							<p><i class="flaticon-next"></i>Spălarea gresiei și faianței</p>
@@ -220,7 +218,7 @@
 						<div class="face front">
 							<i class="flaticon-online-booking"></i>
 							<div class="title-wrapper">
-								<h6>Curățenia birourilor</h6>
+								<h3>Curățenia birourilor</h3>
 							</div>
 							<p><i class="flaticon-next"></i>Aspirarea întregii suprafețe</p>
 							<p><i class="flaticon-next"></i>Aspirarea și spălarea prin injecție-extracție a covoarelor, mochetelor și tapițeriilor</p>
@@ -252,7 +250,7 @@
 						<div class="face front">
 							<i class="flaticon-carpet"></i>
 							<div class="title-wrapper">
-								<h6>Curățare profesională canapele și mochete</h6>
+								<h3>Curățare profesională canapele și mochete</h3>
 							</div>
 							<p><i class="flaticon-next"></i>Curățarea se face utilizând un sistem profesional de injecție-extracție</p>
 							<p><i class="flaticon-next"></i>Timp de uscare minim</p>
@@ -298,7 +296,7 @@
 				</div>
 				<div class="clear"></div>
 				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Valorile noastre</h6>
+					<h3>Valorile noastre</h3>
 					<div class="flipWrapper">
 						<div class="card">
 							<div class="face front">
@@ -319,7 +317,7 @@
 					</div>					
 				</article>
 				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Siguranță și calitate</h6>
+					<h3>Siguranță și calitate</h3>
 					<div class="flipWrapper">
 						<div class="card">
 							<div class="face front">
@@ -339,7 +337,7 @@
 					</div>
 				</article>
 				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Transparență</h6>
+					<h3>Transparență</h3>
 					<div class="flipWrapper">
 						<div class="card">
 							<div class="face front">
@@ -372,7 +370,7 @@
 				</div>
 				<div class="clear"></div>
 				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Ecologie</h6>
+					<h3>Ecologie</h3>
 					<div class="flipWrapper">
 						<div class="card">
 							<div class="face front">
@@ -392,7 +390,7 @@
 					</div>
 				</article>
 				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Curățare cu aburi</h6>
+					<h3>Curățare cu aburi</h3>
 					<div class="flipWrapper">
 						<div class="card">
 							<div class="face front">
@@ -412,7 +410,7 @@
 					</div>					
 				</article>
 				<article class="one-third column" data-scrollreveal="enter left and move 50px over 1s"> 
-					<h6>Filtrare HEPA</h6>
+					<h3>Filtrare HEPA</h3>
 					<div class="flipWrapper">
 						<div class="card">
 							<div class="face front">
@@ -436,24 +434,31 @@
 			</div>
 		</section>
 		
-		<div id="contact-section">
+		<section id="contact-section">
 			<div class="container">
 				<div class="section-separator"></div>
 				<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
 					<h1><span>Contact</span></h1>
-					<div class="contact-wrap">
-						<p><a href="mailto:office@zenhomecleaning.ro"><i class="icon-contact1">&#xf0e0;</i>office@zenhomecleaning.ro</a></p>
-						<p>
+					<div class="contact-data-wrap">
+						<p class="eight columns">
 							<i class="icon-contact1">&#xf095;</i>
 							<a href="tel:0767439439">0767 439 439</a>
+						</p>
+						<p class="eight columns">
 							<i class="icon-contact1">&#xf095;</i>
 							<a href="tel:0720997887">0720 997 887</a>
-						</p>						
+						</p>
 						<!-- <p><a target=_blank href="https://goo.gl/maps/8fSioDuxD2GWXHzB8"><i class="icon-contact1">&#xf041;</i>Strada Frumoasă 39, București 010986</a></p> -->
-						<p><i class="icon-contact1">&#xf073;</i> Luni–Duminică: 10–18</p>
-						
-						<h6>Formular de contact</h6>
-						<form name="ajax-form" id="ajax-form" action="mailer.php" method="post">
+						<p class="eight columns">
+							<a href="mailto:office@zenhomecleaning.ro"><i class="icon-contact1">&#xf0e0;</i>office@zenhomecleaning.ro</a>
+						</p>
+						<p class="eight columns">
+							<i class="icon-contact1">&#xf073;</i> Luni–Duminică: 10–18
+						</p>
+					</div>
+					<div class="contact-form">
+						<h3>Formular de contact</h3>
+						<form name="ajax-form" id="ajax-form" action="mailer.php" method="post">							
 							<label for="name">Nume * 
 								<span class="error" id="err-name">Introduceți numele dvs.</span>
 							</label>								
@@ -482,11 +487,11 @@
 				</div>	
 			</div>
 			<!-- <a class="button-map close-map"><span>Locate Us on Map</span></a> -->
-		</div>
+		</section>
 		<!-- <div id="google_map"></div> -->
 
 		<div id="footer">
-			<a class="scroll" href="#home"><div class="back-top">&#xf102;</div></a>	
+			<a class="scroll" href="#home-section"><div class="back-top">&#xf102;</div></a>	
 			<div class="container">
 				<div class="sixteen columns">
 					<p><small>Trepavo Creative Agency</small></p>
