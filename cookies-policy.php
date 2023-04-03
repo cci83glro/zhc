@@ -1,5 +1,3 @@
-<h1>Politica de cookies</h1>
-
 <p>Această politică se referă la cookie-urile și paginile web operate de Lifetime Detail Cleaners SRL cu sediul social in Oraș Pantelimon, Strada Vidrei, nr. 18, Județ Ilfov (proprietara site-ului zenhomecleaning.ro).</p>
 
 <h2>Ce sunt Cookies?</h2>
@@ -16,10 +14,10 @@
 <h2>Cookie-uri pentru servicii externe (third-party)</h2>
 
 <p>Unele formulare, link-uri sau acțiuni pe website vă pot redirecționa pe alt website de care noi nu răspundem. Cookie-urile folosite de alte website-uri nu vor apărea în lista de mai sus.</p>
-<p>Google Analytics: Acest website folosește serviciul Google Analytics oferit de Google Inc. („Google”). Google Analytics folosește modulele cookies pentru a analiza cum este folosit website-ul de către vizitatori.Toate informațiile despre cum folosești website-ul, inclusiv adresa IP a calculatorului, vor fi transmise și salvate de Google pe serverele din Statele Unite ale Americii. Google va folosi această informație pentru a evalua cum folosești website-ul, va crea rapoarte despre activitatea pe website și alte rapoarte despre activitatea pe internet. Google are dreptul de a trimite aceste date către procesatori third-party (externi) atunci cand este obligat de lege sau când aceștia vor folosi informația în numele „Google”. Google nu va asocia adresa dumneavoastră IP cu alte date obținute de ei. Poți refuza utilizarea modulelor cookie folosind setările browser-ului. Pentru a retrage acordul folosirii modulelor cookies din Google Analytics, Google vă pune la dispoziție următorul link: https://tools.google.com/dlpage/gaoptout</p>
+<p>Google Analytics: Acest website folosește serviciul Google Analytics oferit de Google Inc. ("Google"). Google Analytics folosește modulele cookies pentru a analiza cum este folosit website-ul de către vizitatori.Toate informațiile despre cum folosești website-ul, inclusiv adresa IP a calculatorului, vor fi transmise și salvate de Google pe serverele din Statele Unite ale Americii. Google va folosi această informație pentru a evalua cum folosești website-ul, va crea rapoarte despre activitatea pe website și alte rapoarte despre activitatea pe internet. Google are dreptul de a trimite aceste date către procesatori third-party (externi) atunci cand este obligat de lege sau când aceștia vor folosi informația în numele „Google”. Google nu va asocia adresa dumneavoastră IP cu alte date obținute de ei. Poți refuza utilizarea modulelor cookie folosind setările browser-ului. Pentru a retrage acordul folosirii modulelor cookies din Google Analytics, Google vă pune la dispoziție următorul link: https://tools.google.com/dlpage/gaoptout</p>
 <p>Facebook: Dacă folosești butoanele Facebook de „like” sau „share” pentru a partaja conținut, Facebook va genera un cookie pentru a ști dacă ai mai partajat informația sau nu. Pentru a respinge sau șterge aceste cookie-uri, Facebook vă pune la dispoziție următorul link: http://www.facebook.com/about/privacy/</p>
 
-<h2>Cum pot sa administrez cookie-urile folosite pe namebox.ro</h2>
+<h2>Cum pot sa administrez cookie-urile folosite pe website?</h2>
 <p>Dacă vrei să oprești funcționalitatea cookies pentru website-ul nostru, o puteți face prin optțunea „Privacy Settings” sau „Setări de Confidențialitate” din browser-ul dumneavoastră.</p>
 <p>Atenție, dacă opriti functionalitatea cookies pe website-ul nostru nu veti mai putea:
 <p>- Să vă înregistrați sau să vă autentificați în website</p>

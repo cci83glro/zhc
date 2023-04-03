@@ -492,7 +492,7 @@
 						<label for="message">Mesaj</label>
 						<textarea name="message" id="message"></textarea>
 						<div class="button-container">
-							<button class="action-button" id="send">Trimite</button>
+							<button class="action-button" id="send">Trimite mesaj</button>
 							<img class="loader" src="images/loader.gif" alt="Loader image" />
 						</div>
 						<div class="error text-align-center" id="err-form">Datele introduse nu sunt valide!</div>
@@ -507,25 +507,53 @@
 	</section>
 	<!-- <div id="google_map"></div> -->
 
-	<div id="footer">
-		<a class="scroll" href="#home-section"><div class="back-top">&#xf102;</div></a>	
+	<div id="footer">		
 		<div class="container">
-			<div class="sixteen columns">
-				<p><small>Trepavo Creative Agency</small></p>
-			</div>
+			<a class="scroll" href="#home-section"><div class="back-top">&#xf102;</div></a>	
+			<!-- <p><small>Trepavo Creative Agency</small></p> -->
+			<ul id="footer-nav">
+				<li>
+					<a href="#" class="open-modal" data-ref-id="cookies-policy">Politica de cookies</a>
+				</li>
+				<li>
+					<a href="#" class="open-modal" data-ref-id="confidentiality-policy">Politica de confidențialitate</a>
+				</li>
+			</ul>
+			
 		</div>	
 	</div>
 
-	<!-- <div class="popup">
-		<p><center><label for="3" class="open">Open Popup!</label> to open the pure CSS popup window.</center></p>
-		<input type="checkbox" id="3" />
-		<div class="modal">
-			<div class="modal__inner">
-				<?php include_once "cookies-policy.php" ?>
-				<label class="btn-close" for="3">X</label>
+	<div id="cookies-policy" class="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content"> 
+				<div class="modal-header"> 
+					<h1 class="modal-title">Politica de cookies</h1>
+				</div> 
+				<div class="modal-body">
+					<?php include_once "cookies-policy.php" ?>
+				</div> 
+				<div class="modal-footer">
+					<button class="action-button close-modal">Închide</button>
+				</div>
 			</div>
-		</div>
-	</div> -->
+		</div>		
+	</div>
+
+	<div id="confidentiality-policy" class="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content"> 
+				<div class="modal-header"> 
+					<h1 class="modal-title">Politica de confidențialitate</h1>
+				</div> 
+				<div class="modal-body">
+					<?php include_once "confidentiality-policy.php" ?>
+				</div> 
+				<div class="modal-footer">
+					<button class="action-button close-modal">Închide</button>
+				</div>
+			</div>
+		</div>		
+	</div>
 
 	<?php include_once "js.php" ?>
 </body>

@@ -2,6 +2,7 @@
 :root {
 	/* font size - desktop*/
 	--header-font-size-desktop: 16px;
+	--footer-font-size-desktop: 16px;
 	--section-header-font-size-desktop: 40px;
 	--section-subheader-font-size-desktop: 24px;
 	--section-subheader-line-height-desktop: 28px;
@@ -12,6 +13,7 @@
 
 	/* font size - mobile*/
 	--header-font-size-mobile: 14px;
+	--footer-font-size-mobile: 14px;
 	--section-header-font-size-mobile: 30px;
 	--section-subheader-font-size-mobile: 18px;
 	--section-subheader-line-height-mobile: 24px;

@@ -1,5 +1,3 @@
-<h1>Politica de confidențialitate</h1>
-
 <p>Acest document explică cum utilizăm datele personale colectate prin intermediul site-ului zenhomecleaning.ro.</p>
 <p>Vom folosi datele dumneavoastră personale doar în scopuri comerciale și pentru a putea furniza serviciile oferite de către zenhomecleaning.ro.</p>
 

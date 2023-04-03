@@ -48,11 +48,18 @@ $(document).ready(function () {
 		distance: "100px"
 	});
 });
-	
+
 $(document).ready(function () {
     $('.flipWrapper').click(function () {
         $(this).find('.card').toggleClass('flipped');
         return false;
     });
+	$('.open-modal').click(function (event) {
+		event.preventDefault();
+		$('#' + $(this).attr('data-ref-id')).show();
+	});
+	$('.close-modal').click(function () {
+		$(this).closest('.modal').hide();
+	});
 });
 	

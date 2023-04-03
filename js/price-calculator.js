@@ -56,15 +56,17 @@ function Handle_radio(option) {
 	})
 	.hide();
 
-	var refId = $(option).attr('data-ref-id');
-	show_progressive($('#'+refId));
+	$(option).attr('data-ref-id').split(';').forEach(function(refId){
+		show_progressive($('#'+refId));
 
-	var key = $(option).attr("data-key");
-	if (typeof key !== 'undefined') {
-		$('#'+refId).attr('data-key', key);
-	}
+		var key = $(option).attr("data-key");
+		if (typeof key !== 'undefined') {
+			$('#'+refId).attr('data-key', key);
+		}
+		
+		activate_selected_children($('#'+refId));
+	});
 	
-	activate_selected_children($('#'+refId));
 	calculate_total();
 }
 
@@ -150,7 +152,6 @@ function get_extras_price() {
 
 				return true;
 			}
-		
 
 			if (!checked) return true;
 			var price = parseInt($(this).attr("data-price-per-unit"));
@@ -193,6 +194,7 @@ function calculate_mp_based_area(type) {
 		if (price === 0) return;
 
 		totalPrice += price;
+		totalPrice += get_extras_price();
 
 		_summaryLines.append(
 			_summaryListItem
@@ -259,6 +261,7 @@ function sendCalculation() {
 	message += "\n\nAșteptăm cu nerăbdare un răspuns de la dvs. Mulţumim anticipat!"
 
 	$('#message').text(message);
+	$('#message').height($('#message').prop("scrollHeight"));
 
 	$('html, body').animate({
         scrollTop: $("#contact-section").offset().top
