@@ -929,7 +929,7 @@ label {
 }
 input{
 	width: 96%;
-	border:none;
+	border: none;
 	margin-top: 5px;
 	margin-bottom:20px;
 	font: var(--content-text-font-size-mobile)/24px 'Roboto', sans-serif;
@@ -937,8 +937,12 @@ input{
 	padding-bottom: 5px;
 	background: rgba(0,0,0,0);
 }
+input[type="text"]{
+	border:1px solid var(--black-color);
+}
 textarea {
 	width:96%;
+	border:1px solid var(--black-color);
 	font: var(--content-text-font-size-mobile)/24px 'Roboto', sans-serif;
 	height:90px;
 	margin-top:2px;
@@ -1590,6 +1594,19 @@ section h1 {
 .modal-body {
 	height: 70vh;
   	overflow-y: auto;
+}
+#voucher-wrapper {
+	text-align: right;
+}
+#voucher-wrapper > #voucher-code{
+	margin-right: 10px;
+}
+#voucher-wrapper > #voucher-error{
+	display: none;
+	color: red;
+}
+#voucher-wrapper > #discount-percent{
+	display: none;
 }
  
 /* #Media Queries

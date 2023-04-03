@@ -643,15 +643,18 @@
 
 <!-- ============= House level 3 end ================ -->
 
-
-
-
 	<section id="price-info" class="price-calculator-section">
 		<h3>Sumar</h3>
 		<div id="summary-lines"></div>
 		<div id="summary-total">
 			<span class="summary-line-title">Total</span>
 			<span class="summary-line-price" id="total-price">0 RON</span>
+		</div>
+		<div id="voucher-wrapper">
+			<input type="text" id="voucher-code" placeholder="Cod discount ..." maxlength="10"/>
+			<button class="action-button" onclick="applyVoucher();">Aplică</button>
+			<p id="voucher-error"></p>
+			<p id="discount-percent"></p>
 		</div>
 		<p>* Prețurile afișate sunt estimative. Prețul final se va stabili în urma unei verificări detaliate, făcută împreună cu clientul, la adresa locației.</p>
 		<div class="button-container">

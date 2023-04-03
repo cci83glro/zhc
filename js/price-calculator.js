@@ -220,6 +220,19 @@ function calculate_stairs() {
 	_totalPrice.text(totalPrice);
 }
 
+function get_discount(totalPrice) {
+	var percent = parseInt($('#discount-percent').attr('data-percent')) || 0;
+	if (percent === 0) return 0;
+	var discount = totalPrice * percent / 100;
+
+	_summaryLines.append(
+		_summaryListItem
+		.replace('{{summaryLineTitle}}', 'Discount ' + $('#discount-percent').attr('data-code') + ' - ' + percent + ' %')
+		.replace('{{summaryLinePrice}}', '- ' + discount + ' RON'));
+	
+	return discount;
+}
+
 function calculate_total() {
 	_summaryLines.empty();
 	var totalPrice = 0;
@@ -239,6 +252,8 @@ function calculate_total() {
 	// { 
 	// 	totalPrice += calculate_stairs();
 	// }
+
+	totalPrice -= get_discount(totalPrice);
 
 	_totalPrice.text(totalPrice + ' RON');
 }
@@ -266,4 +281,42 @@ function sendCalculation() {
 	$('html, body').animate({
         scrollTop: $("#contact-section").offset().top
     }, 1500);
+}
+
+function onlyLettersAndNumbers(str) {
+	return /^[A-Za-z0-9]*$/.test(str);
+}
+
+function applyVoucher() {
+	var voucherCode = $('#voucher-code').val();
+	if(!voucherCode) return;
+
+	$('#voucher-error').fadeOut(1000);
+
+	$.ajax({
+		type: "POST",
+		dataType: "json",
+		url: 'discount.php',
+		data: {'discountCode': $('#voucher-code').val()},
+		timeout: 6000,
+		error: function(request,error) {
+			$('#voucher-error').text(error);
+			$('#voucher-error').fadeIn(1000);
+		},
+		success: function(data) {
+
+			var status = data['status'];
+			var message = data['message'];
+
+			if(status === true){
+				$('#discount-percent').attr('data-code', voucherCode);
+				$('#discount-percent').attr('data-percent', message);
+				$('#voucher-wrapper').hide();
+				calculate_total();
+			} else {
+				$('#voucher-error').text(message);
+				$('#voucher-error').fadeIn(1000);
+			}			
+		}
+	});
 }
