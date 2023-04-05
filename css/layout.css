@@ -939,16 +939,16 @@ input{
 }
 input[type="text"]{
 	border:1px solid var(--black-color);
+	margin-top: 2px;
 }
 textarea {
 	width:96%;
-	border:1px solid var(--black-color);
+	border:1px solid #000;
 	font: var(--content-text-font-size-mobile)/24px 'Roboto', sans-serif;
 	height:90px;
 	margin-top:2px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border:none;
 	background: rgba(0,0,0,0);
 }
 .error {
@@ -1014,13 +1014,15 @@ textarea {
  }
 	#ajax-form textarea:active,
 	#ajax-form input:active {	
-	  color: var(--gray-transparent);
-	border-bottom:1px solid rgba(100,100,100,.3);}
+		color: var(--gray-transparent);
+		/* border-bottom:1px solid rgba(100,100,100,.3); */
+	}
 	#ajax-form textarea:active,
 	#ajax-form input:hover {	
-	  color: var(--gray-transparent);
-	border-bottom:1px solid rgba(255,255,255,.3);}
-		#ajax-form textarea:focus,
+		color: var(--gray-transparent);
+		/* border-bottom:1px solid rgba(255,255,255,.3); */
+	}
+	#ajax-form textarea:focus,
 	#ajax-form input:focus {	 
     outline: none !important;
     border-color: rgba(255,255,255,.6);
@@ -1604,6 +1606,7 @@ section h1 {
 #voucher-wrapper > #voucher-error{
 	display: none;
 	color: red;
+	font-size: var(--content-text-font-size-mobile);
 }
 #voucher-wrapper > #discount-percent{
 	display: none;
@@ -1818,6 +1821,10 @@ section h1 {
 
 	#footer-nav > li{
 		margin-right: 20px;
+	}
+
+	#voucher-wrapper > #voucher-error{
+		font-size: var(--content-text-font-size-desktop);
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

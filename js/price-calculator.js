@@ -291,7 +291,7 @@ function applyVoucher() {
 	var voucherCode = $('#voucher-code').val();
 	if(!voucherCode) return;
 
-	$('#voucher-error').fadeOut(1000);
+	$('#voucher-error').hide();
 
 	$.ajax({
 		type: "POST",
@@ -300,7 +300,7 @@ function applyVoucher() {
 		data: {'discountCode': $('#voucher-code').val()},
 		timeout: 6000,
 		error: function(request,error) {
-			$('#voucher-error').text(error);
+			$('#voucher-error').text('Eroare!');
 			$('#voucher-error').fadeIn(1000);
 		},
 		success: function(data) {
