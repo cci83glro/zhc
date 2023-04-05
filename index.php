@@ -40,6 +40,8 @@
 	
 </head>
 
+<?php include_once "google-analytics.php" ?>
+
 <body>
 	<div id="menu-wrap" class="menu-back cbp-af-header">
 		<div class="container">
