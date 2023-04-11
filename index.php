@@ -36,11 +36,11 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-	<?php include_once "css.php" ?>
+	<?php include_once "config/css.php" ?>
 	
 </head>
 
-<?php include_once "google-analytics.php" ?>
+<?php include_once "config/google-analytics.php" ?>
 
 <body>
 	<div id="menu-wrap" class="menu-back cbp-af-header">
@@ -557,6 +557,6 @@
 		</div>		
 	</div>
 
-	<?php include_once "js.php" ?>
+	<?php include_once "config/js.php" ?>
 </body>
 </html>

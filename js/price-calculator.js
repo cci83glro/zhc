@@ -1,9 +1,9 @@
 
 /* Prices */
 const _stairPricePerMp = 10;
-const _villasGenericPricePerMp = 14;
+const _villasGenericPricePerMp = 12;
 const _villasMaintenancePricePerMp = 8;
-const _villasConstructorPricePerMp = 18;
+const _villasConstructorPricePerMp = 14;
 const _officeGenericPricePerMp = 10;
 const _officeMaintenancePricePerMp = 5;
 const _officeConstructorPricePerMp = 12;

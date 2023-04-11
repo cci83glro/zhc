@@ -226,7 +226,7 @@ ul.slimmenu li ul {
 .contact-info {
 	position: absolute;	
 	right: 0;
-	top: 18px;
+	top: 20px;
 	height: 40px;
 	-ms-transform: translate(-50%, 0);
   	transform: translate(-50%, 0);
@@ -1675,6 +1675,10 @@ section h1 {
 	.sixteen.columns {
 		margin-left: 0;
 		margin-right: 0;
+	}
+	
+	.contact-info {
+		top: 24px;
 	}
 
 	label {
