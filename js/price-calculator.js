@@ -1,12 +1,12 @@
 
 /* Prices */
 const _stairPricePerMp = 10;
-const _villasGenericPricePerMp = 12;
+const _villasGenericPricePerMp = 10;
 const _villasMaintenancePricePerMp = 8;
-const _villasConstructorPricePerMp = 14;
+const _villasConstructorPricePerMp = 10;
 const _officeGenericPricePerMp = 10;
-const _officeMaintenancePricePerMp = 5;
-const _officeConstructorPricePerMp = 12;
+const _officeMaintenancePricePerMp = 8;
+const _officeConstructorPricePerMp = 10;
 
 /* Total containers */
 const _summaryLines = $('#summary-lines');

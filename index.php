@@ -37,6 +37,7 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
 	<?php include_once "config/css.php" ?>
+	<?php include_once "config/fb-pixel-code.php" ?>
 	
 </head>
 
